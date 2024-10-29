@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "silly_willy_core:block/triangulum_ore_deepslate",
+    "up": "silly_willy_core:block/triangulum_ore_deepslate",
+    "north": "silly_willy_core:block/triangulum_ore_deepslate_side",
+    "east": "silly_willy_core:block/triangulum_ore_deepslate_side",
+    "south": "silly_willy_core:block/triangulum_ore_deepslate_side",
+    "west": "silly_willy_core:block/triangulum_ore_deepslate_side",
+    "particle": "silly_willy_core:block/triangulum_ore_deepslate"
+  },
+  "render_type": "solid"
+}

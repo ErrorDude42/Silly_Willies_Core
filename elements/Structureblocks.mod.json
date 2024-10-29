@@ -1,0 +1,11 @@
+{
+  "_fv": 69,
+  "_type": "tab",
+  "definition": {
+    "name": "Structure Blocks",
+    "icon": {
+      "value": "Blocks.STRUCTURE_BLOCK"
+    },
+    "showSearch": false
+  }
+}

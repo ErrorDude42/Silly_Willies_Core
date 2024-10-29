@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "silly_willy_core:triangulumore",
+  "step": "underground_ores"
+}
