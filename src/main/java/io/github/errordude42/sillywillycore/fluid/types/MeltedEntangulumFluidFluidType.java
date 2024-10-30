@@ -1,6 +1,15 @@
 
 package io.github.errordude42.sillywillycore.fluid.types;
 
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.fluids.FluidType;
+import net.minecraftforge.common.SoundActions;
+import net.minecraftforge.client.extensions.common.IClientFluidTypeExtensions;
+
+import net.minecraft.world.item.Rarity;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.resources.ResourceLocation;
+
 import java.util.function.Consumer;
 
 public class MeltedEntangulumFluidFluidType extends FluidType {

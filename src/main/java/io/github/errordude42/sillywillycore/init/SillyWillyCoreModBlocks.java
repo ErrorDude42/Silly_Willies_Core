@@ -4,6 +4,12 @@
  */
 package io.github.errordude42.sillywillycore.init;
 
+import net.minecraftforge.registries.RegistryObject;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.DeferredRegister;
+
+import net.minecraft.world.level.block.Block;
+
 import io.github.errordude42.sillywillycore.block.TriangulumoreDeepslateBlock;
 import io.github.errordude42.sillywillycore.block.TriangulumoreBlock;
 import io.github.errordude42.sillywillycore.block.TriangulumbricksBlock;

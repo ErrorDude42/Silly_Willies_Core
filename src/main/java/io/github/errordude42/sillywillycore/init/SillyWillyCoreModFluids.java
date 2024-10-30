@@ -4,6 +4,19 @@
  */
 package io.github.errordude42.sillywillycore.init;
 
+import net.minecraftforge.registries.RegistryObject;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.world.level.material.Fluid;
+import net.minecraft.world.level.material.FlowingFluid;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+
 import io.github.errordude42.sillywillycore.fluid.MeltedEntangulumFluidFluid;
 import io.github.errordude42.sillywillycore.SillyWillyCoreMod;
 

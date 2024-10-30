@@ -1,6 +1,17 @@
 
 package io.github.errordude42.sillywillycore.client.particle;
 
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.core.particles.SimpleParticleType;
+import net.minecraft.client.particle.TextureSheetParticle;
+import net.minecraft.client.particle.SpriteSet;
+import net.minecraft.client.particle.ParticleRenderType;
+import net.minecraft.client.particle.ParticleProvider;
+import net.minecraft.client.particle.Particle;
+import net.minecraft.client.multiplayer.ClientLevel;
+
 @OnlyIn(Dist.CLIENT)
 public class LiquidEntangulumParticle extends TextureSheetParticle {
 	public static LiquidEntangulumParticleProvider provider(SpriteSet spriteSet) {

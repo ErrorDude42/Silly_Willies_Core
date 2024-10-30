@@ -4,6 +4,14 @@
  */
 package io.github.errordude42.sillywillycore.init;
 
+import net.minecraftforge.registries.RegistryObject;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.DeferredRegister;
+
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.BlockItem;
+
 import io.github.errordude42.sillywillycore.item.TriangulumSwordItem;
 import io.github.errordude42.sillywillycore.item.TriangulumShovelItem;
 import io.github.errordude42.sillywillycore.item.TriangulumPickaxeItem;
