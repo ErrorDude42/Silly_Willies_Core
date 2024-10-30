@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "silly_willy_core:block/block_of_raw_entangulum",
-    "particle": "silly_willy_core:block/block_of_raw_entangulum"
-  },
-  "render_type": "solid"
-}

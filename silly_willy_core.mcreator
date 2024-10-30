@@ -31,7 +31,7 @@
     {
       "name": "Triangulumore",
       "type": "block",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "triangulumore",
       "metadata": {
@@ -50,7 +50,7 @@
     {
       "name": "TriangulumoreDeepslate",
       "type": "block",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "triangulumore_deepslate",
       "metadata": {
@@ -264,7 +264,7 @@
     {
       "name": "Blockrawtriangulum",
       "type": "block",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "blockrawtriangulum",
       "metadata": {
@@ -281,7 +281,7 @@
     {
       "name": "Blockofrawentangulum",
       "type": "block",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "blockofrawentangulum",
       "metadata": {
@@ -298,7 +298,7 @@
     {
       "name": "Triangulumbricks",
       "type": "block",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "triangulumbricks",
       "metadata": {
@@ -315,7 +315,7 @@
     {
       "name": "Geostone",
       "type": "block",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "geostone",
       "metadata": {
@@ -332,7 +332,7 @@
     {
       "name": "Entangulumore",
       "type": "block",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "entangulumore",
       "metadata": {
@@ -419,7 +419,7 @@
     {
       "name": "MeltedEntangulumFluid",
       "type": "fluid",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "melted_entangulum_fluid",
       "metadata": {
@@ -438,7 +438,7 @@
     {
       "name": "LiquidEntangulum",
       "type": "particle",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "liquid_entangulum",
       "metadata": {
@@ -452,7 +452,7 @@
     {
       "name": "StructureTriangulumbricks",
       "type": "block",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "structure_triangulumbricks",
       "metadata": {
@@ -617,8 +617,8 @@
       "item_group.silly_willy_core.geometery_dimension_beta": "Geometery Dimension Beta",
       "item.silly_willy_core.triangulum_shovel": "Triangulum Shovel",
       "block.silly_willy_core.blockofrawentangulum": "Block of Raw Entangulum",
-      "item.silly_willy_core.triangulum_hoe": "Triangulum Hoe",
       "block.silly_willy_core.entangulumore": "Entangulum Ore",
+      "item.silly_willy_core.triangulum_hoe": "Triangulum Hoe",
       "item.silly_willy_core.raw_entangulum": "Raw Entangulum",
       "block.silly_willy_core.geostone": "Geostone",
       "item_group.silly_willy_core.structureblocks": "Structure Blocks",
@@ -754,7 +754,10 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "additions",
+      "geckolib"
+    ],
     "currentGenerator": "forge-1.20.1",
     "credits": "Made by Silly Willy org",
     "modElementsPackage": "io.github.errordude42.sillywillycore"

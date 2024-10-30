@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "silly_willy_core:block/geostone",
-    "particle": "silly_willy_core:block/geostone"
-  },
-  "render_type": "solid"
-}
