@@ -22,18 +22,6 @@ description="This is the Core mod for the Silly Willies mc Server"
     side="BOTH"
 
 
-[[dependencies.silly_willy_core]]
-    modId="additions"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.silly_willy_core]]
-    modId="geckolib"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
 
 
 # Start of user code block dependencies configuration

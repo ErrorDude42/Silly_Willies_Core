@@ -8,8 +8,8 @@
       "registry_name": "raw_triangulum",
       "metadata": {
         "files": [
-          "src/main/resources/assets/silly_willy_core/models/item/raw_triangulum.json",
-          "src/main/java/io/github/errordude42/sillywillycore/item/RawTriangulumItem.java"
+          "src/main/java/io/github/errordude42/sillywillycore/item/RawTriangulumItem.java",
+          "src/main/resources/assets/silly_willy_core/models/item/raw_triangulum.json"
         ]
       },
       "path": "~/Geo_Dimension/Items/Triangulum Materials "
@@ -31,18 +31,18 @@
     {
       "name": "Triangulumore",
       "type": "block",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "triangulumore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/silly_willy_core/blockstates/triangulumore.json",
           "src/main/resources/data/silly_willy_core/forge/biome_modifier/triangulumore_biome_modifier.json",
+          "src/main/resources/data/silly_willy_core/worldgen/placed_feature/triangulumore.json",
           "src/main/resources/data/silly_willy_core/worldgen/configured_feature/triangulumore.json",
-          "src/main/resources/assets/silly_willy_core/models/block/triangulumore.json",
-          "src/main/resources/assets/silly_willy_core/models/item/triangulumore.json",
           "src/main/java/io/github/errordude42/sillywillycore/block/TriangulumoreBlock.java",
-          "src/main/resources/data/silly_willy_core/worldgen/placed_feature/triangulumore.json"
+          "src/main/resources/assets/silly_willy_core/models/block/triangulumore.json",
+          "src/main/resources/assets/silly_willy_core/blockstates/triangulumore.json",
+          "src/main/resources/assets/silly_willy_core/models/item/triangulumore.json"
         ]
       },
       "path": "~/Geo_Dimension/Blocks"
@@ -50,15 +50,15 @@
     {
       "name": "TriangulumoreDeepslate",
       "type": "block",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "triangulumore_deepslate",
       "metadata": {
         "files": [
-          "src/main/java/io/github/errordude42/sillywillycore/block/TriangulumoreDeepslateBlock.java",
-          "src/main/resources/assets/silly_willy_core/models/item/triangulumore_deepslate.json",
           "src/main/resources/assets/silly_willy_core/models/block/triangulumore_deepslate.json",
-          "src/main/resources/assets/silly_willy_core/blockstates/triangulumore_deepslate.json"
+          "src/main/resources/assets/silly_willy_core/models/item/triangulumore_deepslate.json",
+          "src/main/resources/assets/silly_willy_core/blockstates/triangulumore_deepslate.json",
+          "src/main/java/io/github/errordude42/sillywillycore/block/TriangulumoreDeepslateBlock.java"
         ]
       },
       "path": "~/Geo_Dimension/Blocks"
@@ -162,8 +162,8 @@
       "registry_name": "triangulum_sword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/silly_willy_core/models/item/triangulum_sword.json",
-          "src/main/java/io/github/errordude42/sillywillycore/item/TriangulumSwordItem.java"
+          "src/main/java/io/github/errordude42/sillywillycore/item/TriangulumSwordItem.java",
+          "src/main/resources/assets/silly_willy_core/models/item/triangulum_sword.json"
         ]
       },
       "path": "~/Geo_Dimension/Items/Tools"
@@ -264,15 +264,15 @@
     {
       "name": "Blockrawtriangulum",
       "type": "block",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "blockrawtriangulum",
       "metadata": {
         "files": [
-          "src/main/resources/assets/silly_willy_core/models/item/blockrawtriangulum.json",
-          "src/main/resources/assets/silly_willy_core/models/block/blockrawtriangulum.json",
           "src/main/java/io/github/errordude42/sillywillycore/block/BlockrawtriangulumBlock.java",
+          "src/main/resources/assets/silly_willy_core/models/item/blockrawtriangulum.json",
           "src/main/resources/assets/silly_willy_core/blockstates/blockrawtriangulum.json",
+          "src/main/resources/assets/silly_willy_core/models/block/blockrawtriangulum.json",
           "src/main/resources/data/silly_willy_core/loot_tables/blocks/blockrawtriangulum.json"
         ]
       },
@@ -281,16 +281,16 @@
     {
       "name": "Blockofrawentangulum",
       "type": "block",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "blockofrawentangulum",
       "metadata": {
         "files": [
-          "src/main/resources/data/silly_willy_core/loot_tables/blocks/blockofrawentangulum.json",
-          "src/main/java/io/github/errordude42/sillywillycore/block/BlockofrawentangulumBlock.java",
           "src/main/resources/assets/silly_willy_core/models/block/blockofrawentangulum.json",
+          "src/main/java/io/github/errordude42/sillywillycore/block/BlockofrawentangulumBlock.java",
+          "src/main/resources/assets/silly_willy_core/blockstates/blockofrawentangulum.json",
           "src/main/resources/assets/silly_willy_core/models/item/blockofrawentangulum.json",
-          "src/main/resources/assets/silly_willy_core/blockstates/blockofrawentangulum.json"
+          "src/main/resources/data/silly_willy_core/loot_tables/blocks/blockofrawentangulum.json"
         ]
       },
       "path": "~/Geo_Dimension/Blocks"
@@ -298,16 +298,16 @@
     {
       "name": "Triangulumbricks",
       "type": "block",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "triangulumbricks",
       "metadata": {
         "files": [
-          "src/main/java/io/github/errordude42/sillywillycore/block/TriangulumbricksBlock.java",
+          "src/main/resources/assets/silly_willy_core/models/block/triangulumbricks.json",
           "src/main/resources/data/silly_willy_core/loot_tables/blocks/triangulumbricks.json",
-          "src/main/resources/assets/silly_willy_core/blockstates/triangulumbricks.json",
+          "src/main/java/io/github/errordude42/sillywillycore/block/TriangulumbricksBlock.java",
           "src/main/resources/assets/silly_willy_core/models/item/triangulumbricks.json",
-          "src/main/resources/assets/silly_willy_core/models/block/triangulumbricks.json"
+          "src/main/resources/assets/silly_willy_core/blockstates/triangulumbricks.json"
         ]
       },
       "path": "~/Geo_Dimension/Blocks"
@@ -315,15 +315,15 @@
     {
       "name": "Geostone",
       "type": "block",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "geostone",
       "metadata": {
         "files": [
-          "src/main/java/io/github/errordude42/sillywillycore/block/GeostoneBlock.java",
-          "src/main/resources/data/silly_willy_core/loot_tables/blocks/geostone.json",
-          "src/main/resources/assets/silly_willy_core/models/item/geostone.json",
           "src/main/resources/assets/silly_willy_core/blockstates/geostone.json",
+          "src/main/resources/data/silly_willy_core/loot_tables/blocks/geostone.json",
+          "src/main/java/io/github/errordude42/sillywillycore/block/GeostoneBlock.java",
+          "src/main/resources/assets/silly_willy_core/models/item/geostone.json",
           "src/main/resources/assets/silly_willy_core/models/block/geostone.json"
         ]
       },
@@ -332,16 +332,16 @@
     {
       "name": "Entangulumore",
       "type": "block",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "entangulumore",
       "metadata": {
         "files": [
-          "src/main/resources/data/silly_willy_core/loot_tables/blocks/entangulumore.json",
           "src/main/java/io/github/errordude42/sillywillycore/block/EntangulumoreBlock.java",
+          "src/main/resources/data/silly_willy_core/loot_tables/blocks/entangulumore.json",
+          "src/main/resources/assets/silly_willy_core/models/block/entangulumore.json",
           "src/main/resources/assets/silly_willy_core/blockstates/entangulumore.json",
-          "src/main/resources/assets/silly_willy_core/models/item/entangulumore.json",
-          "src/main/resources/assets/silly_willy_core/models/block/entangulumore.json"
+          "src/main/resources/assets/silly_willy_core/models/item/entangulumore.json"
         ]
       },
       "path": "~/Geo_Dimension/Blocks"
@@ -354,8 +354,8 @@
       "registry_name": "dirtyentangulum",
       "metadata": {
         "files": [
-          "src/main/java/io/github/errordude42/sillywillycore/item/DirtyentangulumItem.java",
-          "src/main/resources/assets/silly_willy_core/models/item/dirtyentangulum.json"
+          "src/main/resources/assets/silly_willy_core/models/item/dirtyentangulum.json",
+          "src/main/java/io/github/errordude42/sillywillycore/item/DirtyentangulumItem.java"
         ]
       },
       "path": "~/Geo_Dimension/Items/Entangulum Materials"
@@ -368,8 +368,8 @@
       "registry_name": "entangulumdust",
       "metadata": {
         "files": [
-          "src/main/resources/assets/silly_willy_core/models/item/entangulumdust.json",
-          "src/main/java/io/github/errordude42/sillywillycore/item/EntangulumdustItem.java"
+          "src/main/java/io/github/errordude42/sillywillycore/item/EntangulumdustItem.java",
+          "src/main/resources/assets/silly_willy_core/models/item/entangulumdust.json"
         ]
       },
       "path": "~/Geo_Dimension/Items/Entangulum Materials"
@@ -382,8 +382,8 @@
       "registry_name": "entangulumplate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/silly_willy_core/models/item/entangulumplate.json",
-          "src/main/java/io/github/errordude42/sillywillycore/item/EntangulumplateItem.java"
+          "src/main/java/io/github/errordude42/sillywillycore/item/EntangulumplateItem.java",
+          "src/main/resources/assets/silly_willy_core/models/item/entangulumplate.json"
         ]
       },
       "path": "~/Geo_Dimension/Items/Entangulum Materials"
@@ -410,8 +410,8 @@
       "registry_name": "raw_entangulum",
       "metadata": {
         "files": [
-          "src/main/java/io/github/errordude42/sillywillycore/item/RawEntangulumItem.java",
-          "src/main/resources/assets/silly_willy_core/models/item/raw_entangulum.json"
+          "src/main/resources/assets/silly_willy_core/models/item/raw_entangulum.json",
+          "src/main/java/io/github/errordude42/sillywillycore/item/RawEntangulumItem.java"
         ]
       },
       "path": "~/Geo_Dimension/Items/Entangulum Materials"
@@ -419,18 +419,18 @@
     {
       "name": "MeltedEntangulumFluid",
       "type": "fluid",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "melted_entangulum_fluid",
       "metadata": {
         "files": [
-          "src/main/java/io/github/errordude42/sillywillycore/item/MeltedEntangulumFluidItem.java",
-          "src/main/java/io/github/errordude42/sillywillycore/fluid/MeltedEntangulumFluidFluid.java",
           "src/main/java/io/github/errordude42/sillywillycore/block/MeltedEntangulumFluidBlock.java",
-          "src/main/resources/assets/silly_willy_core/models/item/melted_entangulum_fluid_bucket.json",
           "src/main/resources/assets/silly_willy_core/blockstates/melted_entangulum_fluid.json",
+          "src/main/java/io/github/errordude42/sillywillycore/fluid/MeltedEntangulumFluidFluid.java",
+          "src/main/resources/assets/silly_willy_core/models/block/melted_entangulum_fluid.json",
+          "src/main/resources/assets/silly_willy_core/models/item/melted_entangulum_fluid_bucket.json",
           "src/main/java/io/github/errordude42/sillywillycore/fluid/types/MeltedEntangulumFluidFluidType.java",
-          "src/main/resources/assets/silly_willy_core/models/block/melted_entangulum_fluid.json"
+          "src/main/java/io/github/errordude42/sillywillycore/item/MeltedEntangulumFluidItem.java"
         ]
       },
       "path": "~/Geo_Dimension/Fluids"
@@ -438,13 +438,13 @@
     {
       "name": "LiquidEntangulum",
       "type": "particle",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "liquid_entangulum",
       "metadata": {
         "files": [
-          "src/main/resources/assets/silly_willy_core/particles/liquid_entangulum.json",
-          "src/main/java/io/github/errordude42/sillywillycore/client/particle/LiquidEntangulumParticle.java"
+          "src/main/java/io/github/errordude42/sillywillycore/client/particle/LiquidEntangulumParticle.java",
+          "src/main/resources/assets/silly_willy_core/particles/liquid_entangulum.json"
         ]
       },
       "path": "~/Geo_Dimension/Fluids"
@@ -452,16 +452,16 @@
     {
       "name": "StructureTriangulumbricks",
       "type": "block",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "structure_triangulumbricks",
       "metadata": {
         "files": [
-          "src/main/java/io/github/errordude42/sillywillycore/block/StructureTriangulumbricksBlock.java",
           "src/main/resources/data/silly_willy_core/loot_tables/blocks/structure_triangulumbricks.json",
-          "src/main/resources/assets/silly_willy_core/models/item/structure_triangulumbricks.json",
           "src/main/resources/assets/silly_willy_core/models/block/structure_triangulumbricks.json",
-          "src/main/resources/assets/silly_willy_core/blockstates/structure_triangulumbricks.json"
+          "src/main/resources/assets/silly_willy_core/models/item/structure_triangulumbricks.json",
+          "src/main/resources/assets/silly_willy_core/blockstates/structure_triangulumbricks.json",
+          "src/main/java/io/github/errordude42/sillywillycore/block/StructureTriangulumbricksBlock.java"
         ]
       },
       "path": "~/Geo_Dimension/Blocks"
@@ -476,6 +476,96 @@
         "files": []
       },
       "path": "~/Geo_Dimension/Creative Tabs"
+    },
+    {
+      "name": "Cubegen",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cubegen",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/worldgen/template_pool/cubegen.json",
+          "src/main/resources/data/silly_willy_core/worldgen/structure_set/cubegen.json",
+          "src/main/resources/data/silly_willy_core/worldgen/structure/cubegen.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/World gen/Structures/Cubes"
+    },
+    {
+      "name": "Cubegen2",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cubegen_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/worldgen/template_pool/cubegen_2.json",
+          "src/main/resources/data/silly_willy_core/worldgen/structure_set/cubegen_2.json",
+          "src/main/resources/data/silly_willy_core/worldgen/structure/cubegen_2.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/World gen/Structures/Cubes"
+    },
+    {
+      "name": "Cubegen3",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cubegen_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/worldgen/template_pool/cubegen_3.json",
+          "src/main/resources/data/silly_willy_core/worldgen/structure/cubegen_3.json",
+          "src/main/resources/data/silly_willy_core/worldgen/structure_set/cubegen_3.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/World gen/Structures/Cubes"
+    },
+    {
+      "name": "Cubegen4",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cubegen_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/worldgen/structure/cubegen_4.json",
+          "src/main/resources/data/silly_willy_core/worldgen/structure_set/cubegen_4.json",
+          "src/main/resources/data/silly_willy_core/worldgen/template_pool/cubegen_4.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/World gen/Structures/Cubes"
+    },
+    {
+      "name": "Cubegen5",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cubegen_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/worldgen/structure/cubegen_5.json",
+          "src/main/resources/data/silly_willy_core/worldgen/template_pool/cubegen_5.json",
+          "src/main/resources/data/silly_willy_core/worldgen/structure_set/cubegen_5.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/World gen/Structures/Cubes"
+    },
+    {
+      "name": "Cubegen6",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cubegen_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/worldgen/template_pool/cubegen_6.json",
+          "src/main/resources/data/silly_willy_core/worldgen/structure_set/cubegen_6.json",
+          "src/main/resources/data/silly_willy_core/worldgen/structure/cubegen_6.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/World gen/Structures/Cubes"
     }
   ],
   "variable_elements": [
@@ -527,8 +617,8 @@
       "item_group.silly_willy_core.geometery_dimension_beta": "Geometery Dimension Beta",
       "item.silly_willy_core.triangulum_shovel": "Triangulum Shovel",
       "block.silly_willy_core.blockofrawentangulum": "Block of Raw Entangulum",
-      "block.silly_willy_core.entangulumore": "Entangulum Ore",
       "item.silly_willy_core.triangulum_hoe": "Triangulum Hoe",
+      "block.silly_willy_core.entangulumore": "Entangulum Ore",
       "item.silly_willy_core.raw_entangulum": "Raw Entangulum",
       "block.silly_willy_core.geostone": "Geostone",
       "item_group.silly_willy_core.structureblocks": "Structure Blocks",
@@ -664,10 +754,7 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [
-      "additions",
-      "geckolib"
-    ],
+    "mcreatorDependencies": [],
     "currentGenerator": "forge-1.20.1",
     "credits": "Made by Silly Willy org",
     "modElementsPackage": "io.github.errordude42.sillywillycore"

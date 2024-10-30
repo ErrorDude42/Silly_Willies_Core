@@ -4,11 +4,6 @@
  */
 package io.github.errordude42.sillywillycore.init;
 
-import net.minecraftforge.registries.RegistryObject;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.fluids.FluidType;
-
 import io.github.errordude42.sillywillycore.fluid.types.MeltedEntangulumFluidFluidType;
 import io.github.errordude42.sillywillycore.SillyWillyCoreMod;
 

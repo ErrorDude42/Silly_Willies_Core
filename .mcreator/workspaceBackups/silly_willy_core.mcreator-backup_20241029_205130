@@ -491,6 +491,81 @@
         ]
       },
       "path": "~/Geo_Dimension/World gen/Structures/Cubes"
+    },
+    {
+      "name": "Cubegen2",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cubegen_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/worldgen/structure_set/cubegen_2.json",
+          "src/main/resources/data/silly_willy_core/worldgen/structure/cubegen_2.json",
+          "src/main/resources/data/silly_willy_core/worldgen/template_pool/cubegen_2.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/World gen/Structures/Cubes"
+    },
+    {
+      "name": "Cubegen3",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cubegen_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/worldgen/template_pool/cubegen_3.json",
+          "src/main/resources/data/silly_willy_core/worldgen/structure/cubegen_3.json",
+          "src/main/resources/data/silly_willy_core/worldgen/structure_set/cubegen_3.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/World gen/Structures/Cubes"
+    },
+    {
+      "name": "Cubegen4",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cubegen_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/worldgen/structure_set/cubegen_4.json",
+          "src/main/resources/data/silly_willy_core/worldgen/template_pool/cubegen_4.json",
+          "src/main/resources/data/silly_willy_core/worldgen/structure/cubegen_4.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/World gen/Structures/Cubes"
+    },
+    {
+      "name": "Cubegen5",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cubegen_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/worldgen/template_pool/cubegen_5.json",
+          "src/main/resources/data/silly_willy_core/worldgen/structure/cubegen_5.json",
+          "src/main/resources/data/silly_willy_core/worldgen/structure_set/cubegen_5.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/World gen/Structures/Cubes"
+    },
+    {
+      "name": "Cubegen6",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cubegen_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/worldgen/structure_set/cubegen_6.json",
+          "src/main/resources/data/silly_willy_core/worldgen/structure/cubegen_6.json",
+          "src/main/resources/data/silly_willy_core/worldgen/template_pool/cubegen_6.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/World gen/Structures/Cubes"
     }
   ],
   "variable_elements": [
@@ -542,8 +617,8 @@
       "item_group.silly_willy_core.geometery_dimension_beta": "Geometery Dimension Beta",
       "item.silly_willy_core.triangulum_shovel": "Triangulum Shovel",
       "block.silly_willy_core.blockofrawentangulum": "Block of Raw Entangulum",
-      "block.silly_willy_core.entangulumore": "Entangulum Ore",
       "item.silly_willy_core.triangulum_hoe": "Triangulum Hoe",
+      "block.silly_willy_core.entangulumore": "Entangulum Ore",
       "item.silly_willy_core.raw_entangulum": "Raw Entangulum",
       "block.silly_willy_core.geostone": "Geostone",
       "item_group.silly_willy_core.structureblocks": "Structure Blocks",
