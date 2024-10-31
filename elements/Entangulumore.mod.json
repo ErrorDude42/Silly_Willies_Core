@@ -126,10 +126,14 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "generateFeature": false,
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Geotestinggrounds"
+      }
+    ],
     "blocksToReplace": [
       {
-        "value": "TAG:stone_ore_replaceables"
+        "value": "CUSTOM:Geostone"
       }
     ],
     "generationShape": "UNIFORM",

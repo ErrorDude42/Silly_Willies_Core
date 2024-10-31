@@ -1,0 +1,99 @@
+{
+  "_fv": 69,
+  "_type": "biome",
+  "definition": {
+    "name": "Testing Grounds",
+    "groundBlock": {
+      "value": "Blocks.VOID_AIR"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:Geostone"
+    },
+    "underwaterBlock": {
+      "value": ""
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 5963,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "CUSTOM:LiquidEntangulum"
+    },
+    "particlesProbability": 0.5,
+    "rainingPossibility": 0.0,
+    "temperature": 1.0,
+    "spawnBiome": false,
+    "spawnInCaves": false,
+    "spawnBiomeNether": false,
+    "genTemperature": {
+      "min": -1.0,
+      "max": 1.0
+    },
+    "genHumidity": {
+      "min": -1.0,
+      "max": 1.0
+    },
+    "genContinentalness": {
+      "min": 0.0,
+      "max": 2.0
+    },
+    "genErosion": {
+      "min": -1.0,
+      "max": 1.0
+    },
+    "genWeirdness": {
+      "min": -1.0,
+      "max": 1.0
+    },
+    "treesPerChunk": 0,
+    "vanillaTreeType": "Big trees",
+    "treeType": 0,
+    "minHeight": 7,
+    "treeStem": {
+      "value": ""
+    },
+    "treeBranch": {
+      "value": ""
+    },
+    "treeVines": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "defaultFeatures": [
+      "Ores"
+    ],
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NONE",
+    "spawnEntries": []
+  }
+}
