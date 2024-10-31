@@ -7,7 +7,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "silly_willy_core:geocube6",
-        "projection": "terrain_matching",
+        "projection": "rigid",
         "processors": {
           "processors": [
             {

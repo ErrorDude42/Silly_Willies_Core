@@ -15,7 +15,7 @@
       "value": "Blocks.VOID_AIR"
     },
     "canRespawnHere": false,
-    "hasFog": false,
+    "hasFog": true,
     "isDark": false,
     "doesWaterVaporize": true,
     "sleepResult": "DENY",

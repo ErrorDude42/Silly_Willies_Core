@@ -3,14 +3,14 @@
   "_type": "structure",
   "definition": {
     "structure": "geocube1",
-    "projection": "terrain_matching",
+    "projection": "rigid",
     "ignoredBlocks": [
       {
         "value": "Blocks.STRUCTURE_BLOCK"
       }
     ],
-    "spacing": 5,
-    "separation": 2,
+    "spacing": 20,
+    "separation": 11,
     "restrictionBiomes": [
       {
         "value": "CUSTOM:Geotestinggrounds"
@@ -19,9 +19,9 @@
     "terrainAdaptation": "none",
     "generationStep": "SURFACE_STRUCTURES",
     "surfaceDetectionType": "WORLD_SURFACE_WG",
-    "useStartHeight": false,
-    "startHeightProviderType": "UNIFORM",
-    "startHeightMin": 0,
+    "useStartHeight": true,
+    "startHeightProviderType": "TRAPEZOID",
+    "startHeightMin": 59,
     "startHeightMax": 128,
     "size": 1,
     "maxDistanceFromCenter": 64,

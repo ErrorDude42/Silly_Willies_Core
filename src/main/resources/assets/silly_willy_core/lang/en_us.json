@@ -23,8 +23,10 @@
   "item.silly_willy_core.dirtyentangulum": "Dirty Entangulum Dust ",
   "block.silly_willy_core.triangulumbricks": "Triangulumbricks",
   "item.silly_willy_core.refined_triangulum": "Refined Triangulum",
+  "block.silly_willy_core.geometriusup": "Geometrius Vari. Up ",
   "item.silly_willy_core.entangulumdust": "Entangulum Dust",
   "item.silly_willy_core.triangulum_axe": "Triangulum Axe",
+  "block.silly_willy_core.geometriusdown": "Geometrius Vari. Down",
   "block.silly_willy_core.melted_entangulum_fluid": "Melted Entangulum Fluid",
   "item.silly_willy_core.entangulumspool": "Entangulum Spool"
 }

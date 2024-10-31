@@ -1,0 +1,48 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:RawTriangulum"
+      },
+      {
+        "value": "CUSTOM:RawTriangulum"
+      },
+      {
+        "value": "CUSTOM:RawTriangulum"
+      },
+      {
+        "value": "CUSTOM:RawTriangulum"
+      },
+      {
+        "value": "CUSTOM:RawTriangulum"
+      },
+      {
+        "value": "CUSTOM:RawTriangulum"
+      },
+      {
+        "value": "CUSTOM:RawTriangulum"
+      },
+      {
+        "value": "CUSTOM:RawTriangulum"
+      },
+      {
+        "value": "CUSTOM:RawTriangulum"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Blockrawtriangulum"
+    },
+    "name": "blockof_raw_triangulum",
+    "namespace": "mod"
+  }
+}

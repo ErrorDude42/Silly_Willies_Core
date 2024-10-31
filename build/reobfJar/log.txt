@@ -166,6 +166,8 @@ Writing Output: C:\Users\crtca\OneDrive\Documents\GitHub\Silly_Willies_Core\buil
   assets/silly_willy_core/blockstates/blockofrawentangulum.json
   assets/silly_willy_core/blockstates/blockrawtriangulum.json
   assets/silly_willy_core/blockstates/entangulumore.json
+  assets/silly_willy_core/blockstates/geometriusdown.json
+  assets/silly_willy_core/blockstates/geometriusup.json
   assets/silly_willy_core/blockstates/geostone.json
   assets/silly_willy_core/blockstates/melted_entangulum_fluid.json
   assets/silly_willy_core/blockstates/structure_triangulumbricks.json
@@ -179,6 +181,8 @@ Writing Output: C:\Users\crtca\OneDrive\Documents\GitHub\Silly_Willies_Core\buil
   assets/silly_willy_core/models/block/blockofrawentangulum.json
   assets/silly_willy_core/models/block/blockrawtriangulum.json
   assets/silly_willy_core/models/block/entangulumore.json
+  assets/silly_willy_core/models/block/geometriusdown.json
+  assets/silly_willy_core/models/block/geometriusup.json
   assets/silly_willy_core/models/block/geostone.json
   assets/silly_willy_core/models/block/melted_entangulum_fluid.json
   assets/silly_willy_core/models/block/structure_triangulumbricks.json
@@ -193,6 +197,8 @@ Writing Output: C:\Users\crtca\OneDrive\Documents\GitHub\Silly_Willies_Core\buil
   assets/silly_willy_core/models/item/entangulumore.json
   assets/silly_willy_core/models/item/entangulumplate.json
   assets/silly_willy_core/models/item/entangulumspool.json
+  assets/silly_willy_core/models/item/geometriusdown.json
+  assets/silly_willy_core/models/item/geometriusup.json
   assets/silly_willy_core/models/item/geostone.json
   assets/silly_willy_core/models/item/melted_entangulum_fluid_bucket.json
   assets/silly_willy_core/models/item/raw_entangulum.json
@@ -270,12 +276,16 @@ Writing Output: C:\Users\crtca\OneDrive\Documents\GitHub\Silly_Willies_Core\buil
   data/silly_willy_core/dimension_type/geo_dimension.json
   data/silly_willy_core/forge/
   data/silly_willy_core/forge/biome_modifier/
+  data/silly_willy_core/forge/biome_modifier/geometriusdown_biome_modifier.json
+  data/silly_willy_core/forge/biome_modifier/geometriusup_biome_modifier.json
   data/silly_willy_core/forge/biome_modifier/triangulumore_biome_modifier.json
   data/silly_willy_core/loot_tables/
   data/silly_willy_core/loot_tables/blocks/
   data/silly_willy_core/loot_tables/blocks/blockofrawentangulum.json
   data/silly_willy_core/loot_tables/blocks/blockrawtriangulum.json
   data/silly_willy_core/loot_tables/blocks/entangulumore.json
+  data/silly_willy_core/loot_tables/blocks/geometriusdown.json
+  data/silly_willy_core/loot_tables/blocks/geometriusup.json
   data/silly_willy_core/loot_tables/blocks/geostone.json
   data/silly_willy_core/loot_tables/blocks/structure_triangulumbricks.json
   data/silly_willy_core/loot_tables/blocks/triangulumbricks.json
@@ -284,6 +294,8 @@ Writing Output: C:\Users\crtca\OneDrive\Documents\GitHub\Silly_Willies_Core\buil
   data/silly_willy_core/loot_tables/chests/
   data/silly_willy_core/loot_tables/chests/triangulumalter_1.json
   data/silly_willy_core/recipes/
+  data/silly_willy_core/recipes/blockof_raw_triangulum.json
+  data/silly_willy_core/recipes/blockrawentangulum.json
   data/silly_willy_core/recipes/triangulum_axe_recipe.json
   data/silly_willy_core/recipes/triangulum_hoe_recipe.json
   data/silly_willy_core/recipes/triangulum_pickaxe_recipe.json
@@ -309,8 +321,12 @@ Writing Output: C:\Users\crtca\OneDrive\Documents\GitHub\Silly_Willies_Core\buil
   data/silly_willy_core/worldgen/biome/
   data/silly_willy_core/worldgen/biome/geotestinggrounds.json
   data/silly_willy_core/worldgen/configured_feature/
+  data/silly_willy_core/worldgen/configured_feature/geometriusdown.json
+  data/silly_willy_core/worldgen/configured_feature/geometriusup.json
   data/silly_willy_core/worldgen/configured_feature/triangulumore.json
   data/silly_willy_core/worldgen/placed_feature/
+  data/silly_willy_core/worldgen/placed_feature/geometriusdown.json
+  data/silly_willy_core/worldgen/placed_feature/geometriusup.json
   data/silly_willy_core/worldgen/placed_feature/triangulumore.json
   data/silly_willy_core/worldgen/structure/
   data/silly_willy_core/worldgen/structure/cubegen.json
@@ -319,6 +335,15 @@ Writing Output: C:\Users\crtca\OneDrive\Documents\GitHub\Silly_Willies_Core\buil
   data/silly_willy_core/worldgen/structure/cubegen_4.json
   data/silly_willy_core/worldgen/structure/cubegen_5.json
   data/silly_willy_core/worldgen/structure/cubegen_6.json
+  data/silly_willy_core/worldgen/structure/pyramidgen_1.json
+  data/silly_willy_core/worldgen/structure/pyramidgen_2.json
+  data/silly_willy_core/worldgen/structure/pyramidgen_3.json
+  data/silly_willy_core/worldgen/structure/pyramidgen_4.json
+  data/silly_willy_core/worldgen/structure/pyramidgen_5.json
+  data/silly_willy_core/worldgen/structure/pyramidgen_6.json
+  data/silly_willy_core/worldgen/structure/spheregen_1.json
+  data/silly_willy_core/worldgen/structure/spheregen_2.json
+  data/silly_willy_core/worldgen/structure/spheregen_3.json
   data/silly_willy_core/worldgen/structure_set/
   data/silly_willy_core/worldgen/structure_set/cubegen.json
   data/silly_willy_core/worldgen/structure_set/cubegen_2.json
@@ -326,6 +351,15 @@ Writing Output: C:\Users\crtca\OneDrive\Documents\GitHub\Silly_Willies_Core\buil
   data/silly_willy_core/worldgen/structure_set/cubegen_4.json
   data/silly_willy_core/worldgen/structure_set/cubegen_5.json
   data/silly_willy_core/worldgen/structure_set/cubegen_6.json
+  data/silly_willy_core/worldgen/structure_set/pyramidgen_1.json
+  data/silly_willy_core/worldgen/structure_set/pyramidgen_2.json
+  data/silly_willy_core/worldgen/structure_set/pyramidgen_3.json
+  data/silly_willy_core/worldgen/structure_set/pyramidgen_4.json
+  data/silly_willy_core/worldgen/structure_set/pyramidgen_5.json
+  data/silly_willy_core/worldgen/structure_set/pyramidgen_6.json
+  data/silly_willy_core/worldgen/structure_set/spheregen_1.json
+  data/silly_willy_core/worldgen/structure_set/spheregen_2.json
+  data/silly_willy_core/worldgen/structure_set/spheregen_3.json
   data/silly_willy_core/worldgen/template_pool/
   data/silly_willy_core/worldgen/template_pool/cubegen.json
   data/silly_willy_core/worldgen/template_pool/cubegen_2.json
@@ -333,6 +367,15 @@ Writing Output: C:\Users\crtca\OneDrive\Documents\GitHub\Silly_Willies_Core\buil
   data/silly_willy_core/worldgen/template_pool/cubegen_4.json
   data/silly_willy_core/worldgen/template_pool/cubegen_5.json
   data/silly_willy_core/worldgen/template_pool/cubegen_6.json
+  data/silly_willy_core/worldgen/template_pool/pyramidgen_1.json
+  data/silly_willy_core/worldgen/template_pool/pyramidgen_2.json
+  data/silly_willy_core/worldgen/template_pool/pyramidgen_3.json
+  data/silly_willy_core/worldgen/template_pool/pyramidgen_4.json
+  data/silly_willy_core/worldgen/template_pool/pyramidgen_5.json
+  data/silly_willy_core/worldgen/template_pool/pyramidgen_6.json
+  data/silly_willy_core/worldgen/template_pool/spheregen_1.json
+  data/silly_willy_core/worldgen/template_pool/spheregen_2.json
+  data/silly_willy_core/worldgen/template_pool/spheregen_3.json
   io/
   io/github/
   io/github/errordude42/
@@ -342,6 +385,8 @@ Writing Output: C:\Users\crtca\OneDrive\Documents\GitHub\Silly_Willies_Core\buil
   io/github/errordude42/sillywillycore/block/BlockofrawentangulumBlock.class
   io/github/errordude42/sillywillycore/block/BlockrawtriangulumBlock.class
   io/github/errordude42/sillywillycore/block/EntangulumoreBlock.class
+  io/github/errordude42/sillywillycore/block/GeometriusdownBlock.class
+  io/github/errordude42/sillywillycore/block/GeometriusupBlock.class
   io/github/errordude42/sillywillycore/block/GeostoneBlock.class
   io/github/errordude42/sillywillycore/block/MeltedEntangulumFluidBlock.class
   io/github/errordude42/sillywillycore/block/StructureTriangulumbricksBlock.class
@@ -393,10 +438,6 @@ Writing Output: C:\Users\crtca\OneDrive\Documents\GitHub\Silly_Willies_Core\buil
   io/github/errordude42/sillywillycore/network/SillyWillyCoreModVariables$SavedDataSyncMessage.class
   io/github/errordude42/sillywillycore/network/SillyWillyCoreModVariables$WorldVariables.class
   io/github/errordude42/sillywillycore/network/SillyWillyCoreModVariables.class
-  io/github/errordude42/sillywillycore/util/
-  io/github/errordude42/sillywillycore/util/ModTags$Blocks.class
-  io/github/errordude42/sillywillycore/util/ModTags$Items.class
-  io/github/errordude42/sillywillycore/util/ModTags.class
   io/github/errordude42/sillywillycore/world/
   io/github/errordude42/sillywillycore/world/dimension/
   io/github/errordude42/sillywillycore/world/dimension/GeoDimensionDimension$GeoDimensionSpecialEffectsHandler$1.class

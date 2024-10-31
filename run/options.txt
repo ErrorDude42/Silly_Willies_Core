@@ -16,7 +16,7 @@ showSubtitles:false
 directionalAudio:false
 touchscreen:false
 fullscreen:false
-bobView:false
+bobView:true
 toggleCrouch:false
 toggleSprint:false
 darkMojangStudiosBackground:false
@@ -31,12 +31,12 @@ glintStrength:0.75
 damageTiltStrength:1.0
 highContrast:false
 gamma:0.5
-renderDistance:5
-simulationDistance:12
+renderDistance:10
+simulationDistance:5
 entityDistanceScaling:1.0
 guiScale:0
-particles:0
-maxFps:260
+particles:1
+maxFps:120
 graphicsMode:0
 ao:false
 prioritizeChunkUpdates:0

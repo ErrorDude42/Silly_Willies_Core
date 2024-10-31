@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "silly_willy_core:raw_triangulum"
+    }
+  },
+  "result": {
+    "item": "silly_willy_core:blockrawtriangulum",
+    "count": 1
+  }
+}

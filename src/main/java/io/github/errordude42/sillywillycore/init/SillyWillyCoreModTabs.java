@@ -50,6 +50,8 @@ public class SillyWillyCoreModTabs {
 				tabData.accept(SillyWillyCoreModItems.ENTANGULUMSPOOL.get());
 				tabData.accept(SillyWillyCoreModItems.RAW_ENTANGULUM.get());
 				tabData.accept(SillyWillyCoreModItems.MELTED_ENTANGULUM_FLUID_BUCKET.get());
+				tabData.accept(SillyWillyCoreModBlocks.GEOMETRIUSDOWN.get().asItem());
+				tabData.accept(SillyWillyCoreModBlocks.GEOMETRIUSUP.get().asItem());
 			})
 
 					.build());
@@ -79,6 +81,8 @@ public class SillyWillyCoreModTabs {
 
 			tabData.accept(SillyWillyCoreModBlocks.TRIANGULUMORE_DEEPSLATE.get().asItem());
 			tabData.accept(SillyWillyCoreModBlocks.ENTANGULUMORE.get().asItem());
+			tabData.accept(SillyWillyCoreModBlocks.GEOMETRIUSDOWN.get().asItem());
+			tabData.accept(SillyWillyCoreModBlocks.GEOMETRIUSUP.get().asItem());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 

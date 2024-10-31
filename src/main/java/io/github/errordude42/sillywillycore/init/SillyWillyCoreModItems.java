@@ -50,6 +50,8 @@ public class SillyWillyCoreModItems {
 	public static final RegistryObject<Item> RAW_ENTANGULUM = REGISTRY.register("raw_entangulum", () -> new RawEntangulumItem());
 	public static final RegistryObject<Item> MELTED_ENTANGULUM_FLUID_BUCKET = REGISTRY.register("melted_entangulum_fluid_bucket", () -> new MeltedEntangulumFluidItem());
 	public static final RegistryObject<Item> STRUCTURE_TRIANGULUMBRICKS = block(SillyWillyCoreModBlocks.STRUCTURE_TRIANGULUMBRICKS);
+	public static final RegistryObject<Item> GEOMETRIUSDOWN = block(SillyWillyCoreModBlocks.GEOMETRIUSDOWN);
+	public static final RegistryObject<Item> GEOMETRIUSUP = block(SillyWillyCoreModBlocks.GEOMETRIUSUP);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "silly_willy_core:geotestinggrounds",
+  "features": "silly_willy_core:geometriusup",
+  "step": "vegetal_decoration"
+}

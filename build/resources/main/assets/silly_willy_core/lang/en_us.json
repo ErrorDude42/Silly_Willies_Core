@@ -3,8 +3,8 @@
   "biome.silly_willy_core.geotestinggrounds": "Testing Grounds",
   "item.silly_willy_core.triangulum_shovel": "Triangulum Shovel",
   "block.silly_willy_core.blockofrawentangulum": "Block of Raw Entangulum",
-  "block.silly_willy_core.entangulumore": "Entangulum Ore",
   "item.silly_willy_core.triangulum_hoe": "Triangulum Hoe",
+  "block.silly_willy_core.entangulumore": "Entangulum Ore",
   "item.silly_willy_core.raw_entangulum": "Raw Entangulum",
   "block.silly_willy_core.geostone": "Geostone",
   "item_group.silly_willy_core.structureblocks": "Structure Blocks",
@@ -23,8 +23,10 @@
   "item.silly_willy_core.dirtyentangulum": "Dirty Entangulum Dust ",
   "block.silly_willy_core.triangulumbricks": "Triangulumbricks",
   "item.silly_willy_core.refined_triangulum": "Refined Triangulum",
+  "block.silly_willy_core.geometriusup": "Geometrius Vari. Up ",
   "item.silly_willy_core.entangulumdust": "Entangulum Dust",
   "item.silly_willy_core.triangulum_axe": "Triangulum Axe",
+  "block.silly_willy_core.geometriusdown": "Geometrius Vari. Down",
   "block.silly_willy_core.melted_entangulum_fluid": "Melted Entangulum Fluid",
   "item.silly_willy_core.entangulumspool": "Entangulum Spool"
 }
