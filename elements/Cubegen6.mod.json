@@ -13,7 +13,7 @@
     "separation": 2,
     "restrictionBiomes": [
       {
-        "value": "#minecraft:is_overworld"
+        "value": "CUSTOM:Geotestinggrounds"
       }
     ],
     "terrainAdaptation": "none",
