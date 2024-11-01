@@ -43,7 +43,7 @@
     },
     "particlesProbability": 0.5,
     "rainingPossibility": 0.0,
-    "temperature": 1.0,
+    "temperature": 1.5,
     "spawnBiome": false,
     "spawnInCaves": false,
     "spawnBiomeNether": false,
@@ -67,9 +67,9 @@
       "min": -2.0,
       "max": 2.0
     },
-    "treesPerChunk": 6,
+    "treesPerChunk": 0,
     "vanillaTreeType": "Default",
-    "treeType": 1,
+    "treeType": 0,
     "minHeight": 8,
     "treeStem": {
       "value": "CUSTOM:Wonder_oakLog"
@@ -83,7 +83,9 @@
     "treeFruits": {
       "value": "Blocks.AIR"
     },
-    "defaultFeatures": [],
+    "defaultFeatures": [
+      "Ores"
+    ],
     "spawnStronghold": false,
     "spawnMineshaft": false,
     "spawnMineshaftMesa": false,
