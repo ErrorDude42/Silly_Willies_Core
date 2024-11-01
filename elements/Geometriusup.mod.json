@@ -86,18 +86,24 @@
     "canBePlacedOn": [
       {
         "value": "CUSTOM:Geostone"
+      },
+      {
+        "value": "CUSTOM:StructureTriangulumbricks"
       }
     ],
     "isBonemealable": false,
-    "frequencyOnChunks": 5,
+    "frequencyOnChunks": 20,
     "generateFeature": true,
     "restrictionBiomes": [
       {
         "value": "CUSTOM:Geotestinggrounds"
+      },
+      {
+        "value": "CUSTOM:WonderForest"
       }
     ],
     "generationType": "Flower",
-    "patchSize": 11,
+    "patchSize": 30,
     "generateAtAnyHeight": true
   }
 }

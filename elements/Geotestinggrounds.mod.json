@@ -4,7 +4,7 @@
   "definition": {
     "name": "Testing Grounds",
     "groundBlock": {
-      "value": "Blocks.VOID_AIR"
+      "value": "CUSTOM:Geostone"
     },
     "undergroundBlock": {
       "value": "CUSTOM:Geostone"
@@ -70,18 +70,18 @@
     "treesPerChunk": 0,
     "vanillaTreeType": "Big trees",
     "treeType": 0,
-    "minHeight": 7,
+    "minHeight": 8,
     "treeStem": {
-      "value": ""
+      "value": "CUSTOM:Wonder_oakWood"
     },
     "treeBranch": {
-      "value": ""
+      "value": "CUSTOM:Wonder_oakLeaves"
     },
     "treeVines": {
-      "value": ""
+      "value": "Blocks.AIR"
     },
     "treeFruits": {
-      "value": ""
+      "value": "Blocks.AIR"
     },
     "defaultFeatures": [
       "Ores"

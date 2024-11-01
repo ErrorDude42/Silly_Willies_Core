@@ -139,6 +139,46 @@ Adding Libraries to Inheritance
 Reading Input: C:\Users\crtca\OneDrive\Documents\GitHub\Silly_Willies_Core\build\libs\modid-1.0.jar
 Adding input to inheritance map
 Processing entries
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/block/BlockofrawentangulumBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/block/GeostoneBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/block/StructureTriangulumbricksBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/block/EntangulumoreBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/block/GeometriusupBlock/getEffectDuration()I from net/minecraft/world/level/block/FlowerBlock/getEffectDuration()I: getEffectDuration -> m_53522_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/block/GeometriusupBlock/mayPlaceOn(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z from net/minecraft/world/level/block/BushBlock/mayPlaceOn(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z: mayPlaceOn -> m_6266_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/block/GeometriusupBlock/canSurvive(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;)Z from net/minecraft/world/level/block/BushBlock/canSurvive(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;)Z: canSurvive -> m_7898_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/block/BlockrawtriangulumBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/block/GeometriusdownBlock/getEffectDuration()I from net/minecraft/world/level/block/FlowerBlock/getEffectDuration()I: getEffectDuration -> m_53522_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/block/GeometriusdownBlock/mayPlaceOn(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z from net/minecraft/world/level/block/BushBlock/mayPlaceOn(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z: mayPlaceOn -> m_6266_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/block/GeometriusdownBlock/canSurvive(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;)Z from net/minecraft/world/level/block/BushBlock/canSurvive(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;)Z: canSurvive -> m_7898_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/block/TriangulumoreBlock/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getVisualShape -> m_5909_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/block/TriangulumoreBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/block/TriangulumbricksBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/block/TriangulumoreDeepslateBlock/rotate(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/rotate(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/state/BlockState;: rotate -> m_6843_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/block/TriangulumoreDeepslateBlock/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/Block/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;: getStateForPlacement -> m_5573_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/block/TriangulumoreDeepslateBlock/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getVisualShape -> m_5909_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/block/TriangulumoreDeepslateBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/block/TriangulumoreDeepslateBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/block/Wonder_oakFenceBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/block/Wonder_oakButtonBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/block/Wonder_oakFenceGateBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/block/Wonder_oakLeavesBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/LeavesBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/block/Wonder_oakPlanksBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/block/Wonder_oakWoodBlock/rotate(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/rotate(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/state/BlockState;: rotate -> m_6843_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/block/Wonder_oakWoodBlock/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/Block/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;: getStateForPlacement -> m_5573_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/block/Wonder_oakWoodBlock/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getVisualShape -> m_5909_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/block/Wonder_oakWoodBlock/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z from net/minecraft/world/level/block/Block/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z: propagatesSkylightDown -> m_7420_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/block/Wonder_oakWoodBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/block/Wonder_oakWoodBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/block/Wonder_oakSlabBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/block/Wonder_oakPressurePlateBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/client/particle/LiquidEntangulumParticle$LiquidEntangulumParticleProvider/createParticle(Lnet/minecraft/core/particles/ParticleOptions;Lnet/minecraft/client/multiplayer/ClientLevel;DDDDDD)Lnet/minecraft/client/particle/Particle; from net/minecraft/client/particle/ParticleProvider/createParticle(Lnet/minecraft/core/particles/ParticleOptions;Lnet/minecraft/client/multiplayer/ClientLevel;DDDDDD)Lnet/minecraft/client/particle/Particle;: createParticle -> m_6966_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/block/Wonder_oakLogBlock/rotate(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/rotate(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/state/BlockState;: rotate -> m_6843_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/block/Wonder_oakLogBlock/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/Block/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;: getStateForPlacement -> m_5573_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/block/Wonder_oakLogBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/block/Wonder_oakLogBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/block/Wonder_oakStairsBlock/getExplosionResistance()F from net/minecraft/world/level/block/StairBlock/getExplosionResistance()F: getExplosionResistance -> m_7325_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/block/Wonder_oakStairsBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/block/Wonder_oakStairsBlock/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z from net/minecraft/world/level/block/StairBlock/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z: isRandomlyTicking -> m_6724_
 Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/getFlowing()Lnet/minecraft/world/level/material/Fluid; from net/minecraft/world/level/material/FlowingFluid/getFlowing()Lnet/minecraft/world/level/material/Fluid;: getFlowing -> m_5615_
 Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/createLegacyBlock(Lnet/minecraft/world/level/material/FluidState;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/material/Fluid/createLegacyBlock(Lnet/minecraft/world/level/material/FluidState;)Lnet/minecraft/world/level/block/state/BlockState;: createLegacyBlock -> m_5804_
 Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/getTickDelay(Lnet/minecraft/world/level/LevelReader;)I from net/minecraft/world/level/material/Fluid/getTickDelay(Lnet/minecraft/world/level/LevelReader;)I: getTickDelay -> m_6718_
@@ -152,7 +192,62 @@ Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/g
 Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/beforeDestroyingBlock(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V from net/minecraft/world/level/material/FlowingFluid/beforeDestroyingBlock(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V: beforeDestroyingBlock -> m_7456_
 Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/getBucket()Lnet/minecraft/world/item/Item; from net/minecraft/world/level/material/Fluid/getBucket()Lnet/minecraft/world/item/Item;: getBucket -> m_6859_
 Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/canBeReplacedWith(Lnet/minecraft/world/level/material/FluidState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/material/Fluid;Lnet/minecraft/core/Direction;)Z from net/minecraft/world/level/material/Fluid/canBeReplacedWith(Lnet/minecraft/world/level/material/FluidState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/material/Fluid;Lnet/minecraft/core/Direction;)Z: canBeReplacedWith -> m_5486_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/fluid/MeltedEntangulumFluidFluid/getDripParticle()Lnet/minecraft/core/particles/ParticleOptions; from net/minecraft/world/level/material/Fluid/getDripParticle()Lnet/minecraft/core/particles/ParticleOptions;: getDripParticle -> m_7792_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/client/particle/LiquidEntangulumParticle/tick()V from net/minecraft/client/particle/Particle/tick()V: tick -> m_5989_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/fluid/MeltedEntangulumFluidFluid$Flowing/getAmount(Lnet/minecraft/world/level/material/FluidState;)I from net/minecraft/world/level/material/FlowingFluid/getAmount(Lnet/minecraft/world/level/material/FluidState;)I: getAmount -> m_7430_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/fluid/MeltedEntangulumFluidFluid$Flowing/createFluidStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/material/FlowingFluid/createFluidStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createFluidStateDefinition -> m_7180_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/fluid/MeltedEntangulumFluidFluid$Flowing/isSource(Lnet/minecraft/world/level/material/FluidState;)Z from net/minecraft/world/level/material/Fluid/isSource(Lnet/minecraft/world/level/material/FluidState;)Z: isSource -> m_7444_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/client/particle/LiquidEntangulumParticle/getRenderType()Lnet/minecraft/client/particle/ParticleRenderType; from net/minecraft/client/particle/Particle/getRenderType()Lnet/minecraft/client/particle/ParticleRenderType;: getRenderType -> m_7556_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/fluid/MeltedEntangulumFluidFluid$Source/getAmount(Lnet/minecraft/world/level/material/FluidState;)I from net/minecraft/world/level/material/FlowingFluid/getAmount(Lnet/minecraft/world/level/material/FluidState;)I: getAmount -> m_7430_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/fluid/MeltedEntangulumFluidFluid$Source/isSource(Lnet/minecraft/world/level/material/FluidState;)Z from net/minecraft/world/level/material/Fluid/isSource(Lnet/minecraft/world/level/material/FluidState;)Z: isSource -> m_7444_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/item/TriangulumAxeItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/item/TriangulumAxeItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/item/TriangulumAxeItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/item/TriangulumAxeItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/item/TriangulumAxeItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/item/TriangulumAxeItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/item/TriangulumHoeItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/item/TriangulumHoeItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/item/TriangulumHoeItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/item/TriangulumHoeItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/item/TriangulumHoeItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/item/TriangulumHoeItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
 Conflicting propagated mapping for net/minecraftforge/event/BuildCreativeModeTabContentsEvent/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V from net/minecraft/world/item/CreativeModeTab$Output/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V: accept -> m_246267_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/item/TriangulumHoeItem/isFoil(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/item/Item/isFoil(Lnet/minecraft/world/item/ItemStack;)Z: isFoil -> m_5812_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/item/TriangulumAxeItem/isFoil(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/item/Item/isFoil(Lnet/minecraft/world/item/ItemStack;)Z: isFoil -> m_5812_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/item/TriangulumPickaxeItem/isFoil(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/item/Item/isFoil(Lnet/minecraft/world/item/ItemStack;)Z: isFoil -> m_5812_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/item/TriangulumShovelItem/isFoil(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/item/Item/isFoil(Lnet/minecraft/world/item/ItemStack;)Z: isFoil -> m_5812_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/item/TriangulumSwordItem/isFoil(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/item/Item/isFoil(Lnet/minecraft/world/item/ItemStack;)Z: isFoil -> m_5812_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/item/TriangulumPickaxeItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/item/TriangulumPickaxeItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/item/TriangulumPickaxeItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/item/TriangulumPickaxeItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/item/TriangulumPickaxeItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/item/TriangulumPickaxeItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/item/TriangulumShovelItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/item/TriangulumShovelItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/item/TriangulumShovelItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/item/TriangulumShovelItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/item/TriangulumSwordItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/item/TriangulumSwordItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/item/TriangulumSwordItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/item/TriangulumSwordItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/item/TriangulumSwordItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/item/TriangulumSwordItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/item/TriangulumShovelItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/item/TriangulumShovelItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/network/SillyWillyCoreModVariables$MapVariables/save(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag; from net/minecraft/world/level/saveddata/SavedData/save(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag;: save -> m_7176_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/world/dimension/GeoDimensionDimension$GeoDimensionSpecialEffectsHandler$1/getBrightnessDependentFogColor(Lnet/minecraft/world/phys/Vec3;F)Lnet/minecraft/world/phys/Vec3; from net/minecraft/client/renderer/DimensionSpecialEffects/getBrightnessDependentFogColor(Lnet/minecraft/world/phys/Vec3;F)Lnet/minecraft/world/phys/Vec3;: getBrightnessDependentFogColor -> m_5927_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/world/dimension/GeoDimensionDimension$GeoDimensionSpecialEffectsHandler$1/isFoggyAt(II)Z from net/minecraft/client/renderer/DimensionSpecialEffects/isFoggyAt(II)Z: isFoggyAt -> m_5781_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/network/SillyWillyCoreModVariables$WorldVariables/save(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag; from net/minecraft/world/level/saveddata/SavedData/save(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag;: save -> m_7176_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/world/features/treedecorators/WonderForestFruitDecorator/type()Lnet/minecraft/world/level/levelgen/feature/treedecorators/TreeDecoratorType; from net/minecraft/world/level/levelgen/feature/treedecorators/CocoaDecorator/type()Lnet/minecraft/world/level/levelgen/feature/treedecorators/TreeDecoratorType;: type -> m_6663_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/world/features/treedecorators/WonderForestFruitDecorator/place(Lnet/minecraft/world/level/levelgen/feature/treedecorators/TreeDecorator$Context;)V from net/minecraft/world/level/levelgen/feature/treedecorators/CocoaDecorator/place(Lnet/minecraft/world/level/levelgen/feature/treedecorators/TreeDecorator$Context;)V: place -> m_214187_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/world/features/treedecorators/WonderForestFruitDecorator/lambda$place$2(Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/levelgen/feature/treedecorators/TreeDecorator$Context;Lnet/minecraft/core/BlockPos;)V from net/minecraft/world/level/levelgen/feature/treedecorators/CocoaDecorator/lambda$place$2(Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/levelgen/feature/treedecorators/TreeDecorator$Context;Lnet/minecraft/core/BlockPos;)V: lambda$place$2 -> m_226023_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/world/features/treedecorators/WonderForestFruitDecorator/lambda$place$1(ILnet/minecraft/core/BlockPos;)Z from net/minecraft/world/level/levelgen/feature/treedecorators/CocoaDecorator/lambda$place$1(ILnet/minecraft/core/BlockPos;)Z: lambda$place$1 -> m_69978_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/world/features/treedecorators/WonderForestLeaveDecorator/type()Lnet/minecraft/world/level/levelgen/feature/treedecorators/TreeDecoratorType; from net/minecraft/world/level/levelgen/feature/treedecorators/LeaveVineDecorator/type()Lnet/minecraft/world/level/levelgen/feature/treedecorators/TreeDecoratorType;: type -> m_6663_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/world/features/treedecorators/WonderForestLeaveDecorator/place(Lnet/minecraft/world/level/levelgen/feature/treedecorators/TreeDecorator$Context;)V from net/minecraft/world/level/levelgen/feature/treedecorators/LeaveVineDecorator/place(Lnet/minecraft/world/level/levelgen/feature/treedecorators/TreeDecorator$Context;)V: place -> m_214187_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/world/features/treedecorators/WonderForestTrunkDecorator/type()Lnet/minecraft/world/level/levelgen/feature/treedecorators/TreeDecoratorType; from net/minecraft/world/level/levelgen/feature/treedecorators/TrunkVineDecorator/type()Lnet/minecraft/world/level/levelgen/feature/treedecorators/TreeDecoratorType;: type -> m_6663_
+Conflicting propagated mapping for io/github/errordude42/sillywillycore/world/features/treedecorators/WonderForestTrunkDecorator/place(Lnet/minecraft/world/level/levelgen/feature/treedecorators/TreeDecorator$Context;)V from net/minecraft/world/level/levelgen/feature/treedecorators/TrunkVineDecorator/place(Lnet/minecraft/world/level/levelgen/feature/treedecorators/TreeDecorator$Context;)V: place -> m_214187_
 Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
 Adding extras
 Sorting
@@ -174,6 +269,16 @@ Writing Output: C:\Users\crtca\OneDrive\Documents\GitHub\Silly_Willies_Core\buil
   assets/silly_willy_core/blockstates/triangulumbricks.json
   assets/silly_willy_core/blockstates/triangulumore.json
   assets/silly_willy_core/blockstates/triangulumore_deepslate.json
+  assets/silly_willy_core/blockstates/wonder_oak_button.json
+  assets/silly_willy_core/blockstates/wonder_oak_fence.json
+  assets/silly_willy_core/blockstates/wonder_oak_fence_gate.json
+  assets/silly_willy_core/blockstates/wonder_oak_leaves.json
+  assets/silly_willy_core/blockstates/wonder_oak_log.json
+  assets/silly_willy_core/blockstates/wonder_oak_planks.json
+  assets/silly_willy_core/blockstates/wonder_oak_pressure_plate.json
+  assets/silly_willy_core/blockstates/wonder_oak_slab.json
+  assets/silly_willy_core/blockstates/wonder_oak_stairs.json
+  assets/silly_willy_core/blockstates/wonder_oak_wood.json
   assets/silly_willy_core/lang/
   assets/silly_willy_core/lang/en_us.json
   assets/silly_willy_core/models/
@@ -189,6 +294,28 @@ Writing Output: C:\Users\crtca\OneDrive\Documents\GitHub\Silly_Willies_Core\buil
   assets/silly_willy_core/models/block/triangulumbricks.json
   assets/silly_willy_core/models/block/triangulumore.json
   assets/silly_willy_core/models/block/triangulumore_deepslate.json
+  assets/silly_willy_core/models/block/wonder_oak_button.json
+  assets/silly_willy_core/models/block/wonder_oak_button_inventory.json
+  assets/silly_willy_core/models/block/wonder_oak_button_pressed.json
+  assets/silly_willy_core/models/block/wonder_oak_fence.json
+  assets/silly_willy_core/models/block/wonder_oak_fence_gate.json
+  assets/silly_willy_core/models/block/wonder_oak_fence_gate_open.json
+  assets/silly_willy_core/models/block/wonder_oak_fence_gate_wall.json
+  assets/silly_willy_core/models/block/wonder_oak_fence_gate_wall_open.json
+  assets/silly_willy_core/models/block/wonder_oak_fence_inventory.json
+  assets/silly_willy_core/models/block/wonder_oak_fence_post.json
+  assets/silly_willy_core/models/block/wonder_oak_leaves.json
+  assets/silly_willy_core/models/block/wonder_oak_log.json
+  assets/silly_willy_core/models/block/wonder_oak_planks.json
+  assets/silly_willy_core/models/block/wonder_oak_pressure_plate.json
+  assets/silly_willy_core/models/block/wonder_oak_pressure_plate_down.json
+  assets/silly_willy_core/models/block/wonder_oak_slab.json
+  assets/silly_willy_core/models/block/wonder_oak_slab_full.json
+  assets/silly_willy_core/models/block/wonder_oak_slab_top.json
+  assets/silly_willy_core/models/block/wonder_oak_stairs.json
+  assets/silly_willy_core/models/block/wonder_oak_stairs_inner.json
+  assets/silly_willy_core/models/block/wonder_oak_stairs_outer.json
+  assets/silly_willy_core/models/block/wonder_oak_wood.json
   assets/silly_willy_core/models/item/
   assets/silly_willy_core/models/item/blockofrawentangulum.json
   assets/silly_willy_core/models/item/blockrawtriangulum.json
@@ -213,6 +340,16 @@ Writing Output: C:\Users\crtca\OneDrive\Documents\GitHub\Silly_Willies_Core\buil
   assets/silly_willy_core/models/item/triangulumbricks.json
   assets/silly_willy_core/models/item/triangulumore.json
   assets/silly_willy_core/models/item/triangulumore_deepslate.json
+  assets/silly_willy_core/models/item/wonder_oak_button.json
+  assets/silly_willy_core/models/item/wonder_oak_fence.json
+  assets/silly_willy_core/models/item/wonder_oak_fence_gate.json
+  assets/silly_willy_core/models/item/wonder_oak_leaves.json
+  assets/silly_willy_core/models/item/wonder_oak_log.json
+  assets/silly_willy_core/models/item/wonder_oak_planks.json
+  assets/silly_willy_core/models/item/wonder_oak_pressure_plate.json
+  assets/silly_willy_core/models/item/wonder_oak_slab.json
+  assets/silly_willy_core/models/item/wonder_oak_stairs.json
+  assets/silly_willy_core/models/item/wonder_oak_wood.json
   assets/silly_willy_core/particles/
   assets/silly_willy_core/particles/liquid_entangulum.json
   assets/silly_willy_core/textures/
@@ -234,6 +371,10 @@ Writing Output: C:\Users\crtca\OneDrive\Documents\GitHub\Silly_Willies_Core\buil
   assets/silly_willy_core/textures/block/triangulum_ore.png
   assets/silly_willy_core/textures/block/triangulum_ore_deepslate.png
   assets/silly_willy_core/textures/block/triangulum_ore_deepslate_side.png
+  assets/silly_willy_core/textures/block/wonder_oak_leaves.png
+  assets/silly_willy_core/textures/block/wonder_oak_log_side.png
+  assets/silly_willy_core/textures/block/wonder_oak_log_top.png
+  assets/silly_willy_core/textures/block/wonder_oak_planks.png
   assets/silly_willy_core/textures/item/
   assets/silly_willy_core/textures/item/bucket_of_melted_entangulum.png
   assets/silly_willy_core/textures/item/dirty_entangulum_dust.png
@@ -256,11 +397,16 @@ Writing Output: C:\Users\crtca\OneDrive\Documents\GitHub\Silly_Willies_Core\buil
   data/minecraft/
   data/minecraft/tags/
   data/minecraft/tags/blocks/
+  data/minecraft/tags/blocks/fences.json
+  data/minecraft/tags/blocks/leaves.json
   data/minecraft/tags/blocks/mineable/
+  data/minecraft/tags/blocks/mineable/axe.json
   data/minecraft/tags/blocks/mineable/pickaxe.json
   data/minecraft/tags/blocks/needs_diamond_tool.json
   data/minecraft/tags/blocks/overworld_carver_replaceables.json
   data/minecraft/tags/blocks/replaceable.json
+  data/minecraft/tags/blocks/slabs.json
+  data/minecraft/tags/blocks/stairs.json
   data/minecraft/tags/items/
   data/minecraft/tags/items/axes.json
   data/minecraft/tags/items/hoes.json
@@ -291,6 +437,16 @@ Writing Output: C:\Users\crtca\OneDrive\Documents\GitHub\Silly_Willies_Core\buil
   data/silly_willy_core/loot_tables/blocks/triangulumbricks.json
   data/silly_willy_core/loot_tables/blocks/triangulumore.json
   data/silly_willy_core/loot_tables/blocks/triangulumore_deepslate.json
+  data/silly_willy_core/loot_tables/blocks/wonder_oak_button.json
+  data/silly_willy_core/loot_tables/blocks/wonder_oak_fence.json
+  data/silly_willy_core/loot_tables/blocks/wonder_oak_fence_gate.json
+  data/silly_willy_core/loot_tables/blocks/wonder_oak_leaves.json
+  data/silly_willy_core/loot_tables/blocks/wonder_oak_log.json
+  data/silly_willy_core/loot_tables/blocks/wonder_oak_planks.json
+  data/silly_willy_core/loot_tables/blocks/wonder_oak_pressure_plate.json
+  data/silly_willy_core/loot_tables/blocks/wonder_oak_slab.json
+  data/silly_willy_core/loot_tables/blocks/wonder_oak_stairs.json
+  data/silly_willy_core/loot_tables/blocks/wonder_oak_wood.json
   data/silly_willy_core/loot_tables/chests/
   data/silly_willy_core/loot_tables/chests/triangulumalter_1.json
   data/silly_willy_core/recipes/
@@ -301,6 +457,16 @@ Writing Output: C:\Users\crtca\OneDrive\Documents\GitHub\Silly_Willies_Core\buil
   data/silly_willy_core/recipes/triangulum_pickaxe_recipe.json
   data/silly_willy_core/recipes/triangulum_shovel_recipe.json
   data/silly_willy_core/recipes/triangulum_sword_recipe.json
+  data/silly_willy_core/recipes/wonder_oak_button_recipe.json
+  data/silly_willy_core/recipes/wonder_oak_fence_gate_recipe.json
+  data/silly_willy_core/recipes/wonder_oak_fence_recipe.json
+  data/silly_willy_core/recipes/wonder_oak_planks_log_recipe.json
+  data/silly_willy_core/recipes/wonder_oak_planks_wood_recipe.json
+  data/silly_willy_core/recipes/wonder_oak_pressure_plate_recipe.json
+  data/silly_willy_core/recipes/wonder_oak_slab_recipe.json
+  data/silly_willy_core/recipes/wonder_oak_stairs_recipe.json
+  data/silly_willy_core/recipes/wonder_oak_stick_recipe.json
+  data/silly_willy_core/recipes/wonder_oak_wood_recipe.json
   data/silly_willy_core/structures/
   data/silly_willy_core/structures/geocube1.nbt
   data/silly_willy_core/structures/geocube2.nbt
@@ -320,14 +486,17 @@ Writing Output: C:\Users\crtca\OneDrive\Documents\GitHub\Silly_Willies_Core\buil
   data/silly_willy_core/worldgen/
   data/silly_willy_core/worldgen/biome/
   data/silly_willy_core/worldgen/biome/geotestinggrounds.json
+  data/silly_willy_core/worldgen/biome/wonder_forest.json
   data/silly_willy_core/worldgen/configured_feature/
   data/silly_willy_core/worldgen/configured_feature/geometriusdown.json
   data/silly_willy_core/worldgen/configured_feature/geometriusup.json
   data/silly_willy_core/worldgen/configured_feature/triangulumore.json
+  data/silly_willy_core/worldgen/configured_feature/wonder_forest_tree.json
   data/silly_willy_core/worldgen/placed_feature/
   data/silly_willy_core/worldgen/placed_feature/geometriusdown.json
   data/silly_willy_core/worldgen/placed_feature/geometriusup.json
   data/silly_willy_core/worldgen/placed_feature/triangulumore.json
+  data/silly_willy_core/worldgen/placed_feature/wonder_forest_tree.json
   data/silly_willy_core/worldgen/structure/
   data/silly_willy_core/worldgen/structure/cubegen.json
   data/silly_willy_core/worldgen/structure/cubegen_2.json
@@ -393,6 +562,16 @@ Writing Output: C:\Users\crtca\OneDrive\Documents\GitHub\Silly_Willies_Core\buil
   io/github/errordude42/sillywillycore/block/TriangulumbricksBlock.class
   io/github/errordude42/sillywillycore/block/TriangulumoreBlock.class
   io/github/errordude42/sillywillycore/block/TriangulumoreDeepslateBlock.class
+  io/github/errordude42/sillywillycore/block/Wonder_oakButtonBlock.class
+  io/github/errordude42/sillywillycore/block/Wonder_oakFenceBlock.class
+  io/github/errordude42/sillywillycore/block/Wonder_oakFenceGateBlock.class
+  io/github/errordude42/sillywillycore/block/Wonder_oakLeavesBlock.class
+  io/github/errordude42/sillywillycore/block/Wonder_oakLogBlock.class
+  io/github/errordude42/sillywillycore/block/Wonder_oakPlanksBlock.class
+  io/github/errordude42/sillywillycore/block/Wonder_oakPressurePlateBlock.class
+  io/github/errordude42/sillywillycore/block/Wonder_oakSlabBlock.class
+  io/github/errordude42/sillywillycore/block/Wonder_oakStairsBlock.class
+  io/github/errordude42/sillywillycore/block/Wonder_oakWoodBlock.class
   io/github/errordude42/sillywillycore/client/
   io/github/errordude42/sillywillycore/client/particle/
   io/github/errordude42/sillywillycore/client/particle/LiquidEntangulumParticle$LiquidEntangulumParticleProvider.class
@@ -443,4 +622,12 @@ Writing Output: C:\Users\crtca\OneDrive\Documents\GitHub\Silly_Willies_Core\buil
   io/github/errordude42/sillywillycore/world/dimension/GeoDimensionDimension$GeoDimensionSpecialEffectsHandler$1.class
   io/github/errordude42/sillywillycore/world/dimension/GeoDimensionDimension$GeoDimensionSpecialEffectsHandler.class
   io/github/errordude42/sillywillycore/world/dimension/GeoDimensionDimension.class
+  io/github/errordude42/sillywillycore/world/features/
+  io/github/errordude42/sillywillycore/world/features/treedecorators/
+  io/github/errordude42/sillywillycore/world/features/treedecorators/WonderForestFruitDecorator$1.class
+  io/github/errordude42/sillywillycore/world/features/treedecorators/WonderForestFruitDecorator.class
+  io/github/errordude42/sillywillycore/world/features/treedecorators/WonderForestLeaveDecorator$1.class
+  io/github/errordude42/sillywillycore/world/features/treedecorators/WonderForestLeaveDecorator.class
+  io/github/errordude42/sillywillycore/world/features/treedecorators/WonderForestTrunkDecorator$1.class
+  io/github/errordude42/sillywillycore/world/features/treedecorators/WonderForestTrunkDecorator.class
   pack.mcmeta

@@ -28,7 +28,7 @@ public class GeometriusdownBlock extends FlowerBlock {
 
 	@Override
 	public boolean mayPlaceOn(BlockState groundState, BlockGetter worldIn, BlockPos pos) {
-		return groundState.is(SillyWillyCoreModBlocks.GEOSTONE.get());
+		return groundState.is(SillyWillyCoreModBlocks.GEOSTONE.get()) || groundState.is(SillyWillyCoreModBlocks.STRUCTURE_TRIANGULUMBRICKS.get());
 	}
 
 	@Override

@@ -1,7 +1,7 @@
-Java Launcher: C:\Users\toast\.mcreator\gradle\jdks\eclipse_adoptium-17-amd64-windows\jdk-17.0.13+11\bin\java.exe
-Arguments: '--inJar, C:\Users\toast\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.3.0\forge-1.20.1-47.3.0-injected.jar, --outJar, C:\Users\toast\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.3.0_mapped_official_1.20.1\forge-1.20.1-47.3.0_mapped_official_1.20.1.jar, --logFile, accesstransform.log, --atFile, D:\cool stuff\CALL OF DODO\Silly_Willies_Core\build\_atJar_4\parent_at.cfg'
+Java Launcher: C:\Users\crtca\.mcreator\gradle\jdks\eclipse_adoptium-17-amd64-windows\jdk-17.0.13+11\bin\java.exe
+Arguments: '--inJar, C:\Users\crtca\OneDrive\Documents\GitHub\Silly_Willies_Core\build\fg_cache\net\minecraftforge\forge\1.20.1-47.3.0\forge-1.20.1-47.3.0-injected.jar, --outJar, C:\Users\crtca\OneDrive\Documents\GitHub\Silly_Willies_Core\build\fg_cache\net\minecraftforge\forge\1.20.1-47.3.0_mapped_official_1.20.1\forge-1.20.1-47.3.0_mapped_official_1.20.1.jar, --logFile, accesstransform.log, --atFile, C:\Users\crtca\OneDrive\Documents\GitHub\Silly_Willies_Core\src\main\resources\META-INF\accesstransformer.cfg, --atFile, C:\Users\crtca\OneDrive\Documents\GitHub\Silly_Willies_Core\build\_atJar_4\parent_at.cfg'
 Classpath:
- - C:\Users\toast\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.2.0\accesstransformers-8.2.0-fatjar.jar
-Working directory: D:\cool stuff\CALL OF DODO\Silly_Willies_Core\build\_atJar_4
+ - C:\Users\crtca\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.2.0\accesstransformers-8.2.0-fatjar.jar
+Working directory: C:\Users\crtca\OneDrive\Documents\GitHub\Silly_Willies_Core\build\_atJar_4
 Main class: net.minecraftforge.accesstransformer.TransformerProcessor
 ====================================

@@ -795,6 +795,336 @@
         ]
       },
       "path": "~/Geo_Dimension/World gen/Plants"
+    },
+    {
+      "name": "Wonder_oakWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wonder_oak_wood",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/errordude42/sillywillycore/block/Wonder_oakWoodBlock.java",
+          "src/main/resources/data/silly_willy_core/loot_tables/blocks/wonder_oak_wood.json",
+          "src/main/resources/assets/silly_willy_core/models/item/wonder_oak_wood.json",
+          "src/main/resources/assets/silly_willy_core/blockstates/wonder_oak_wood.json",
+          "src/main/resources/assets/silly_willy_core/models/block/wonder_oak_wood.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Blocks/Wonder Oak"
+    },
+    {
+      "name": "Wonder_oakLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wonder_oak_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/loot_tables/blocks/wonder_oak_log.json",
+          "src/main/resources/assets/silly_willy_core/models/item/wonder_oak_log.json",
+          "src/main/resources/assets/silly_willy_core/blockstates/wonder_oak_log.json",
+          "src/main/java/io/github/errordude42/sillywillycore/block/Wonder_oakLogBlock.java",
+          "src/main/resources/assets/silly_willy_core/models/block/wonder_oak_log.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Blocks/Wonder Oak"
+    },
+    {
+      "name": "Wonder_oakPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wonder_oak_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/errordude42/sillywillycore/block/Wonder_oakPlanksBlock.java",
+          "src/main/resources/data/silly_willy_core/loot_tables/blocks/wonder_oak_planks.json",
+          "src/main/resources/assets/silly_willy_core/models/item/wonder_oak_planks.json",
+          "src/main/resources/assets/silly_willy_core/blockstates/wonder_oak_planks.json",
+          "src/main/resources/assets/silly_willy_core/models/block/wonder_oak_planks.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Blocks/Wonder Oak"
+    },
+    {
+      "name": "Wonder_oakLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wonder_oak_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/silly_willy_core/models/item/wonder_oak_leaves.json",
+          "src/main/resources/data/silly_willy_core/loot_tables/blocks/wonder_oak_leaves.json",
+          "src/main/java/io/github/errordude42/sillywillycore/block/Wonder_oakLeavesBlock.java",
+          "src/main/resources/assets/silly_willy_core/blockstates/wonder_oak_leaves.json",
+          "src/main/resources/assets/silly_willy_core/models/block/wonder_oak_leaves.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Blocks/Wonder Oak"
+    },
+    {
+      "name": "Wonder_oakStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wonder_oak_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/errordude42/sillywillycore/block/Wonder_oakStairsBlock.java",
+          "src/main/resources/data/silly_willy_core/loot_tables/blocks/wonder_oak_stairs.json",
+          "src/main/resources/assets/silly_willy_core/models/item/wonder_oak_stairs.json",
+          "src/main/resources/assets/silly_willy_core/models/block/wonder_oak_stairs_outer.json",
+          "src/main/resources/assets/silly_willy_core/models/block/wonder_oak_stairs.json",
+          "src/main/resources/assets/silly_willy_core/blockstates/wonder_oak_stairs.json",
+          "src/main/resources/assets/silly_willy_core/models/block/wonder_oak_stairs_inner.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Blocks/Wonder Oak"
+    },
+    {
+      "name": "Wonder_oakSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wonder_oak_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/errordude42/sillywillycore/block/Wonder_oakSlabBlock.java",
+          "src/main/resources/assets/silly_willy_core/models/block/wonder_oak_slab_top.json",
+          "src/main/resources/assets/silly_willy_core/models/item/wonder_oak_slab.json",
+          "src/main/resources/assets/silly_willy_core/blockstates/wonder_oak_slab.json",
+          "src/main/resources/assets/silly_willy_core/models/block/wonder_oak_slab.json",
+          "src/main/resources/data/silly_willy_core/loot_tables/blocks/wonder_oak_slab.json",
+          "src/main/resources/assets/silly_willy_core/models/block/wonder_oak_slab_full.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Blocks/Wonder Oak"
+    },
+    {
+      "name": "Wonder_oakFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wonder_oak_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/silly_willy_core/models/block/wonder_oak_fence.json",
+          "src/main/resources/assets/silly_willy_core/models/block/wonder_oak_fence_inventory.json",
+          "src/main/java/io/github/errordude42/sillywillycore/block/Wonder_oakFenceBlock.java",
+          "src/main/resources/assets/silly_willy_core/models/item/wonder_oak_fence.json",
+          "src/main/resources/assets/silly_willy_core/models/block/wonder_oak_fence_post.json",
+          "src/main/resources/data/silly_willy_core/loot_tables/blocks/wonder_oak_fence.json",
+          "src/main/resources/assets/silly_willy_core/blockstates/wonder_oak_fence.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Blocks/Wonder Oak"
+    },
+    {
+      "name": "Wonder_oakFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wonder_oak_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/silly_willy_core/blockstates/wonder_oak_fence_gate.json",
+          "src/main/resources/assets/silly_willy_core/models/block/wonder_oak_fence_gate_open.json",
+          "src/main/resources/assets/silly_willy_core/models/item/wonder_oak_fence_gate.json",
+          "src/main/resources/assets/silly_willy_core/models/block/wonder_oak_fence_gate.json",
+          "src/main/resources/assets/silly_willy_core/models/block/wonder_oak_fence_gate_wall.json",
+          "src/main/resources/data/silly_willy_core/loot_tables/blocks/wonder_oak_fence_gate.json",
+          "src/main/java/io/github/errordude42/sillywillycore/block/Wonder_oakFenceGateBlock.java",
+          "src/main/resources/assets/silly_willy_core/models/block/wonder_oak_fence_gate_wall_open.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Blocks/Wonder Oak"
+    },
+    {
+      "name": "Wonder_oakPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wonder_oak_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/errordude42/sillywillycore/block/Wonder_oakPressurePlateBlock.java",
+          "src/main/resources/assets/silly_willy_core/models/item/wonder_oak_pressure_plate.json",
+          "src/main/resources/assets/silly_willy_core/blockstates/wonder_oak_pressure_plate.json",
+          "src/main/resources/assets/silly_willy_core/models/block/wonder_oak_pressure_plate.json",
+          "src/main/resources/data/silly_willy_core/loot_tables/blocks/wonder_oak_pressure_plate.json",
+          "src/main/resources/assets/silly_willy_core/models/block/wonder_oak_pressure_plate_down.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Blocks/Wonder Oak"
+    },
+    {
+      "name": "Wonder_oakButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wonder_oak_button",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/errordude42/sillywillycore/block/Wonder_oakButtonBlock.java",
+          "src/main/resources/data/silly_willy_core/loot_tables/blocks/wonder_oak_button.json",
+          "src/main/resources/assets/silly_willy_core/models/item/wonder_oak_button.json",
+          "src/main/resources/assets/silly_willy_core/models/block/wonder_oak_button_pressed.json",
+          "src/main/resources/assets/silly_willy_core/models/block/wonder_oak_button.json",
+          "src/main/resources/assets/silly_willy_core/models/block/wonder_oak_button_inventory.json",
+          "src/main/resources/assets/silly_willy_core/blockstates/wonder_oak_button.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Blocks/Wonder Oak"
+    },
+    {
+      "name": "Wonder_oakWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wonder_oak_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/recipes/wonder_oak_wood_recipe.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Recipes/Wonder Oak"
+    },
+    {
+      "name": "Wonder_oakPlanksLogRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wonder_oak_planks_log_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/recipes/wonder_oak_planks_log_recipe.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Recipes/Wonder Oak"
+    },
+    {
+      "name": "Wonder_oakPlanksWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wonder_oak_planks_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/recipes/wonder_oak_planks_wood_recipe.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Recipes/Wonder Oak"
+    },
+    {
+      "name": "Wonder_oakStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wonder_oak_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/recipes/wonder_oak_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Recipes/Wonder Oak"
+    },
+    {
+      "name": "Wonder_oakSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wonder_oak_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/recipes/wonder_oak_slab_recipe.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Recipes/Wonder Oak"
+    },
+    {
+      "name": "Wonder_oakFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wonder_oak_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/recipes/wonder_oak_fence_recipe.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Recipes/Wonder Oak"
+    },
+    {
+      "name": "Wonder_oakFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wonder_oak_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/recipes/wonder_oak_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Recipes/Wonder Oak"
+    },
+    {
+      "name": "Wonder_oakPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wonder_oak_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/recipes/wonder_oak_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Recipes/Wonder Oak"
+    },
+    {
+      "name": "Wonder_oakButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wonder_oak_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/recipes/wonder_oak_button_recipe.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Recipes/Wonder Oak"
+    },
+    {
+      "name": "Wonder_oakStickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wonder_oak_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/recipes/wonder_oak_stick_recipe.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Recipes/Wonder Oak"
+    },
+    {
+      "name": "WonderForest",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wonder_forest",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/errordude42/sillywillycore/world/features/treedecorators/WonderForestFruitDecorator.java",
+          "src/main/resources/data/silly_willy_core/worldgen/biome/wonder_forest.json",
+          "src/main/resources/data/silly_willy_core/worldgen/placed_feature/wonder_forest_tree.json",
+          "src/main/java/io/github/errordude42/sillywillycore/world/features/treedecorators/WonderForestTrunkDecorator.java",
+          "src/main/resources/data/silly_willy_core/worldgen/configured_feature/wonder_forest_tree.json",
+          "src/main/java/io/github/errordude42/sillywillycore/world/features/treedecorators/WonderForestLeaveDecorator.java"
+        ]
+      },
+      "path": "~/Geo_Dimension/World gen/Biomes"
     }
   ],
   "variable_elements": [
@@ -820,40 +1150,61 @@
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:MeltedEntangulumFluid"
     ],
-    "BLOCKS:minecraft:mineable/pickaxe": [
-      "~CUSTOM:TriangulumoreDeepslate",
-      "~CUSTOM:Triangulumore"
-    ],
     "ITEMS:minecraft:pickaxes": [
       "~CUSTOM:TriangulumPickaxe"
-    ],
-    "ITEMS:minecraft:axes": [
-      "~CUSTOM:TriangulumAxe"
-    ],
-    "ITEMS:minecraft:swords": [
-      "~CUSTOM:TriangulumSword"
     ],
     "ITEMS:minecraft:hoes": [
       "~CUSTOM:TriangulumHoe"
     ],
-    "ITEMS:minecraft:shovels": [
-      "~CUSTOM:TriangulumShovel"
-    ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
       "~Blocks.VOID_AIR",
       "~CUSTOM:Geostone"
+    ],
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:Wonder_oakLeaves"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:TriangulumoreDeepslate",
+      "~CUSTOM:Triangulumore"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:Wonder_oakPlanks",
+      "~CUSTOM:Wonder_oakLog",
+      "~CUSTOM:Wonder_oakWood"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:Wonder_oakSlab"
+    ],
+    "BLOCKS:minecraft:fences": [
+      "~CUSTOM:Wonder_oakFence"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:TriangulumAxe"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:Wonder_oakStairs"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:TriangulumSword"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:TriangulumShovel"
     ]
   },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
       "item_group.silly_willy_core.geometery_dimension_beta": "Geometery Dimension Beta",
+      "block.silly_willy_core.wonder_oak_stairs": "Wonder_oak Stairs",
       "biome.silly_willy_core.geotestinggrounds": "Testing Grounds",
       "item.silly_willy_core.triangulum_shovel": "Triangulum Shovel",
+      "biome.silly_willy_core.wonder_forest": "Wonder Forest",
       "block.silly_willy_core.blockofrawentangulum": "Block of Raw Entangulum",
       "item.silly_willy_core.triangulum_hoe": "Triangulum Hoe",
       "block.silly_willy_core.entangulumore": "Entangulum Ore",
       "item.silly_willy_core.raw_entangulum": "Raw Entangulum",
+      "block.silly_willy_core.wonder_oak_fence_gate": "Wonder_oak Fence Gate",
+      "block.silly_willy_core.wonder_oak_wood": "Wonder_oak Wood",
       "block.silly_willy_core.geostone": "Geostone",
       "item_group.silly_willy_core.structureblocks": "Structure Blocks",
       "item.silly_willy_core.entangulumplate": "Entangulum Plate",
@@ -861,16 +1212,23 @@
       "item.silly_willy_core.raw_triangulum": "Raw Triangulum",
       "advancements.get_raw_triangulum.descr": "Get Raw Triangulum",
       "block.silly_willy_core.structure_triangulumbricks": "Structure Triangulum Bricks",
+      "block.silly_willy_core.wonder_oak_fence": "Wonder_oak Fence",
+      "block.silly_willy_core.wonder_oak_log": "Wonder_oak Log",
       "block.silly_willy_core.triangulumore": "Triangulum Ore",
       "fluid.silly_willy_core.melted_entangulum_fluid": "Melted Entangulum Fluid",
       "item.silly_willy_core.melted_entangulum_fluid_bucket": "Bucket of Melted Entangulum",
+      "block.silly_willy_core.wonder_oak_slab": "Wonder_oak Slab",
+      "block.silly_willy_core.wonder_oak_pressure_plate": "Wonder_oak Pressure Plate",
+      "block.silly_willy_core.wonder_oak_planks": "Wonder_oak Planks",
       "item.silly_willy_core.triangulum_sword": "Triangulum Sword",
       "item.silly_willy_core.triangulum_pickaxe": "Triangulum Pickaxe",
+      "block.silly_willy_core.wonder_oak_button": "Wonder_oak Button",
       "advancements.get_raw_triangulum.title": "That\u0027s not a square",
       "block.silly_willy_core.triangulumore_deepslate": "Triangulum Ore Deepslate",
       "item.silly_willy_core.dirtyentangulum": "Dirty Entangulum Dust ",
       "block.silly_willy_core.triangulumbricks": "Triangulumbricks",
       "item.silly_willy_core.refined_triangulum": "Refined Triangulum",
+      "block.silly_willy_core.wonder_oak_leaves": "Wonder_oak Leaves",
       "block.silly_willy_core.geometriusup": "Geometrius Vari. Up ",
       "item.silly_willy_core.entangulumdust": "Entangulum Dust",
       "item.silly_willy_core.triangulum_axe": "Triangulum Axe",
@@ -904,7 +1262,12 @@
           },
           {
             "name": "Blocks",
-            "children": []
+            "children": [
+              {
+                "name": "Wonder Oak",
+                "children": []
+              }
+            ]
           },
           {
             "name": "Loot Tables",
@@ -919,6 +1282,10 @@
               },
               {
                 "name": "Blocks",
+                "children": []
+              },
+              {
+                "name": "Wonder Oak",
                 "children": []
               }
             ]
@@ -989,7 +1356,7 @@
   "workspaceSettings": {
     "modid": "silly_willy_core",
     "modName": "Silly Willy Core",
-    "version": "0.0.4b",
+    "version": "0.0.5",
     "description": "This is the Core mod for the Silly Willies mc Server",
     "author": "Crit (J.V), Zomagon, P",
     "websiteURL": "https://modrinth.com/organization/silly-willies",

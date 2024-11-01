@@ -52,6 +52,16 @@ public class SillyWillyCoreModItems {
 	public static final RegistryObject<Item> STRUCTURE_TRIANGULUMBRICKS = block(SillyWillyCoreModBlocks.STRUCTURE_TRIANGULUMBRICKS);
 	public static final RegistryObject<Item> GEOMETRIUSDOWN = block(SillyWillyCoreModBlocks.GEOMETRIUSDOWN);
 	public static final RegistryObject<Item> GEOMETRIUSUP = block(SillyWillyCoreModBlocks.GEOMETRIUSUP);
+	public static final RegistryObject<Item> WONDER_OAK_WOOD = block(SillyWillyCoreModBlocks.WONDER_OAK_WOOD);
+	public static final RegistryObject<Item> WONDER_OAK_LOG = block(SillyWillyCoreModBlocks.WONDER_OAK_LOG);
+	public static final RegistryObject<Item> WONDER_OAK_PLANKS = block(SillyWillyCoreModBlocks.WONDER_OAK_PLANKS);
+	public static final RegistryObject<Item> WONDER_OAK_LEAVES = block(SillyWillyCoreModBlocks.WONDER_OAK_LEAVES);
+	public static final RegistryObject<Item> WONDER_OAK_STAIRS = block(SillyWillyCoreModBlocks.WONDER_OAK_STAIRS);
+	public static final RegistryObject<Item> WONDER_OAK_SLAB = block(SillyWillyCoreModBlocks.WONDER_OAK_SLAB);
+	public static final RegistryObject<Item> WONDER_OAK_FENCE = block(SillyWillyCoreModBlocks.WONDER_OAK_FENCE);
+	public static final RegistryObject<Item> WONDER_OAK_FENCE_GATE = block(SillyWillyCoreModBlocks.WONDER_OAK_FENCE_GATE);
+	public static final RegistryObject<Item> WONDER_OAK_PRESSURE_PLATE = block(SillyWillyCoreModBlocks.WONDER_OAK_PRESSURE_PLATE);
+	public static final RegistryObject<Item> WONDER_OAK_BUTTON = block(SillyWillyCoreModBlocks.WONDER_OAK_BUTTON);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_slab",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "silly_willy_core:wonder_oak_planks"
+    }
+  },
+  "result": {
+    "item": "silly_willy_core:wonder_oak_slab",
+    "count": 6
+  }
+}

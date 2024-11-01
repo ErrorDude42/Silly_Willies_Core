@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "silly_willy_core:block/wonder_oak_planks",
+    "particle": "silly_willy_core:block/wonder_oak_planks"
+  },
+  "render_type": "solid"
+}

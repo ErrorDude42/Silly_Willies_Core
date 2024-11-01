@@ -64,6 +64,15 @@ public class SillyWillyCoreModTabs {
 			tabData.accept(SillyWillyCoreModBlocks.BLOCKOFRAWENTANGULUM.get().asItem());
 			tabData.accept(SillyWillyCoreModBlocks.TRIANGULUMBRICKS.get().asItem());
 			tabData.accept(SillyWillyCoreModBlocks.GEOSTONE.get().asItem());
+			tabData.accept(SillyWillyCoreModBlocks.WONDER_OAK_WOOD.get().asItem());
+			tabData.accept(SillyWillyCoreModBlocks.WONDER_OAK_LOG.get().asItem());
+			tabData.accept(SillyWillyCoreModBlocks.WONDER_OAK_PLANKS.get().asItem());
+			tabData.accept(SillyWillyCoreModBlocks.WONDER_OAK_STAIRS.get().asItem());
+			tabData.accept(SillyWillyCoreModBlocks.WONDER_OAK_SLAB.get().asItem());
+			tabData.accept(SillyWillyCoreModBlocks.WONDER_OAK_FENCE.get().asItem());
+			tabData.accept(SillyWillyCoreModBlocks.WONDER_OAK_FENCE_GATE.get().asItem());
+			tabData.accept(SillyWillyCoreModBlocks.WONDER_OAK_PRESSURE_PLATE.get().asItem());
+			tabData.accept(SillyWillyCoreModBlocks.WONDER_OAK_BUTTON.get().asItem());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 
@@ -83,6 +92,7 @@ public class SillyWillyCoreModTabs {
 			tabData.accept(SillyWillyCoreModBlocks.ENTANGULUMORE.get().asItem());
 			tabData.accept(SillyWillyCoreModBlocks.GEOMETRIUSDOWN.get().asItem());
 			tabData.accept(SillyWillyCoreModBlocks.GEOMETRIUSUP.get().asItem());
+			tabData.accept(SillyWillyCoreModBlocks.WONDER_OAK_LEAVES.get().asItem());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 

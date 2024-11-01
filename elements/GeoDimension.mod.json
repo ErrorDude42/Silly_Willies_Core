@@ -5,6 +5,9 @@
     "biomesInDimension": [
       {
         "value": "CUSTOM:Geotestinggrounds"
+      },
+      {
+        "value": "CUSTOM:WonderForest"
       }
     ],
     "worldGenType": "End like gen",
