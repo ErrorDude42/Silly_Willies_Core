@@ -13,7 +13,7 @@
               1
             ],
             "humidity": [
-              -1,
+              -0.5,
               1
             ],
             "continentalness": [
@@ -40,11 +40,11 @@
               1
             ],
             "humidity": [
-              -0.5,
-              0.5
+              -1,
+              1
             ],
             "continentalness": [
-              0.3,
+              0.25,
               1
             ],
             "weirdness": [
