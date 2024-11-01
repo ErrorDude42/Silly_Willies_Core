@@ -35,7 +35,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Wonder_oak Leaves",
+    "name": "Wonder Oak Leaves",
     "specialInformation": {
       "fixedValue": []
     },
@@ -46,6 +46,9 @@
     "creativeTabs": [
       {
         "value": "DECORATIONS"
+      },
+      {
+        "value": "CUSTOM:GeometeryDimensionBeta"
       }
     ],
     "destroyTool": "Not specified",

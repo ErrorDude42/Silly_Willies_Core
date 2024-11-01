@@ -20,6 +20,7 @@ import io.github.errordude42.sillywillycore.block.Wonder_oakLeavesBlock;
 import io.github.errordude42.sillywillycore.block.Wonder_oakFenceGateBlock;
 import io.github.errordude42.sillywillycore.block.Wonder_oakFenceBlock;
 import io.github.errordude42.sillywillycore.block.Wonder_oakButtonBlock;
+import io.github.errordude42.sillywillycore.block.WonderSaplingBlock;
 import io.github.errordude42.sillywillycore.block.TriangulumoreDeepslateBlock;
 import io.github.errordude42.sillywillycore.block.TriangulumoreBlock;
 import io.github.errordude42.sillywillycore.block.TriangulumbricksBlock;
@@ -56,6 +57,7 @@ public class SillyWillyCoreModBlocks {
 	public static final RegistryObject<Block> WONDER_OAK_FENCE_GATE = REGISTRY.register("wonder_oak_fence_gate", () -> new Wonder_oakFenceGateBlock());
 	public static final RegistryObject<Block> WONDER_OAK_PRESSURE_PLATE = REGISTRY.register("wonder_oak_pressure_plate", () -> new Wonder_oakPressurePlateBlock());
 	public static final RegistryObject<Block> WONDER_OAK_BUTTON = REGISTRY.register("wonder_oak_button", () -> new Wonder_oakButtonBlock());
+	public static final RegistryObject<Block> WONDER_SAPLING = REGISTRY.register("wonder_sapling", () -> new WonderSaplingBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

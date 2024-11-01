@@ -1,6 +1,6 @@
 {
   "has_precipitation": false,
-  "temperature": 0.5,
+  "temperature": 1,
   "downfall": 0,
   "effects": {
     "foliage_color": -13421824,
@@ -21,18 +21,10 @@
     "misc": []
   },
   "spawn_costs": {},
-  "carvers": {
-    "air": [
-      "minecraft:cave",
-      "minecraft:cave_extra_underground",
-      "minecraft:canyon"
-    ]
-  },
+  "carvers": {},
   "features": [
     [],
-    [
-      "minecraft:lake_lava_underground"
-    ],
+    [],
     [],
     [],
     [],

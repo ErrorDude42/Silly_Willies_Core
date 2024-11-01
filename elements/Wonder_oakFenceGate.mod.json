@@ -35,7 +35,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Wonder_oak Fence Gate",
+    "name": "Wonder Oak Fence Gate",
     "specialInformation": {
       "fixedValue": []
     },
@@ -46,6 +46,9 @@
     "creativeTabs": [
       {
         "value": "BUILDING_BLOCKS"
+      },
+      {
+        "value": "CUSTOM:GeometeryDimensionBeta"
       }
     ],
     "destroyTool": "Not specified",

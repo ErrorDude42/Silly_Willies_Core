@@ -62,6 +62,7 @@ public class SillyWillyCoreModItems {
 	public static final RegistryObject<Item> WONDER_OAK_FENCE_GATE = block(SillyWillyCoreModBlocks.WONDER_OAK_FENCE_GATE);
 	public static final RegistryObject<Item> WONDER_OAK_PRESSURE_PLATE = block(SillyWillyCoreModBlocks.WONDER_OAK_PRESSURE_PLATE);
 	public static final RegistryObject<Item> WONDER_OAK_BUTTON = block(SillyWillyCoreModBlocks.WONDER_OAK_BUTTON);
+	public static final RegistryObject<Item> WONDER_SAPLING = block(SillyWillyCoreModBlocks.WONDER_SAPLING);
 
 	// Start of user code block custom items
 	// End of user code block custom items

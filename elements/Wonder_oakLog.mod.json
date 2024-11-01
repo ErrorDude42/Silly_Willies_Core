@@ -34,7 +34,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Wonder_oak Log",
+    "name": "Wonder Oak Log",
     "specialInformation": {
       "fixedValue": []
     },
@@ -45,6 +45,9 @@
     "creativeTabs": [
       {
         "value": "BUILDING_BLOCKS"
+      },
+      {
+        "value": "CUSTOM:GeometeryDimensionBeta"
       }
     ],
     "destroyTool": "axe",

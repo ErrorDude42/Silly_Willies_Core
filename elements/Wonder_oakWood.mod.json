@@ -34,7 +34,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Wonder_oak Wood",
+    "name": "Wonder Oak Wood",
     "specialInformation": {
       "fixedValue": []
     },
@@ -45,6 +45,9 @@
     "creativeTabs": [
       {
         "value": "BUILDING_BLOCKS"
+      },
+      {
+        "value": "CUSTOM:GeometeryDimensionBeta"
       }
     ],
     "destroyTool": "axe",
