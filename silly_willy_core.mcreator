@@ -1236,7 +1236,9 @@
       "~CUSTOM:Geostone"
     ],
     "BIOMES:minecraft:is_overworld": [],
-    "BLOCKS:minecraft:logs": [],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:Wonder_oakLog"
+    ],
     "ITEMS:silly_willy_core:geometrius_interchange": [
       "CUSTOM:Geometriusdown",
       "CUSTOM:Geometriusup"
