@@ -1150,7 +1150,7 @@
           }
         ]
       },
-      "path": "~/Geo_Dimension/Blocks/Wonder Oak"
+      "path": "~/Geo_Dimension/Blocks/Wonder Oak/Tree gen functions"
     },
     {
       "name": "WonderTree1",
@@ -1227,6 +1227,7 @@
           }
         ]
       },
+<<<<<<< Updated upstream
       "path": "~/Geo_Dimension/Blocks/Wonder Oak"
     },
     {
@@ -1273,6 +1274,39 @@
         ]
       },
       "path": "~/Dreamscape_Dimension/blocks"
+=======
+      "path": "~/Geo_Dimension/Blocks/Wonder Oak/Tree gen functions"
+    },
+    {
+      "name": "WonderTree2",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wonder_tree_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/worldgen/structure_set/wonder_tree_2.json",
+          "src/main/resources/data/silly_willy_core/worldgen/template_pool/wonder_tree_2.json",
+          "src/main/resources/data/silly_willy_core/worldgen/structure/wonder_tree_2.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/World gen/Structures/Wonder Tree spawns"
+    },
+    {
+      "name": "WonderTree3",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wonder_tree_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/worldgen/structure/wonder_tree_3.json",
+          "src/main/resources/data/silly_willy_core/worldgen/structure_set/wonder_tree_3.json",
+          "src/main/resources/data/silly_willy_core/worldgen/template_pool/wonder_tree_3.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/World gen/Structures/Wonder Tree spawns"
+>>>>>>> Stashed changes
     }
   ],
   "variable_elements": [

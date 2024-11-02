@@ -2,7 +2,7 @@
   "_fv": 69,
   "_type": "structure",
   "definition": {
-    "structure": "wondertree1",
+    "structure": "wondertree2",
     "projection": "rigid",
     "ignoredBlocks": [
       {
@@ -12,11 +12,11 @@
         "value": "Blocks.AIR"
       }
     ],
-    "spacing": 5,
-    "separation": 3,
+    "spacing": 3,
+    "separation": 2,
     "restrictionBiomes": [
       {
-        "value": "CUSTOM:WonderForest"
+        "value": "CUSTOM:Geotestinggrounds"
       }
     ],
     "terrainAdaptation": "none",
