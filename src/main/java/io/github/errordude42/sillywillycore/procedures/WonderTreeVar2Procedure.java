@@ -36,12 +36,12 @@ public class WonderTreeVar2Procedure {
 		double sizeZ = 0;
 		if (!world.isClientSide()) {
 			customSappling = SillyWillyCoreModBlocks.WONDER_OAK_SAPLING.get().defaultBlockState();
-			airTag = "custom_trees:sapling/placeables";
+			airTag = "silly_willy_core:saplingplaceables";
 			structureOffsetX = 0;
 			structureOffsetY = 0;
 			structureOffsetZ = 0;
 			conditionOffsetX = 0;
-			conditionOffsetZ = 0;
+			conditionOffsetZ = -6;
 			sizeX = 5;
 			sizeY = 11;
 			sizeZ = 9;
