@@ -1161,8 +1161,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/silly_willy_core/worldgen/structure/wonder_tree_1.json",
-          "src/main/resources/data/silly_willy_core/worldgen/template_pool/wonder_tree_1.json",
-          "src/main/resources/data/silly_willy_core/worldgen/structure_set/wonder_tree_1.json"
+          "src/main/resources/data/silly_willy_core/worldgen/structure_set/wonder_tree_1.json",
+          "src/main/resources/data/silly_willy_core/worldgen/template_pool/wonder_tree_1.json"
         ]
       },
       "path": "~/Geo_Dimension/World gen/Structures/Wonder Tree spawns"
@@ -1198,14 +1198,15 @@
       "path": "~/Geo_Dimension/Blocks/Wonder Oak"
     },
     {
-      "name": "WonderOakSaplingOnTickUpdate",
+      "name": "WonderOakSaplingBlockValidPlacementCondition",
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "wonder_oak_sapling_on_tick_update",
+      "registry_name": "wonder_oak_sapling_block_valid_placement_condition",
       "metadata": {
+        "return_type": "logic",
         "files": [
-          "src/main/java/io/github/errordude42/sillywillycore/procedures/WonderOakSaplingOnTickUpdateProcedure.java"
+          "src/main/java/io/github/errordude42/sillywillycore/procedures/WonderOakSaplingBlockValidPlacementConditionProcedure.java"
         ],
         "dependencies": [
           {
@@ -1229,35 +1230,49 @@
       "path": "~/Geo_Dimension/Blocks/Wonder Oak"
     },
     {
-      "name": "WonderOakSaplingBlockAdded",
-      "type": "procedure",
+      "name": "Quakingaspen",
+      "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "wonder_oak_sapling_block_added",
+      "registry_name": "quakingaspen",
       "metadata": {
         "files": [
-          "src/main/java/io/github/errordude42/sillywillycore/procedures/WonderOakSaplingBlockAddedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
+          "src/main/resources/assets/silly_willy_core/models/item/quakingaspen.json",
+          "src/main/java/io/github/errordude42/sillywillycore/block/QuakingaspenBlock.java",
+          "src/main/resources/data/silly_willy_core/loot_tables/blocks/quakingaspen.json",
+          "src/main/resources/assets/silly_willy_core/models/block/quakingaspen.json",
+          "src/main/resources/assets/silly_willy_core/blockstates/quakingaspen.json"
         ]
       },
-      "path": "~/Geo_Dimension/Blocks/Wonder Oak/Tree gen functions"
+      "path": "~/Dreamscape_Dimension/blocks"
+    },
+    {
+      "name": "Dreamscape",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreamscape",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Dreamscape_Dimension"
+    },
+    {
+      "name": "Lavendarflower",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavendarflower",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/errordude42/sillywillycore/block/LavendarflowerBlock.java",
+          "src/main/resources/assets/silly_willy_core/blockstates/lavendarflower.json",
+          "src/main/resources/assets/silly_willy_core/models/block/lavendarflower.json",
+          "src/main/resources/assets/silly_willy_core/models/item/lavendarflower.json",
+          "src/main/resources/data/silly_willy_core/loot_tables/blocks/lavendarflower.json"
+        ]
+      },
+      "path": "~/Dreamscape_Dimension/blocks"
     }
   ],
   "variable_elements": [
@@ -1305,13 +1320,25 @@
       "CUSTOM:Geometriusdown",
       "CUSTOM:Geometriusup"
     ],
+    "BLOCKS:silly_willy_core:saplingliquid": [
+      "Blocks.FLOWING_WATER",
+      "Blocks.WATER",
+      "Blocks.BUBBLE_COLUMN",
+      "Blocks.FLOWING_LAVA",
+      "Blocks.LAVA",
+      "CUSTOM:MeltedEntangulumFluid"
+    ],
     "BLOCKS:minecraft:leaves": [
       "~CUSTOM:Wonder_oakLeaves"
     ],
     "BLOCKS:minecraft:dirt": [],
+    "ITEMS:silly_willy_core:geo_floor": [
+      "CUSTOM:Geostone"
+    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:TriangulumoreDeepslate",
-      "~CUSTOM:Triangulumore"
+      "~CUSTOM:Triangulumore",
+      "CUSTOM:Geostone"
     ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:Wonder_oakPlanks",
@@ -1390,6 +1417,7 @@
       "block.silly_willy_core.geostone": "Geostone",
       "item_group.silly_willy_core.structureblocks": "Structure Blocks",
       "item.silly_willy_core.entangulumplate": "Entangulum Plate",
+      "item_group.silly_willy_core.dreamscape": "Dreamscape",
       "block.silly_willy_core.blockrawtriangulum": "Block of Raw Triangulum",
       "item.silly_willy_core.raw_triangulum": "Raw Triangulum",
       "advancements.get_raw_triangulum.descr": "Get Raw Triangulum",
@@ -1409,11 +1437,13 @@
       "advancements.get_raw_triangulum.title": "That\u0027s not a square",
       "block.silly_willy_core.triangulumore_deepslate": "Triangulum Ore Deepslate",
       "item.silly_willy_core.dirtyentangulum": "Dirty Entangulum Dust ",
+      "block.silly_willy_core.quakingaspen": "Quakingaspen",
       "block.silly_willy_core.triangulumbricks": "Triangulumbricks",
       "item.silly_willy_core.refined_triangulum": "Refined Triangulum",
       "block.silly_willy_core.wonder_oak_leaves": "Wonder Oak Leaves",
       "block.silly_willy_core.geometriusup": "Geometrius Vari. Up ",
       "item.silly_willy_core.entangulumdust": "Entangulum Dust",
+      "block.silly_willy_core.lavendarflower": "Lavendarflower",
       "item.silly_willy_core.triangulum_axe": "Triangulum Axe",
       "block.silly_willy_core.geometriusdown": "Geometrius Vari. Down",
       "block.silly_willy_core.melted_entangulum_fluid": "Melted Entangulum Fluid",
@@ -1546,6 +1576,27 @@
       {
         "name": "Testing",
         "children": []
+      },
+      {
+        "name": "Dreamscape_Dimension",
+        "children": [
+          {
+            "name": "item",
+            "children": []
+          },
+          {
+            "name": "blocks",
+            "children": []
+          },
+          {
+            "name": "worldGen",
+            "children": []
+          },
+          {
+            "name": "Dimension",
+            "children": []
+          }
+        ]
       }
     ]
   },

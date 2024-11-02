@@ -25,7 +25,9 @@ import io.github.errordude42.sillywillycore.block.TriangulumoreDeepslateBlock;
 import io.github.errordude42.sillywillycore.block.TriangulumoreBlock;
 import io.github.errordude42.sillywillycore.block.TriangulumbricksBlock;
 import io.github.errordude42.sillywillycore.block.StructureTriangulumbricksBlock;
+import io.github.errordude42.sillywillycore.block.QuakingaspenBlock;
 import io.github.errordude42.sillywillycore.block.MeltedEntangulumFluidBlock;
+import io.github.errordude42.sillywillycore.block.LavendarflowerBlock;
 import io.github.errordude42.sillywillycore.block.GeostoneBlock;
 import io.github.errordude42.sillywillycore.block.GeometriusupBlock;
 import io.github.errordude42.sillywillycore.block.GeometriusdownBlock;
@@ -58,6 +60,8 @@ public class SillyWillyCoreModBlocks {
 	public static final RegistryObject<Block> WONDER_OAK_PRESSURE_PLATE = REGISTRY.register("wonder_oak_pressure_plate", () -> new Wonder_oakPressurePlateBlock());
 	public static final RegistryObject<Block> WONDER_OAK_BUTTON = REGISTRY.register("wonder_oak_button", () -> new Wonder_oakButtonBlock());
 	public static final RegistryObject<Block> WONDER_OAK_SAPLING = REGISTRY.register("wonder_oak_sapling", () -> new WonderOakSaplingBlock());
+	public static final RegistryObject<Block> QUAKINGASPEN = REGISTRY.register("quakingaspen", () -> new QuakingaspenBlock());
+	public static final RegistryObject<Block> LAVENDER_FLOWER = REGISTRY.register("lavender_flower", () -> new LavendarflowerBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

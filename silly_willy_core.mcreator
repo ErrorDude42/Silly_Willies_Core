@@ -1161,8 +1161,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/silly_willy_core/worldgen/structure/wonder_tree_1.json",
-          "src/main/resources/data/silly_willy_core/worldgen/template_pool/wonder_tree_1.json",
-          "src/main/resources/data/silly_willy_core/worldgen/structure_set/wonder_tree_1.json"
+          "src/main/resources/data/silly_willy_core/worldgen/structure_set/wonder_tree_1.json",
+          "src/main/resources/data/silly_willy_core/worldgen/template_pool/wonder_tree_1.json"
         ]
       },
       "path": "~/Geo_Dimension/World gen/Structures/Wonder Tree spawns"
@@ -1228,6 +1228,51 @@
         ]
       },
       "path": "~/Geo_Dimension/Blocks/Wonder Oak"
+    },
+    {
+      "name": "Quakingaspen",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quakingaspen",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/silly_willy_core/models/item/quakingaspen.json",
+          "src/main/java/io/github/errordude42/sillywillycore/block/QuakingaspenBlock.java",
+          "src/main/resources/data/silly_willy_core/loot_tables/blocks/quakingaspen.json",
+          "src/main/resources/assets/silly_willy_core/models/block/quakingaspen.json",
+          "src/main/resources/assets/silly_willy_core/blockstates/quakingaspen.json"
+        ]
+      },
+      "path": "~/Dreamscape_Dimension/blocks"
+    },
+    {
+      "name": "Dreamscape",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreamscape",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Dreamscape_Dimension"
+    },
+    {
+      "name": "Lavendarflower",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavender",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/silly_willy_core/models/item/lavender.json",
+          "src/main/resources/data/silly_willy_core/loot_tables/blocks/lavender.json",
+          "src/main/java/io/github/errordude42/sillywillycore/block/LavendarflowerBlock.java",
+          "src/main/resources/assets/silly_willy_core/blockstates/lavender.json",
+          "src/main/resources/assets/silly_willy_core/models/block/lavender.json"
+        ]
+      },
+      "path": "~/Dreamscape_Dimension/blocks"
     }
   ],
   "variable_elements": [
@@ -1364,14 +1409,15 @@
       "item.silly_willy_core.triangulum_shovel": "Triangulum Shovel",
       "biome.silly_willy_core.wonder_forest": "Wonder Forest",
       "block.silly_willy_core.blockofrawentangulum": "Block of Raw Entangulum",
-      "block.silly_willy_core.entangulumore": "Entangulum Ore",
       "item.silly_willy_core.triangulum_hoe": "Triangulum Hoe",
+      "block.silly_willy_core.entangulumore": "Entangulum Ore",
       "item.silly_willy_core.raw_entangulum": "Raw Entangulum",
       "block.silly_willy_core.wonder_oak_fence_gate": "Wonder Oak Fence Gate",
       "block.silly_willy_core.wonder_oak_wood": "Wonder Oak Wood",
       "block.silly_willy_core.geostone": "Geostone",
       "item_group.silly_willy_core.structureblocks": "Structure Blocks",
       "item.silly_willy_core.entangulumplate": "Entangulum Plate",
+      "item_group.silly_willy_core.dreamscape": "Dreamscape",
       "block.silly_willy_core.blockrawtriangulum": "Block of Raw Triangulum",
       "item.silly_willy_core.raw_triangulum": "Raw Triangulum",
       "advancements.get_raw_triangulum.descr": "Get Raw Triangulum",
@@ -1385,12 +1431,14 @@
       "block.silly_willy_core.wonder_oak_slab": "Wonder Oak Slabs",
       "block.silly_willy_core.wonder_oak_pressure_plate": "Wonder Oak Pressure Plate",
       "block.silly_willy_core.wonder_oak_planks": "Wonder Oak Planks",
+      "block.silly_willy_core.lavender": "Lavendarflower",
       "item.silly_willy_core.triangulum_sword": "Triangulum Sword",
       "item.silly_willy_core.triangulum_pickaxe": "Triangulum Pickaxe",
       "block.silly_willy_core.wonder_oak_button": "Wonder Oak Button",
       "advancements.get_raw_triangulum.title": "That\u0027s not a square",
       "block.silly_willy_core.triangulumore_deepslate": "Triangulum Ore Deepslate",
       "item.silly_willy_core.dirtyentangulum": "Dirty Entangulum Dust ",
+      "block.silly_willy_core.quakingaspen": "Quakingaspen",
       "block.silly_willy_core.triangulumbricks": "Triangulumbricks",
       "item.silly_willy_core.refined_triangulum": "Refined Triangulum",
       "block.silly_willy_core.wonder_oak_leaves": "Wonder Oak Leaves",
@@ -1528,6 +1576,27 @@
       {
         "name": "Testing",
         "children": []
+      },
+      {
+        "name": "Dreamscape_Dimension",
+        "children": [
+          {
+            "name": "item",
+            "children": []
+          },
+          {
+            "name": "blocks",
+            "children": []
+          },
+          {
+            "name": "worldGen",
+            "children": []
+          },
+          {
+            "name": "Dimension",
+            "children": []
+          }
+        ]
       }
     ]
   },

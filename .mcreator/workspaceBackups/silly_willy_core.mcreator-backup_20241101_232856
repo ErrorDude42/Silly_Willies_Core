@@ -1275,13 +1275,25 @@
       "CUSTOM:Geometriusdown",
       "CUSTOM:Geometriusup"
     ],
+    "BLOCKS:silly_willy_core:saplingliquid": [
+      "Blocks.FLOWING_WATER",
+      "Blocks.WATER",
+      "Blocks.BUBBLE_COLUMN",
+      "Blocks.FLOWING_LAVA",
+      "Blocks.LAVA",
+      "CUSTOM:MeltedEntangulumFluid"
+    ],
     "BLOCKS:minecraft:leaves": [
       "~CUSTOM:Wonder_oakLeaves"
     ],
     "BLOCKS:minecraft:dirt": [],
+    "ITEMS:silly_willy_core:geo_floor": [
+      "CUSTOM:Geostone"
+    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:TriangulumoreDeepslate",
-      "~CUSTOM:Triangulumore"
+      "~CUSTOM:Triangulumore",
+      "CUSTOM:Geostone"
     ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:Wonder_oakPlanks",
@@ -1516,6 +1528,27 @@
       {
         "name": "Testing",
         "children": []
+      },
+      {
+        "name": "Dreamscape_Dimension",
+        "children": [
+          {
+            "name": "item",
+            "children": []
+          },
+          {
+            "name": "blocks",
+            "children": []
+          },
+          {
+            "name": "worldGen",
+            "children": []
+          },
+          {
+            "name": "Dimension",
+            "children": []
+          }
+        ]
       }
     ]
   },
