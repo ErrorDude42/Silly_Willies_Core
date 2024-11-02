@@ -1150,7 +1150,7 @@
           }
         ]
       },
-      "path": "~/Geo_Dimension/Blocks/Wonder Oak/Tree gen functions"
+      "path": "~/Geo_Dimension/World gen/Structures/Wonder Tree spawns/Tree gen functions"
     },
     {
       "name": "WonderTree1",
@@ -1227,7 +1227,7 @@
           }
         ]
       },
-      "path": "~/Geo_Dimension/Blocks/Wonder Oak/Tree gen functions"
+      "path": "~/Geo_Dimension/World gen/Structures/Wonder Tree spawns/Tree gen functions"
     },
     {
       "name": "WonderTree2",
@@ -1272,7 +1272,7 @@
         ],
         "dependencies": []
       },
-      "path": "~/Geo_Dimension/Blocks/Wonder Oak/Tree gen functions"
+      "path": "~/Geo_Dimension/World gen/Structures/Wonder Tree spawns/Tree gen functions"
     },
     {
       "name": "WonderOakSaplingOnBoneMealSuccess",
@@ -1303,7 +1303,7 @@
           }
         ]
       },
-      "path": "~/Geo_Dimension/Blocks/Wonder Oak/Tree gen functions"
+      "path": "~/Geo_Dimension/World gen/Structures/Wonder Tree spawns/Tree gen functions"
     },
     {
       "name": "WonderOakSaplingOnTickUpdate",
@@ -1334,7 +1334,7 @@
           }
         ]
       },
-      "path": "~/Geo_Dimension/Blocks/Wonder Oak"
+      "path": "~/Geo_Dimension/World gen/Structures/Wonder Tree spawns/Tree gen functions"
     },
     {
       "name": "WonderTreeVar1",
@@ -1365,7 +1365,7 @@
           }
         ]
       },
-      "path": "~/Geo_Dimension/Blocks/Wonder Oak/Tree gen functions/varients"
+      "path": "~/Geo_Dimension/World gen/Structures/Wonder Tree spawns/Tree gen functions/varients"
     },
     {
       "name": "WonderTreeVar2",
@@ -1396,7 +1396,7 @@
           }
         ]
       },
-      "path": "~/Geo_Dimension/Blocks/Wonder Oak/Tree gen functions/varients"
+      "path": "~/Geo_Dimension/World gen/Structures/Wonder Tree spawns/Tree gen functions/varients"
     },
     {
       "name": "WonderTreeVar3",
@@ -1427,7 +1427,7 @@
           }
         ]
       },
-      "path": "~/Geo_Dimension/Blocks/Wonder Oak/Tree gen functions/varients"
+      "path": "~/Geo_Dimension/World gen/Structures/Wonder Tree spawns/Tree gen functions/varients"
     }
   ],
   "variable_elements": [],
@@ -1622,17 +1622,7 @@
             "children": [
               {
                 "name": "Wonder Oak",
-                "children": [
-                  {
-                    "name": "Tree gen functions",
-                    "children": [
-                      {
-                        "name": "varients",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
+                "children": []
               }
             ]
           },
@@ -1681,7 +1671,17 @@
                   },
                   {
                     "name": "Wonder Tree spawns",
-                    "children": []
+                    "children": [
+                      {
+                        "name": "Tree gen functions",
+                        "children": [
+                          {
+                            "name": "varients",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ]
               },
