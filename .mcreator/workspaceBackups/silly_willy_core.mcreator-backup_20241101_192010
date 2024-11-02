@@ -1153,8 +1153,36 @@
       "path": "~/Geo_Dimension/Blocks/Wonder Oak"
     },
     {
+      "name": "WonderTree1",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wonder_tree_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/worldgen/structure/wonder_tree_1.json",
+          "src/main/resources/data/silly_willy_core/worldgen/template_pool/wonder_tree_1.json",
+          "src/main/resources/data/silly_willy_core/worldgen/structure_set/wonder_tree_1.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/World gen/Structures/Wonder Tree spawns"
+    },
+    {
+      "name": "Geometriusyellowdye",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "geometriusyellowdye",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/recipes/geometriusyellowdye.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Recipes/Dyes"
+    },
+    {
       "name": "WonderOakSapling",
-      "type": "plant",
+      "type": "block",
       "compiles": true,
       "locked_code": false,
       "registry_name": "wonder_oak_sapling",
@@ -1170,19 +1198,36 @@
       "path": "~/Geo_Dimension/Blocks/Wonder Oak"
     },
     {
-      "name": "WonderTree1",
-      "type": "structure",
+      "name": "WonderOakSaplingBlockValidPlacementCondition",
+      "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "wonder_tree_1",
+      "registry_name": "wonder_oak_sapling_block_valid_placement_condition",
       "metadata": {
+        "return_type": "logic",
         "files": [
-          "src/main/resources/data/silly_willy_core/worldgen/structure/wonder_tree_1.json",
-          "src/main/resources/data/silly_willy_core/worldgen/template_pool/wonder_tree_1.json",
-          "src/main/resources/data/silly_willy_core/worldgen/structure_set/wonder_tree_1.json"
+          "src/main/java/io/github/errordude42/sillywillycore/procedures/WonderOakSaplingBlockValidPlacementConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       },
-      "path": "~/Geo_Dimension/World gen/Structures/Wonder Tree spawns"
+      "path": "~/Geo_Dimension/Blocks/Wonder Oak"
     }
   ],
   "variable_elements": [
@@ -1211,6 +1256,10 @@
     "ITEMS:minecraft:pickaxes": [
       "~CUSTOM:TriangulumPickaxe"
     ],
+    "ITEMS:minecraft:flowers": [
+      "CUSTOM:Geometriusdown",
+      "CUSTOM:Geometriusup"
+    ],
     "ITEMS:minecraft:hoes": [
       "~CUSTOM:TriangulumHoe"
     ],
@@ -1218,9 +1267,18 @@
       "~Blocks.VOID_AIR",
       "~CUSTOM:Geostone"
     ],
+    "BIOMES:minecraft:is_overworld": [],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:Wonder_oakLog"
+    ],
+    "ITEMS:silly_willy_core:geometrius_interchange": [
+      "CUSTOM:Geometriusdown",
+      "CUSTOM:Geometriusup"
+    ],
     "BLOCKS:minecraft:leaves": [
       "~CUSTOM:Wonder_oakLeaves"
     ],
+    "BLOCKS:minecraft:dirt": [],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:TriangulumoreDeepslate",
       "~CUSTOM:Triangulumore"
@@ -1294,8 +1352,8 @@
       "item.silly_willy_core.triangulum_shovel": "Triangulum Shovel",
       "biome.silly_willy_core.wonder_forest": "Wonder Forest",
       "block.silly_willy_core.blockofrawentangulum": "Block of Raw Entangulum",
-      "block.silly_willy_core.entangulumore": "Entangulum Ore",
       "item.silly_willy_core.triangulum_hoe": "Triangulum Hoe",
+      "block.silly_willy_core.entangulumore": "Entangulum Ore",
       "item.silly_willy_core.raw_entangulum": "Raw Entangulum",
       "block.silly_willy_core.wonder_oak_fence_gate": "Wonder Oak Fence Gate",
       "block.silly_willy_core.wonder_oak_wood": "Wonder Oak Wood",
@@ -1360,7 +1418,12 @@
             "children": [
               {
                 "name": "Wonder Oak",
-                "children": []
+                "children": [
+                  {
+                    "name": "Tree gen functions",
+                    "children": []
+                  }
+                ]
               }
             ]
           },

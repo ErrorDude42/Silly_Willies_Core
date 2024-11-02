@@ -1153,23 +1153,6 @@
       "path": "~/Geo_Dimension/Blocks/Wonder Oak"
     },
     {
-      "name": "WonderOakSapling",
-      "type": "plant",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wonder_oak_sapling",
-      "metadata": {
-        "files": [
-          "src/main/java/io/github/errordude42/sillywillycore/block/WonderOakSaplingBlock.java",
-          "src/main/resources/assets/silly_willy_core/models/block/wonder_oak_sapling.json",
-          "src/main/resources/assets/silly_willy_core/blockstates/wonder_oak_sapling.json",
-          "src/main/resources/data/silly_willy_core/loot_tables/blocks/wonder_oak_sapling.json",
-          "src/main/resources/assets/silly_willy_core/models/item/wonder_oak_sapling.json"
-        ]
-      },
-      "path": "~/Geo_Dimension/Blocks/Wonder Oak"
-    },
-    {
       "name": "WonderTree1",
       "type": "structure",
       "compiles": true,
@@ -1196,6 +1179,55 @@
         ]
       },
       "path": "~/Geo_Dimension/Recipes/Dyes"
+    },
+    {
+      "name": "WonderOakSapling",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wonder_oak_sapling",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/errordude42/sillywillycore/block/WonderOakSaplingBlock.java",
+          "src/main/resources/assets/silly_willy_core/models/block/wonder_oak_sapling.json",
+          "src/main/resources/assets/silly_willy_core/blockstates/wonder_oak_sapling.json",
+          "src/main/resources/data/silly_willy_core/loot_tables/blocks/wonder_oak_sapling.json",
+          "src/main/resources/assets/silly_willy_core/models/item/wonder_oak_sapling.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Blocks/Wonder Oak"
+    },
+    {
+      "name": "WonderOakSaplingBlockValidPlacementCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wonder_oak_sapling_block_valid_placement_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/io/github/errordude42/sillywillycore/procedures/WonderOakSaplingBlockValidPlacementConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Geo_Dimension/Blocks/Wonder Oak"
     }
   ],
   "variable_elements": [
@@ -1243,13 +1275,25 @@
       "CUSTOM:Geometriusdown",
       "CUSTOM:Geometriusup"
     ],
+    "BLOCKS:silly_willy_core:saplingliquid": [
+      "Blocks.FLOWING_WATER",
+      "Blocks.WATER",
+      "Blocks.BUBBLE_COLUMN",
+      "Blocks.FLOWING_LAVA",
+      "Blocks.LAVA",
+      "CUSTOM:MeltedEntangulumFluid"
+    ],
     "BLOCKS:minecraft:leaves": [
       "~CUSTOM:Wonder_oakLeaves"
     ],
     "BLOCKS:minecraft:dirt": [],
+    "ITEMS:silly_willy_core:geo_floor": [
+      "CUSTOM:Geostone"
+    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:TriangulumoreDeepslate",
-      "~CUSTOM:Triangulumore"
+      "~CUSTOM:Triangulumore",
+      "CUSTOM:Geostone"
     ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:Wonder_oakPlanks",
@@ -1386,7 +1430,12 @@
             "children": [
               {
                 "name": "Wonder Oak",
-                "children": []
+                "children": [
+                  {
+                    "name": "Tree gen functions",
+                    "children": []
+                  }
+                ]
               }
             ]
           },
