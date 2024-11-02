@@ -22,13 +22,6 @@ import io.github.errordude42.sillywillycore.SillyWillyCoreMod;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class SillyWillyCoreModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, SillyWillyCoreMod.MODID);
-	public static final RegistryObject<CreativeModeTab> DREAMSCAPE = REGISTRY.register("dreamscape",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.silly_willy_core.dreamscape")).icon(() -> new ItemStack(SillyWillyCoreModBlocks.QUAKINGASPEN.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(SillyWillyCoreModBlocks.QUAKINGASPEN.get().asItem());
-				tabData.accept(SillyWillyCoreModBlocks.LAVENDER_FLOWER.get().asItem());
-			})
-
-					.build());
 	public static final RegistryObject<CreativeModeTab> STRUCTUREBLOCKS = REGISTRY.register("structureblocks",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.silly_willy_core.structureblocks")).icon(() -> new ItemStack(Blocks.STRUCTURE_BLOCK)).displayItems((parameters, tabData) -> {
 				tabData.accept(SillyWillyCoreModBlocks.STRUCTURE_TRIANGULUMBRICKS.get().asItem());
@@ -112,7 +105,6 @@ public class SillyWillyCoreModTabs {
 			tabData.accept(SillyWillyCoreModBlocks.GEOMETRIUSUP.get().asItem());
 			tabData.accept(SillyWillyCoreModBlocks.WONDER_OAK_LEAVES.get().asItem());
 			tabData.accept(SillyWillyCoreModBlocks.WONDER_OAK_SAPLING.get().asItem());
-			tabData.accept(SillyWillyCoreModBlocks.LAVENDER_FLOWER.get().asItem());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 

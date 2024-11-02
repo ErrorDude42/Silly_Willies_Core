@@ -1150,7 +1150,7 @@
           }
         ]
       },
-      "path": "~/Geo_Dimension/Blocks/Wonder Oak"
+      "path": "~/Geo_Dimension/Blocks/Wonder Oak/Tree gen functions"
     },
     {
       "name": "WonderTree1",
@@ -1227,7 +1227,37 @@
           }
         ]
       },
-      "path": "~/Geo_Dimension/Blocks/Wonder Oak"
+      "path": "~/Geo_Dimension/Blocks/Wonder Oak/Tree gen functions"
+    },
+    {
+      "name": "WonderTree2",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wonder_tree_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/worldgen/structure_set/wonder_tree_2.json",
+          "src/main/resources/data/silly_willy_core/worldgen/template_pool/wonder_tree_2.json",
+          "src/main/resources/data/silly_willy_core/worldgen/structure/wonder_tree_2.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/World gen/Structures/Wonder Tree spawns"
+    },
+    {
+      "name": "WonderTree3",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wonder_tree_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/worldgen/structure/wonder_tree_3.json",
+          "src/main/resources/data/silly_willy_core/worldgen/structure_set/wonder_tree_3.json",
+          "src/main/resources/data/silly_willy_core/worldgen/template_pool/wonder_tree_3.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/World gen/Structures/Wonder Tree spawns"
     }
   ],
   "variable_elements": [
@@ -1275,7 +1305,14 @@
       "CUSTOM:Geometriusdown",
       "CUSTOM:Geometriusup"
     ],
-    "BLOCKS:silly_willy_core:saplingliquid": [],
+    "BLOCKS:silly_willy_core:saplingliquid": [
+      "Blocks.FLOWING_WATER",
+      "Blocks.WATER",
+      "Blocks.BUBBLE_COLUMN",
+      "Blocks.FLOWING_LAVA",
+      "Blocks.LAVA",
+      "CUSTOM:MeltedEntangulumFluid"
+    ],
     "BLOCKS:minecraft:leaves": [
       "~CUSTOM:Wonder_oakLeaves"
     ],

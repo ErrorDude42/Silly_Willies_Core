@@ -1150,7 +1150,7 @@
           }
         ]
       },
-      "path": "~/Geo_Dimension/Blocks/Wonder Oak"
+      "path": "~/Geo_Dimension/Blocks/Wonder Oak/Tree gen functions"
     },
     {
       "name": "WonderTree1",
@@ -1226,6 +1226,51 @@
             "type": "world"
           }
         ]
+      },
+      "path": "~/Geo_Dimension/Blocks/Wonder Oak/Tree gen functions"
+    },
+    {
+      "name": "WonderTree2",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wonder_tree_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/worldgen/structure_set/wonder_tree_2.json",
+          "src/main/resources/data/silly_willy_core/worldgen/template_pool/wonder_tree_2.json",
+          "src/main/resources/data/silly_willy_core/worldgen/structure/wonder_tree_2.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/World gen/Structures/Wonder Tree spawns"
+    },
+    {
+      "name": "WonderTree3",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wonder_tree_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/worldgen/structure/wonder_tree_3.json",
+          "src/main/resources/data/silly_willy_core/worldgen/structure_set/wonder_tree_3.json",
+          "src/main/resources/data/silly_willy_core/worldgen/template_pool/wonder_tree_3.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/World gen/Structures/Wonder Tree spawns"
+    },
+    {
+      "name": "WonderOakSaplingBoneMealSuccessCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wonder_oak_sapling_bone_meal_success_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/io/github/errordude42/sillywillycore/procedures/WonderOakSaplingBoneMealSuccessConditionProcedure.java"
+        ],
+        "dependencies": []
       },
       "path": "~/Geo_Dimension/Blocks/Wonder Oak"
     }
