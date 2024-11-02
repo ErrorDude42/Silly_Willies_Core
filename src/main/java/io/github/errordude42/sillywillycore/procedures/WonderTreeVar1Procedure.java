@@ -44,7 +44,7 @@ public class WonderTreeVar1Procedure {
 			conditionOffsetZ = 0;
 			sizeX = 9;
 			sizeY = 7;
-			sizeZ = 6;
+			sizeZ = 9;
 			if (!(airTag).isEmpty()) {
 				structureOffsetY = y + structureOffsetY;
 				offset = 1;
