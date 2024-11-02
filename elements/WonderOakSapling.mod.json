@@ -14,7 +14,7 @@
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "",
+    "itemTexture": "wonder_sapling",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
@@ -65,7 +65,7 @@
       "value": "NONE"
     },
     "tickRate": 0,
-    "tickRandomly": false,
+    "tickRandomly": true,
     "isReplaceable": false,
     "canProvidePower": false,
     "emittedRedstonePower": {
@@ -76,7 +76,7 @@
       "value": ""
     },
     "offsetType": "NONE",
-    "aiPathNodeType": "DEFAULT",
+    "aiPathNodeType": "WALKABLE",
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
@@ -87,7 +87,7 @@
     "isNotColidable": true,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "PLANT"
     },
     "breakSound": {
       "value": ""
@@ -107,7 +107,16 @@
     "luminance": 0,
     "unbreakable": false,
     "vanillaToolTier": "NONE",
-    "isBonemealable": false,
+    "placingCondition": {
+      "name": "WonderOakSaplingBlockValidPlacementCondition"
+    },
+    "isBonemealable": true,
+    "bonemealSuccessCondition": {
+      "name": "WonderOakSaplingBoneMealSuccessCondition"
+    },
+    "onBonemealSuccess": {
+      "name": "WonderOakSaplingOnBoneMealSuccess"
+    },
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
@@ -125,6 +134,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "WonderOakSaplingOnTickUpdate"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [],

@@ -1,37 +1,39 @@
 {
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "unlock_right_away": "2024-11-01 23:51:05 -0400"
+      "unlock_right_away": "2024-11-01 22:51:05 -0500"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:plains": "2024-11-01 23:51:07 -0400"
+      "minecraft:river": "2024-11-02 00:00:41 -0500",
+      "minecraft:meadow": "2024-11-02 00:00:17 -0500",
+      "minecraft:plains": "2024-11-01 22:51:07 -0500"
     },
     "done": false
   },
   "create:root": {
     "criteria": {
-      "0": "2024-11-01 23:52:03 -0400"
+      "0": "2024-11-01 22:52:03 -0500"
     },
     "done": true
   },
   "minecraft:recipes/misc/white_dye": {
     "criteria": {
-      "has_bone_meal": "2024-11-01 23:52:17 -0400"
+      "has_bone_meal": "2024-11-01 22:52:17 -0500"
     },
     "done": true
   },
   "create:recipes/misc/crafting/appliances/tree_fertilizer": {
     "criteria": {
-      "has_item": "2024-11-01 23:52:17 -0400"
+      "has_item": "2024-11-01 22:52:17 -0500"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/bone_block": {
     "criteria": {
-      "has_bone_meal": "2024-11-01 23:52:17 -0400"
+      "has_bone_meal": "2024-11-01 22:52:17 -0500"
     },
     "done": true
   },

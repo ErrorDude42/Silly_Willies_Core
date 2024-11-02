@@ -11,7 +11,7 @@ public class WonderOakSaplingBlockValidPlacementConditionProcedure {
 		double sx = 0;
 		double sy = 0;
 		double sz = 0;
-		return (world.getBlockState(BlockPos.containing(x, y - 1, z))).is(BlockTags.create(new ResourceLocation("silliy_willy_core:geo_floor")))
+		return (world.getBlockState(BlockPos.containing(x, y - 1, z))).is(BlockTags.create(new ResourceLocation("silly_willy_core:geo_floor")))
 				&& !(world.getBlockState(BlockPos.containing(x, y + 1, z))).is(BlockTags.create(new ResourceLocation("silly_willy_core:saplingliquid")))
 				&& !(world.getBlockState(BlockPos.containing(x, y, z - 1))).is(BlockTags.create(new ResourceLocation("silly_willy_core:saplingliquid")))
 				&& !(world.getBlockState(BlockPos.containing(x, y, z + 1))).is(BlockTags.create(new ResourceLocation("silly_willy_core:saplingliquid")))
