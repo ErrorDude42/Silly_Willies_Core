@@ -1,55 +1,104 @@
 {
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "unlock_right_away": "2024-11-02 12:59:03 -0500"
+      "unlock_right_away": "2024-11-02 20:46:01 -0500"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:plains": "2024-11-02 12:59:04 -0500"
+      "minecraft:deep_ocean": "2024-11-02 21:06:30 -0500",
+      "minecraft:badlands": "2024-11-02 20:46:02 -0500",
+      "minecraft:beach": "2024-11-03 00:34:21 -0500",
+      "minecraft:sparse_jungle": "2024-11-03 00:22:27 -0500",
+      "minecraft:lukewarm_ocean": "2024-11-02 21:06:15 -0500",
+      "minecraft:river": "2024-11-02 20:48:06 -0500",
+      "minecraft:deep_lukewarm_ocean": "2024-11-02 21:06:25 -0500",
+      "minecraft:plains": "2024-11-03 00:21:45 -0500"
     },
     "done": false
   },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2024-11-02 20:48:06 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2024-11-02 20:48:06 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2024-11-02 20:48:06 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2024-11-02 20:48:06 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2024-11-02 20:48:06 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2024-11-02 20:48:06 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2024-11-02 20:48:06 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2024-11-02 20:48:06 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2024-11-02 20:48:06 -0500"
+    },
+    "done": true
+  },
   "create:root": {
     "criteria": {
-      "0": "2024-11-02 12:59:10 -0500"
+      "0": "2024-11-02 20:55:30 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/misc/white_dye": {
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
     "criteria": {
-      "has_bone_meal": "2024-11-02 12:59:19 -0500"
+      "has_mutton": "2024-11-03 00:34:34 -0500"
     },
     "done": true
   },
-  "create:recipes/misc/crafting/appliances/tree_fertilizer": {
+  "minecraft:recipes/food/cooked_mutton": {
     "criteria": {
-      "has_item": "2024-11-02 12:59:19 -0500"
+      "has_mutton": "2024-11-03 00:34:34 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/bone_block": {
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
     "criteria": {
-      "has_bone_meal": "2024-11-02 12:59:19 -0500"
+      "has_mutton": "2024-11-03 00:34:34 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/blast_furnace": {
+  "minecraft:adventure/root": {
     "criteria": {
-      "has_smooth_stone": "2024-11-02 13:05:18 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/smooth_stone_slab": {
-    "criteria": {
-      "has_smooth_stone": "2024-11-02 13:05:18 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
-    "criteria": {
-      "has_smooth_stone": "2024-11-02 13:05:18 -0500"
+      "killed_something": "2024-11-03 00:33:26 -0500"
     },
     "done": true
   },

@@ -10,7 +10,7 @@
         "value": "CUSTOM:Geotestinggrounds"
       }
     ],
-    "worldGenType": "End like gen",
+    "worldGenType": "Normal world gen",
     "mainFillerBlock": {
       "value": "CUSTOM:Geostone"
     },
@@ -26,10 +26,10 @@
     "isDark": false,
     "doesWaterVaporize": true,
     "sleepResult": "DENY",
-    "hasSkyLight": true,
+    "hasSkyLight": false,
     "imitateOverworldBehaviour": false,
     "portalFrame": {
-      "value": ""
+      "value": "CUSTOM:Wonder_oakWood"
     },
     "portalParticles": {
       "value": "PORTAL"
@@ -38,7 +38,7 @@
     "portalSound": {
       "value": "block.portal.ambient"
     },
-    "enableIgniter": true,
+    "enableIgniter": false,
     "igniterName": "Geo Dimension Portal Igniter",
     "igniterRarity": "COMMON",
     "specialInformation": {
@@ -50,7 +50,7 @@
       }
     ],
     "texture": "",
-    "portalTexture": "",
+    "portalTexture": "block_of_raw_entangulum",
     "enablePortal": false
   }
 }

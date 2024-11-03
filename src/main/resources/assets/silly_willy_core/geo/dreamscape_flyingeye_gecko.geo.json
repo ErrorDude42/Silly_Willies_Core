@@ -1,0 +1,80 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 6,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "flyingEye",
+					"pivot": [0, 24, 0],
+					"cubes": [
+						{"origin": [-12, 12, -12], "size": [24, 24, 24], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "tail",
+					"parent": "flyingEye",
+					"pivot": [0, 20, 12],
+					"cubes": [
+						{"origin": [-6, 20, 11], "size": [12, 0, 28], "uv": [-28, 48]}
+					]
+				},
+				{
+					"name": "lidU",
+					"parent": "flyingEye",
+					"pivot": [0, 36, -12],
+					"cubes": [
+						{"origin": [-12, 24, -13], "size": [24, 12, 1], "uv": [29, 49]}
+					]
+				},
+				{
+					"name": "lidD",
+					"parent": "flyingEye",
+					"pivot": [0, 12, -12],
+					"cubes": [
+						{"origin": [-12, 12, -13], "size": [24, 12, 1], "uv": [29, 62]}
+					]
+				},
+				{
+					"name": "lashU",
+					"parent": "flyingEye",
+					"pivot": [0, 25, -12],
+					"cubes": [
+						{"origin": [-12, 24, -12.58579], "size": [24, 9, 0], "pivot": [0, 24, -13], "rotation": [45, 0, 0], "uv": [73, 0]}
+					]
+				},
+				{
+					"name": "wingL",
+					"parent": "flyingEye",
+					"pivot": [12, 24, 0],
+					"cubes": [
+						{"origin": [12, 12, 0], "size": [26, 24, 0], "uv": [0, 76]}
+					]
+				},
+				{
+					"name": "lashD",
+					"parent": "flyingEye",
+					"pivot": [0, 23, -13],
+					"cubes": [
+						{"origin": [-12, 20.87868, -14.29289], "size": [24, 9, 0], "pivot": [0, 23, -14], "rotation": [135, 0, 0], "uv": [73, 9]}
+					]
+				},
+				{
+					"name": "wingR",
+					"parent": "flyingEye",
+					"pivot": [-12, 22, 0],
+					"cubes": [
+						{"origin": [-38, 12, 0], "size": [26, 24, 0], "uv": [26, 76]}
+					]
+				}
+			]
+		}
+	]
+}

@@ -7,6 +7,7 @@ package io.github.errordude42.sillywillycore.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -63,6 +64,7 @@ public class SillyWillyCoreModItems {
 	public static final RegistryObject<Item> WONDER_OAK_PRESSURE_PLATE = block(SillyWillyCoreModBlocks.WONDER_OAK_PRESSURE_PLATE);
 	public static final RegistryObject<Item> WONDER_OAK_BUTTON = block(SillyWillyCoreModBlocks.WONDER_OAK_BUTTON);
 	public static final RegistryObject<Item> WONDER_OAK_SAPLING = block(SillyWillyCoreModBlocks.WONDER_OAK_SAPLING);
+	public static final RegistryObject<Item> TEST_SPAWN_EGG = REGISTRY.register("test_spawn_egg", () -> new ForgeSpawnEggItem(SillyWillyCoreModEntities.TEST, -1, -1, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

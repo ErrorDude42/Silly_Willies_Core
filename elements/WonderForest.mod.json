@@ -56,11 +56,11 @@
       "max": 1.0
     },
     "genContinentalness": {
-      "min": 0.25,
-      "max": 1.5
+      "min": 0.0,
+      "max": 2.0
     },
     "genErosion": {
-      "min": -0.75,
+      "min": 0.0,
       "max": 0.75
     },
     "genWeirdness": {
@@ -84,7 +84,7 @@
       "value": "Blocks.AIR"
     },
     "defaultFeatures": [
-      "Ores"
+      "Caves"
     ],
     "spawnStronghold": false,
     "spawnMineshaft": false,
