@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import io.github.errordude42.sillywillycore.item.TriangulumTippedMaceItem;
 import io.github.errordude42.sillywillycore.item.TriangulumSwordItem;
 import io.github.errordude42.sillywillycore.item.TriangulumShovelItem;
 import io.github.errordude42.sillywillycore.item.TriangulumPickaxeItem;
@@ -63,6 +64,7 @@ public class SillyWillyCoreModItems {
 	public static final RegistryObject<Item> WONDER_OAK_PRESSURE_PLATE = block(SillyWillyCoreModBlocks.WONDER_OAK_PRESSURE_PLATE);
 	public static final RegistryObject<Item> WONDER_OAK_BUTTON = block(SillyWillyCoreModBlocks.WONDER_OAK_BUTTON);
 	public static final RegistryObject<Item> WONDER_OAK_SAPLING = block(SillyWillyCoreModBlocks.WONDER_OAK_SAPLING);
+	public static final RegistryObject<Item> TRIANGULUM_TIPPED_MACE = REGISTRY.register("triangulum_tipped_mace", () -> new TriangulumTippedMaceItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

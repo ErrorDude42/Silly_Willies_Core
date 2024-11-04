@@ -152,8 +152,8 @@ Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/g
 Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/beforeDestroyingBlock(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V from net/minecraft/world/level/material/FlowingFluid/beforeDestroyingBlock(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V: beforeDestroyingBlock -> m_7456_
 Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/getBucket()Lnet/minecraft/world/item/Item; from net/minecraft/world/level/material/Fluid/getBucket()Lnet/minecraft/world/item/Item;: getBucket -> m_6859_
 Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/canBeReplacedWith(Lnet/minecraft/world/level/material/FluidState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/material/Fluid;Lnet/minecraft/core/Direction;)Z from net/minecraft/world/level/material/Fluid/canBeReplacedWith(Lnet/minecraft/world/level/material/FluidState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/material/Fluid;Lnet/minecraft/core/Direction;)Z: canBeReplacedWith -> m_5486_
-Conflicting propagated mapping for net/minecraftforge/event/BuildCreativeModeTabContentsEvent/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V from net/minecraft/world/item/CreativeModeTab$Output/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V: accept -> m_246267_
 Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
+Conflicting propagated mapping for net/minecraftforge/event/BuildCreativeModeTabContentsEvent/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V from net/minecraft/world/item/CreativeModeTab$Output/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V: accept -> m_246267_
 Adding extras
 Sorting
 Writing Output: C:\Users\crtca\OneDrive\Documents\GitHub\Silly_Willies_Core\build\reobfJar\output.jar
@@ -257,6 +257,7 @@ Writing Output: C:\Users\crtca\OneDrive\Documents\GitHub\Silly_Willies_Core\buil
   assets/silly_willy_core/models/item/triangulum_pickaxe.json
   assets/silly_willy_core/models/item/triangulum_shovel.json
   assets/silly_willy_core/models/item/triangulum_sword.json
+  assets/silly_willy_core/models/item/triangulum_tipped_mace.json
   assets/silly_willy_core/models/item/triangulumbricks.json
   assets/silly_willy_core/models/item/triangulumore.json
   assets/silly_willy_core/models/item/triangulumore_deepslate.json
@@ -316,6 +317,8 @@ Writing Output: C:\Users\crtca\OneDrive\Documents\GitHub\Silly_Willies_Core\buil
   assets/silly_willy_core/textures/item/triangulum_pickaxe.png
   assets/silly_willy_core/textures/item/triangulum_shovel.png
   assets/silly_willy_core/textures/item/triangulum_sword.png
+  assets/silly_willy_core/textures/item/triangulum_tipped_mace.png
+  assets/silly_willy_core/textures/item/triangulum_tipped_mace.png.mcmeta
   assets/silly_willy_core/textures/item/wonder_sapling.png
   assets/silly_willy_core/textures/particle/
   assets/silly_willy_core/textures/particle/liquid_entangulum.png
@@ -571,7 +574,10 @@ Writing Output: C:\Users\crtca\OneDrive\Documents\GitHub\Silly_Willies_Core\buil
   io/github/errordude42/sillywillycore/item/TriangulumShovelItem.class
   io/github/errordude42/sillywillycore/item/TriangulumSwordItem$1.class
   io/github/errordude42/sillywillycore/item/TriangulumSwordItem.class
+  io/github/errordude42/sillywillycore/item/TriangulumTippedMaceItem$1.class
+  io/github/errordude42/sillywillycore/item/TriangulumTippedMaceItem.class
   io/github/errordude42/sillywillycore/procedures/
+  io/github/errordude42/sillywillycore/procedures/TriangulumTippedMaceLivingEntityIsHitWithToolProcedure.class
   io/github/errordude42/sillywillycore/procedures/WonderOakSaplingBlockValidPlacementConditionProcedure.class
   io/github/errordude42/sillywillycore/procedures/WonderOakSaplingBoneMealSuccessConditionProcedure.class
   io/github/errordude42/sillywillycore/procedures/WonderOakSaplingOnBoneMealSuccessProcedure.class

@@ -63,6 +63,7 @@ public class SillyWillyCoreModTabs {
 				tabData.accept(SillyWillyCoreModBlocks.WONDER_OAK_PRESSURE_PLATE.get().asItem());
 				tabData.accept(SillyWillyCoreModBlocks.WONDER_OAK_BUTTON.get().asItem());
 				tabData.accept(SillyWillyCoreModBlocks.WONDER_OAK_SAPLING.get().asItem());
+				tabData.accept(SillyWillyCoreModItems.TRIANGULUM_TIPPED_MACE.get());
 			})
 
 					.build());
@@ -88,6 +89,7 @@ public class SillyWillyCoreModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 
 			tabData.accept(SillyWillyCoreModItems.TRIANGULUM_SWORD.get());
+			tabData.accept(SillyWillyCoreModItems.TRIANGULUM_TIPPED_MACE.get());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 

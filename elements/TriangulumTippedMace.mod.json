@@ -1,0 +1,45 @@
+{
+  "_fv": 69,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "triangulum_tipped_mace",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Triangulum Tipped Mace",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:GeometeryDimensionBeta"
+      },
+      {
+        "value": "COMBAT"
+      }
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 0.8,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 100,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:RefinedTriangulum"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "TriangulumTippedMaceLivingEntityIsHitWithTool"
+    }
+  }
+}

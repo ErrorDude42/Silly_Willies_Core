@@ -8,11 +8,17 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:deep_ocean": "2024-11-02 21:06:30 -0500",
+      "minecraft:wooded_badlands": "2024-11-03 21:44:19 -0600",
       "minecraft:badlands": "2024-11-02 20:46:02 -0500",
       "minecraft:beach": "2024-11-03 00:34:21 -0500",
       "minecraft:sparse_jungle": "2024-11-03 00:22:27 -0500",
       "minecraft:lukewarm_ocean": "2024-11-02 21:06:15 -0500",
       "minecraft:river": "2024-11-02 20:48:06 -0500",
+      "minecraft:stony_shore": "2024-11-03 21:47:19 -0600",
+      "minecraft:forest": "2024-11-03 21:40:55 -0600",
+      "minecraft:desert": "2024-11-03 21:44:18 -0600",
+      "minecraft:jungle": "2024-11-03 21:40:48 -0600",
+      "minecraft:warm_ocean": "2024-11-03 21:48:03 -0600",
       "minecraft:deep_lukewarm_ocean": "2024-11-02 21:06:25 -0500",
       "minecraft:plains": "2024-11-03 00:21:45 -0500"
     },
@@ -78,6 +84,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2024-11-03 00:33:26 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_mutton_from_smoking": {
     "criteria": {
       "has_mutton": "2024-11-03 00:34:34 -0500"
@@ -96,9 +108,183 @@
     },
     "done": true
   },
-  "minecraft:adventure/root": {
+  "create:recipes/building_blocks/crafting/kinetics/brown_seat": {
     "criteria": {
-      "killed_something": "2024-11-03 00:33:26 -0500"
+      "has_wool": "2024-11-03 21:38:34 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/gray_seat": {
+    "criteria": {
+      "has_wool": "2024-11-03 21:38:34 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2024-11-03 21:38:34 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/red_seat": {
+    "criteria": {
+      "has_wool": "2024-11-03 21:38:34 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/light_gray_seat": {
+    "criteria": {
+      "has_wool": "2024-11-03 21:38:34 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/blue_seat": {
+    "criteria": {
+      "has_wool": "2024-11-03 21:38:34 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/orange_seat": {
+    "criteria": {
+      "has_wool": "2024-11-03 21:38:34 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/magenta_seat": {
+    "criteria": {
+      "has_wool": "2024-11-03 21:38:34 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/light_blue_seat": {
+    "criteria": {
+      "has_wool": "2024-11-03 21:38:34 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/cyan_seat": {
+    "criteria": {
+      "has_wool": "2024-11-03 21:38:34 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2024-11-03 21:38:34 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/pink_seat": {
+    "criteria": {
+      "has_wool": "2024-11-03 21:38:34 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/black_seat": {
+    "criteria": {
+      "has_wool": "2024-11-03 21:38:34 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2024-11-03 21:38:34 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/white_seat": {
+    "criteria": {
+      "has_wool": "2024-11-03 21:38:34 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/green_seat": {
+    "criteria": {
+      "has_wool": "2024-11-03 21:38:34 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/lime_seat": {
+    "criteria": {
+      "has_wool": "2024-11-03 21:38:34 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/purple_seat": {
+    "criteria": {
+      "has_wool": "2024-11-03 21:38:34 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2024-11-03 21:38:34 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/yellow_seat": {
+    "criteria": {
+      "has_wool": "2024-11-03 21:38:34 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2024-11-03 21:45:00 -0600",
+      "minecraft:spider": "2024-11-03 21:48:44 -0600",
+      "minecraft:creeper": "2024-11-03 21:43:58 -0600",
+      "minecraft:zombified_piglin": "2024-11-03 21:39:20 -0600",
+      "minecraft:witch": "2024-11-03 21:47:15 -0600",
+      "minecraft:husk": "2024-11-03 21:45:31 -0600",
+      "minecraft:zombie": "2024-11-03 21:47:22 -0600"
+    },
+    "done": false
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:zombified_piglin": "2024-11-03 21:39:20 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2024-11-03 21:43:59 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2024-11-03 21:43:59 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2024-11-03 21:43:59 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit": {
+    "criteria": {
+      "has_rabbit": "2024-11-03 22:33:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_smoking": {
+    "criteria": {
+      "has_rabbit": "2024-11-03 22:33:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
+    "criteria": {
+      "has_rabbit": "2024-11-03 22:33:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather": {
+    "criteria": {
+      "has_rabbit_hide": "2024-11-03 22:33:42 -0600"
     },
     "done": true
   },
