@@ -1433,12 +1433,12 @@
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:MeltedEntangulumFluid"
+    ],
     "BLOCKS:minecraft:needs_diamond_tool": [
       "~CUSTOM:TriangulumoreDeepslate",
       "~CUSTOM:Triangulumore"
-    ],
-    "BLOCKS:minecraft:replaceable": [
-      "~CUSTOM:MeltedEntangulumFluid"
     ],
     "ITEMS:minecraft:pickaxes": [
       "~CUSTOM:TriangulumPickaxe"
@@ -1479,18 +1479,18 @@
       "~CUSTOM:Wonder_oakLeaves"
     ],
     "BLOCKS:minecraft:dirt": [],
-    "BLOCKS:minecraft:mineable/pickaxe": [
-      "~CUSTOM:TriangulumoreDeepslate",
-      "~CUSTOM:Triangulumore",
-      "CUSTOM:Geostone"
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:Wonder_oakSlab"
     ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:Wonder_oakPlanks",
       "~CUSTOM:Wonder_oakLog",
       "~CUSTOM:Wonder_oakWood"
     ],
-    "BLOCKS:minecraft:slabs": [
-      "~CUSTOM:Wonder_oakSlab"
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:TriangulumoreDeepslate",
+      "~CUSTOM:Triangulumore",
+      "CUSTOM:Geostone"
     ],
     "BLOCKS:minecraft:fences": [
       "~CUSTOM:Wonder_oakFence"
@@ -1509,6 +1509,9 @@
     ],
     "ITEMS:minecraft:shovels": [
       "~CUSTOM:TriangulumShovel"
+    ],
+    "ITEMS:silly_willy_core:refined_triangulum": [
+      "CUSTOM:RefinedTriangulum"
     ]
   },
   "tab_element_order": {
@@ -1731,7 +1734,7 @@
   "workspaceSettings": {
     "modid": "silly_willy_core",
     "modName": "Silly Willy Core",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "This is the Core mod for the Silly Willies mc Server",
     "author": "Crit (J.V), Zomagon, P",
     "websiteURL": "https://modrinth.com/organization/silly-willies",

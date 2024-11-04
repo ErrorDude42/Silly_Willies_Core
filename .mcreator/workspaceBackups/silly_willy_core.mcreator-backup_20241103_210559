@@ -1428,23 +1428,6 @@
         ]
       },
       "path": "~/Geo_Dimension/World gen/Structures/Wonder Tree spawns/Tree gen functions/varients"
-    },
-    {
-      "name": "Test",
-      "type": "animatedentity",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test",
-      "metadata": {
-        "files": [
-          "src/main/java/io/github/errordude42/sillywillycore/client/renderer/TestRenderer.java",
-          "src/main/resources/data/silly_willy_core/forge/biome_modifier/test_biome_modifier.json",
-          "src/main/resources/assets/silly_willy_core/models/item/test_spawn_egg.json",
-          "src/main/java/io/github/errordude42/sillywillycore/entity/model/TestModel.java",
-          "src/main/java/io/github/errordude42/sillywillycore/entity/TestEntity.java"
-        ]
-      },
-      "path": "~/Geo_Dimension/World gen/Biomes"
     }
   ],
   "variable_elements": [],
@@ -1453,39 +1436,6 @@
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:MeltedEntangulumFluid"
     ],
-    "ITEMS:minecraft:flowers": [
-      "CUSTOM:Geometriusdown",
-      "CUSTOM:Geometriusup"
-    ],
-    "ITEMS:minecraft:hoes": [
-      "~CUSTOM:TriangulumHoe"
-    ],
-    "BLOCKS:minecraft:logs": [
-      "CUSTOM:Wonder_oakLog"
-    ],
-    "BLOCKS:silly_willy_core:saplingplaceables": [
-      "Blocks.AIR",
-      "Blocks.VOID_AIR",
-      "Blocks.CAVE_AIR"
-    ],
-    "BLOCKS:minecraft:leaves": [
-      "~CUSTOM:Wonder_oakLeaves"
-    ],
-    "BLOCKS:minecraft:slabs": [
-      "~CUSTOM:Wonder_oakSlab"
-    ],
-    "ITEMS:minecraft:axes": [
-      "~CUSTOM:TriangulumAxe"
-    ],
-    "BLOCKS:minecraft:stairs": [
-      "~CUSTOM:Wonder_oakStairs"
-    ],
-    "ITEMS:minecraft:swords": [
-      "~CUSTOM:TriangulumSword"
-    ],
-    "ITEMS:silly_willy_core:refined_triangulum": [
-      "CUSTOM:RefinedTriangulum"
-    ],
     "BLOCKS:minecraft:needs_diamond_tool": [
       "~CUSTOM:TriangulumoreDeepslate",
       "~CUSTOM:Triangulumore"
@@ -1493,11 +1443,21 @@
     "ITEMS:minecraft:pickaxes": [
       "~CUSTOM:TriangulumPickaxe"
     ],
+    "ITEMS:minecraft:flowers": [
+      "CUSTOM:Geometriusdown",
+      "CUSTOM:Geometriusup"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:TriangulumHoe"
+    ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
       "~Blocks.VOID_AIR",
       "~CUSTOM:Geostone"
     ],
     "BIOMES:minecraft:is_overworld": [],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:Wonder_oakLog"
+    ],
     "ITEMS:silly_willy_core:geometrius_interchange": [
       "CUSTOM:Geometriusdown",
       "CUSTOM:Geometriusup"
@@ -1510,7 +1470,18 @@
       "Blocks.LAVA",
       "CUSTOM:MeltedEntangulumFluid"
     ],
+    "BLOCKS:silly_willy_core:saplingplaceables": [
+      "Blocks.AIR",
+      "Blocks.VOID_AIR",
+      "Blocks.CAVE_AIR"
+    ],
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:Wonder_oakLeaves"
+    ],
     "BLOCKS:minecraft:dirt": [],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:Wonder_oakSlab"
+    ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:Wonder_oakPlanks",
       "~CUSTOM:Wonder_oakLog",
@@ -1524,11 +1495,23 @@
     "BLOCKS:minecraft:fences": [
       "~CUSTOM:Wonder_oakFence"
     ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:TriangulumAxe"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:Wonder_oakStairs"
+    ],
     "BLOCKS:silly_willy_core:geo_floor": [
       "CUSTOM:Geostone"
     ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:TriangulumSword"
+    ],
     "ITEMS:minecraft:shovels": [
       "~CUSTOM:TriangulumShovel"
+    ],
+    "ITEMS:silly_willy_core:refined_triangulum": [
+      "CUSTOM:RefinedTriangulum"
     ]
   },
   "tab_element_order": {
@@ -1576,15 +1559,14 @@
       "item.silly_willy_core.triangulum_shovel": "Triangulum Shovel",
       "biome.silly_willy_core.wonder_forest": "Wonder Forest",
       "block.silly_willy_core.blockofrawentangulum": "Block of Raw Entangulum",
-      "block.silly_willy_core.entangulumore": "Entangulum Ore",
       "item.silly_willy_core.triangulum_hoe": "Triangulum Hoe",
+      "block.silly_willy_core.entangulumore": "Entangulum Ore",
       "item.silly_willy_core.raw_entangulum": "Raw Entangulum",
       "block.silly_willy_core.wonder_oak_fence_gate": "Wonder Oak Fence Gate",
       "block.silly_willy_core.wonder_oak_wood": "Wonder Oak Wood",
       "block.silly_willy_core.geostone": "Geostone",
       "item_group.silly_willy_core.structureblocks": "Structure Blocks",
       "item.silly_willy_core.entangulumplate": "Entangulum Plate",
-      "item.silly_willy_core.test_spawn_egg": "Test Spawn Egg",
       "block.silly_willy_core.blockrawtriangulum": "Block of Raw Triangulum",
       "item.silly_willy_core.raw_triangulum": "Raw Triangulum",
       "advancements.get_raw_triangulum.descr": "Get Raw Triangulum",
@@ -1599,7 +1581,6 @@
       "block.silly_willy_core.wonder_oak_pressure_plate": "Wonder Oak Pressure Plate",
       "block.silly_willy_core.wonder_oak_planks": "Wonder Oak Planks",
       "item.silly_willy_core.triangulum_sword": "Triangulum Sword",
-      "entity.silly_willy_core.test": "Test",
       "item.silly_willy_core.triangulum_pickaxe": "Triangulum Pickaxe",
       "block.silly_willy_core.wonder_oak_button": "Wonder Oak Button",
       "advancements.get_raw_triangulum.title": "That\u0027s not a square",
@@ -1753,12 +1734,13 @@
   "workspaceSettings": {
     "modid": "silly_willy_core",
     "modName": "Silly Willy Core",
-    "version": "0.0.6",
-    "description": "This is the Core mod for the Silly Willies mc Server",
+    "version": "0.0.6b",
+    "description": "This mod is the core mod for the silly willies modpack",
     "author": "Crit (J.V), Zomagon, P",
     "websiteURL": "https://modrinth.com/organization/silly-willies",
     "license": "MIT License",
     "serverSideOnly": false,
+    "modPicture": "sillybilly",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],

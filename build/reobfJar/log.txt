@@ -152,8 +152,8 @@ Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/g
 Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/beforeDestroyingBlock(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V from net/minecraft/world/level/material/FlowingFluid/beforeDestroyingBlock(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V: beforeDestroyingBlock -> m_7456_
 Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/getBucket()Lnet/minecraft/world/item/Item; from net/minecraft/world/level/material/Fluid/getBucket()Lnet/minecraft/world/item/Item;: getBucket -> m_6859_
 Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/canBeReplacedWith(Lnet/minecraft/world/level/material/FluidState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/material/Fluid;Lnet/minecraft/core/Direction;)Z from net/minecraft/world/level/material/Fluid/canBeReplacedWith(Lnet/minecraft/world/level/material/FluidState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/material/Fluid;Lnet/minecraft/core/Direction;)Z: canBeReplacedWith -> m_5486_
-Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
 Conflicting propagated mapping for net/minecraftforge/event/BuildCreativeModeTabContentsEvent/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V from net/minecraft/world/item/CreativeModeTab$Output/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V: accept -> m_246267_
+Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
 Adding extras
 Sorting
 Writing Output: C:\Users\crtca\OneDrive\Documents\GitHub\Silly_Willies_Core\build\reobfJar\output.jar
@@ -320,6 +320,7 @@ Writing Output: C:\Users\crtca\OneDrive\Documents\GitHub\Silly_Willies_Core\buil
   assets/silly_willy_core/textures/particle/
   assets/silly_willy_core/textures/particle/liquid_entangulum.png
   assets/silly_willy_core/textures/particle/liquid_entangulum_still.png
+  assets/silly_willy_core/textures/sillybilly.png
   data/
   data/minecraft/
   data/minecraft/tags/
@@ -584,4 +585,5 @@ Writing Output: C:\Users\crtca\OneDrive\Documents\GitHub\Silly_Willies_Core\buil
   io/github/errordude42/sillywillycore/world/dimension/GeoDimensionDimension$GeoDimensionSpecialEffectsHandler$1.class
   io/github/errordude42/sillywillycore/world/dimension/GeoDimensionDimension$GeoDimensionSpecialEffectsHandler.class
   io/github/errordude42/sillywillycore/world/dimension/GeoDimensionDimension.class
+  logo.png
   pack.mcmeta
