@@ -571,7 +571,7 @@
       "name": "GeoDimension",
       "type": "dimension",
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "geo_dimension",
       "metadata": {
         "files": [
@@ -1428,6 +1428,23 @@
         ]
       },
       "path": "~/Geo_Dimension/World gen/Structures/Wonder Tree spawns/Tree gen functions/varients"
+    },
+    {
+      "name": "Test",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/errordude42/sillywillycore/client/renderer/TestRenderer.java",
+          "src/main/resources/data/silly_willy_core/forge/biome_modifier/test_biome_modifier.json",
+          "src/main/resources/assets/silly_willy_core/models/item/test_spawn_egg.json",
+          "src/main/java/io/github/errordude42/sillywillycore/entity/model/TestModel.java",
+          "src/main/java/io/github/errordude42/sillywillycore/entity/TestEntity.java"
+        ]
+      },
+      "path": "~/Geo_Dimension/World gen/Biomes"
     }
   ],
   "variable_elements": [],
@@ -1498,6 +1515,7 @@
     "ITEMS:minecraft:axes": [
       "~CUSTOM:TriangulumAxe"
     ],
+    "ITEMS:silly_willy_core:tag": [],
     "BLOCKS:minecraft:stairs": [
       "~CUSTOM:Wonder_oakStairs"
     ],
@@ -1556,14 +1574,15 @@
       "item.silly_willy_core.triangulum_shovel": "Triangulum Shovel",
       "biome.silly_willy_core.wonder_forest": "Wonder Forest",
       "block.silly_willy_core.blockofrawentangulum": "Block of Raw Entangulum",
-      "item.silly_willy_core.triangulum_hoe": "Triangulum Hoe",
       "block.silly_willy_core.entangulumore": "Entangulum Ore",
+      "item.silly_willy_core.triangulum_hoe": "Triangulum Hoe",
       "item.silly_willy_core.raw_entangulum": "Raw Entangulum",
       "block.silly_willy_core.wonder_oak_fence_gate": "Wonder Oak Fence Gate",
       "block.silly_willy_core.wonder_oak_wood": "Wonder Oak Wood",
       "block.silly_willy_core.geostone": "Geostone",
       "item_group.silly_willy_core.structureblocks": "Structure Blocks",
       "item.silly_willy_core.entangulumplate": "Entangulum Plate",
+      "item.silly_willy_core.test_spawn_egg": "Test Spawn Egg",
       "block.silly_willy_core.blockrawtriangulum": "Block of Raw Triangulum",
       "item.silly_willy_core.raw_triangulum": "Raw Triangulum",
       "advancements.get_raw_triangulum.descr": "Get Raw Triangulum",
@@ -1578,6 +1597,7 @@
       "block.silly_willy_core.wonder_oak_pressure_plate": "Wonder Oak Pressure Plate",
       "block.silly_willy_core.wonder_oak_planks": "Wonder Oak Planks",
       "item.silly_willy_core.triangulum_sword": "Triangulum Sword",
+      "entity.silly_willy_core.test": "Test",
       "item.silly_willy_core.triangulum_pickaxe": "Triangulum Pickaxe",
       "block.silly_willy_core.wonder_oak_button": "Wonder Oak Button",
       "advancements.get_raw_triangulum.title": "That\u0027s not a square",

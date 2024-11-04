@@ -31,7 +31,6 @@ import io.github.errordude42.sillywillycore.init.SillyWillyCoreModParticleTypes;
 import io.github.errordude42.sillywillycore.init.SillyWillyCoreModItems;
 import io.github.errordude42.sillywillycore.init.SillyWillyCoreModFluids;
 import io.github.errordude42.sillywillycore.init.SillyWillyCoreModFluidTypes;
-import io.github.errordude42.sillywillycore.init.SillyWillyCoreModEntities;
 import io.github.errordude42.sillywillycore.init.SillyWillyCoreModBlocks;
 
 @Mod("silly_willy_core")
@@ -48,7 +47,6 @@ public class SillyWillyCoreMod {
 		SillyWillyCoreModBlocks.REGISTRY.register(bus);
 
 		SillyWillyCoreModItems.REGISTRY.register(bus);
-		SillyWillyCoreModEntities.REGISTRY.register(bus);
 
 		SillyWillyCoreModTabs.REGISTRY.register(bus);
 
