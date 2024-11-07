@@ -1,0 +1,41 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT License"
+
+[[mods]]
+modId="silly_willy_core"
+version="0.0.6"
+displayName="Silly Willy Core"
+displayURL="https://modrinth.com/organization/silly-willies"
+logoFile="logo.png"
+credits="Made by Silly Willy org"
+authors="Crit (J.V), Zomagon, P"
+description="This mod is the core mod for the silly willies modpack"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.silly_willy_core]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+[[dependencies.silly_willy_core]]
+    modId="additions"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.silly_willy_core]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

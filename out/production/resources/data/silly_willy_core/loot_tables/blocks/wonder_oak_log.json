@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "silly_willy_core:blocks/wonder_oak_log",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "silly_willy_core:wonder_oak_log"
+        }
+      ]
+    }
+  ]
+}

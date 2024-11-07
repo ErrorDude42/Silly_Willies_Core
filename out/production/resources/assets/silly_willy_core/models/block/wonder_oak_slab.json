@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "silly_willy_core:block/wonder_oak_planks",
+    "bottom": "silly_willy_core:block/wonder_oak_planks",
+    "top": "silly_willy_core:block/wonder_oak_planks",
+    "side": "silly_willy_core:block/wonder_oak_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "silly_willy_core:geotestinggrounds",
+    "silly_willy_core:wonder_forest"
+  ],
+  "features": "silly_willy_core:geometriusdown",
+  "step": "vegetal_decoration"
+}

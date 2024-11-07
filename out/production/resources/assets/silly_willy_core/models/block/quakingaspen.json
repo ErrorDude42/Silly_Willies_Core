@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "silly_willy_core:block/dream_log_top",
+    "up": "silly_willy_core:block/dream_log_top",
+    "north": "silly_willy_core:block/dream_log",
+    "east": "silly_willy_core:block/dream_log",
+    "south": "silly_willy_core:block/dream_log",
+    "west": "silly_willy_core:block/dream_log",
+    "particle": "silly_willy_core:block/dream_log_top"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "silly_willy_core:cubegen_5",
+  "size": 1,
+  "max_distance_from_center": 64,
+  "spawn_overrides": {},
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "start_height": {
+    "type": "minecraft:trapezoid",
+    "min_inclusive": {
+      "absolute": 59
+    },
+    "max_inclusive": {
+      "absolute": 128
+    }
+  },
+  "biomes": "silly_willy_core:geotestinggrounds",
+  "use_expansion_hack": false
+}

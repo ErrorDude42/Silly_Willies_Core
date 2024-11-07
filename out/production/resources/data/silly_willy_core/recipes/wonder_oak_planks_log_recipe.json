@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "silly_willy_core:wonder_oak_log"
+    }
+  ],
+  "result": {
+    "item": "silly_willy_core:wonder_oak_planks",
+    "count": 4
+  }
+}

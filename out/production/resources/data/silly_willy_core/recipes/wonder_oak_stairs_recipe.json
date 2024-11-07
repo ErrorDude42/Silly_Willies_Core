@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_stairs",
+  "category": "building",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "silly_willy_core:wonder_oak_planks"
+    }
+  },
+  "result": {
+    "item": "silly_willy_core:wonder_oak_stairs",
+    "count": 4
+  }
+}
