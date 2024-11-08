@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:water",
+    "minecraft:bubble_column",
+    "minecraft:lava",
+    "silly_willy_core:melted_entangulum_fluid"
+  ]
+}

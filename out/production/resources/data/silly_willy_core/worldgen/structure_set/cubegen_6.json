@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "silly_willy_core:cubegen_6",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 41,
+    "separation": 21,
+    "salt": 1485339442
+  }
+}

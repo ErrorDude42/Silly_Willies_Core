@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:diamond"
+  },
+  "base": {
+    "item": "minecraft:diamond_axe"
+  },
+  "addition": {
+    "item": "silly_willy_core:refined_triangulum"
+  },
+  "result": {
+    "item": "silly_willy_core:triangulum_axe"
+  }
+}

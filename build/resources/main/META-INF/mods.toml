@@ -24,6 +24,18 @@ description="This mod is the core mod for the silly willies modpack"
 
 
 [[dependencies.silly_willy_core]]
+    modId="pehkui"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.silly_willy_core]]
+    modId="use_compiled_mods"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.silly_willy_core]]
     modId="additions"
     mandatory=false
     versionRange="[0,)"
@@ -31,6 +43,12 @@ description="This mod is the core mod for the silly willies modpack"
     side="BOTH"
 [[dependencies.silly_willy_core]]
     modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.silly_willy_core]]
+    modId="jei"
     mandatory=false
     versionRange="[0,)"
     ordering="NONE"

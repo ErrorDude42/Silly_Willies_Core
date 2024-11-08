@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "silly_willy_core:block/wonder_oak_leaves",
+    "particle": "silly_willy_core:block/wonder_oak_leaves"
+  }
+}

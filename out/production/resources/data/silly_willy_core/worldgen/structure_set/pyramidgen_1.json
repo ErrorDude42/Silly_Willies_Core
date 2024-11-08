@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "silly_willy_core:pyramidgen_1",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 18,
+    "separation": 6,
+    "salt": 1256128888
+  }
+}

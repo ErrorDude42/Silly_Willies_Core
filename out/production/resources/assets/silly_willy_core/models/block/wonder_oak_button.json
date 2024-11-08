@@ -1,0 +1,8 @@
+{
+  "parent": "block/button",
+  "textures": {
+    "particle": "silly_willy_core:block/wonder_oak_planks",
+    "texture": "silly_willy_core:block/wonder_oak_planks"
+  },
+  "render_type": "solid"
+}
