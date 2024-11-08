@@ -11,10 +11,11 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.BlockPos;
 
 public class TriangulumTippedMaceLivingEntityIsHitWithToolProcedure {
-	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity, ItemStack itemstack) {
-		if (entity == null)
+	public static void execute(LevelAccessor world, double x, double y, double z, Entity sourceentity, ItemStack itemstack) {
+		if (sourceentity == null)
 			return;
-		if ((entity instanceof Player _plrCldRem1 ? _plrCldRem1.getCooldowns().getCooldownPercent(itemstack.getItem(), 0f) * 100 : 0) <= 0) {
+		if (world.canSeeSkyFromBelowWater(BlockPos.containing(x, y, z)) && world.getLevelData().isThundering()
+				&& (sourceentity instanceof Player _plrCldRem3 ? _plrCldRem3.getCooldowns().getCooldownPercent(itemstack.getItem(), 0f) * 100 : 0) <= 0.8) {
 			if (world instanceof ServerLevel _level) {
 				LightningBolt entityToSpawn = EntityType.LIGHTNING_BOLT.create(_level);
 				entityToSpawn.moveTo(Vec3.atBottomCenterOf(BlockPos.containing(x, y, z)));;

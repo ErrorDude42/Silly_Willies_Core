@@ -142,6 +142,7 @@ Adding Libraries to Inheritance
 Reading Input: C:\Users\crtca\OneDrive\Documents\GitHub\Silly_Willies_Core\build\libs\modid-1.0.jar
 Adding input to inheritance map
 Processing entries
+Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
 Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/getFlowing()Lnet/minecraft/world/level/material/Fluid; from net/minecraft/world/level/material/FlowingFluid/getFlowing()Lnet/minecraft/world/level/material/Fluid;: getFlowing -> m_5615_
 Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/createLegacyBlock(Lnet/minecraft/world/level/material/FluidState;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/material/Fluid/createLegacyBlock(Lnet/minecraft/world/level/material/FluidState;)Lnet/minecraft/world/level/block/state/BlockState;: createLegacyBlock -> m_5804_
 Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/getTickDelay(Lnet/minecraft/world/level/LevelReader;)I from net/minecraft/world/level/material/Fluid/getTickDelay(Lnet/minecraft/world/level/LevelReader;)I: getTickDelay -> m_6718_
@@ -155,7 +156,6 @@ Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/g
 Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/beforeDestroyingBlock(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V from net/minecraft/world/level/material/FlowingFluid/beforeDestroyingBlock(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V: beforeDestroyingBlock -> m_7456_
 Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/getBucket()Lnet/minecraft/world/item/Item; from net/minecraft/world/level/material/Fluid/getBucket()Lnet/minecraft/world/item/Item;: getBucket -> m_6859_
 Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/canBeReplacedWith(Lnet/minecraft/world/level/material/FluidState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/material/Fluid;Lnet/minecraft/core/Direction;)Z from net/minecraft/world/level/material/Fluid/canBeReplacedWith(Lnet/minecraft/world/level/material/FluidState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/material/Fluid;Lnet/minecraft/core/Direction;)Z: canBeReplacedWith -> m_5486_
-Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
 Conflicting propagated mapping for net/minecraftforge/event/BuildCreativeModeTabContentsEvent/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V from net/minecraft/world/item/CreativeModeTab$Output/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V: accept -> m_246267_
 Adding extras
 Sorting
@@ -355,7 +355,10 @@ Writing Output: C:\Users\crtca\OneDrive\Documents\GitHub\Silly_Willies_Core\buil
   data/minecraft/tags/worldgen/biome/is_overworld.json
   data/silly_willy_core/
   data/silly_willy_core/advancements/
+  data/silly_willy_core/advancements/get_dirty_entangulum_dust.json
+  data/silly_willy_core/advancements/get_raw_entangulum.json
   data/silly_willy_core/advancements/get_raw_triangulum.json
+  data/silly_willy_core/advancements/make_refined_triangulum.json
   data/silly_willy_core/dimension/
   data/silly_willy_core/dimension/geo_dimension.json
   data/silly_willy_core/dimension_type/

@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "silly_willy_core:refined_triangulum"
+    },
+    "title": {
+      "translate": "advancements.make_refined_triangulum.title"
+    },
+    "description": {
+      "translate": "advancements.make_refined_triangulum.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "make_refined_triangulum_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "silly_willy_core:refined_triangulum"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "parent": "silly_willy_core:get_raw_triangulum"
+}
