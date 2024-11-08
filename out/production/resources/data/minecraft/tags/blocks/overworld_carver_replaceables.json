@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
+<<<<<<< HEAD
+=======
+    "minecraft:void_air",
+>>>>>>> 37ecd051301c02c05cfe4356d52e636aaf9f4be4
     "silly_willy_core:geostone"
   ]
 }
