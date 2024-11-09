@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "silly_willy_core:dirty_entangulum_dust"
+    }
+  },
+  "result": {
+    "item": "silly_willy_core:entangulum_dust",
+    "count": 1
+  }
+}

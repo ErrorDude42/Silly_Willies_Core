@@ -44,8 +44,6 @@ public class SillyWillyCoreModTabs {
 				tabData.accept(SillyWillyCoreModBlocks.GEOSTONE.get().asItem());
 				tabData.accept(SillyWillyCoreModBlocks.BLOCKOFRAWENTANGULUM.get().asItem());
 				tabData.accept(SillyWillyCoreModBlocks.ENTANGULUMORE.get().asItem());
-				tabData.accept(SillyWillyCoreModItems.DIRTYENTANGULUM.get());
-				tabData.accept(SillyWillyCoreModItems.ENTANGULUMDUST.get());
 				tabData.accept(SillyWillyCoreModItems.ENTANGULUMPLATE.get());
 				tabData.accept(SillyWillyCoreModItems.ENTANGULUMSPOOL.get());
 				tabData.accept(SillyWillyCoreModItems.RAW_ENTANGULUM.get());
@@ -64,6 +62,8 @@ public class SillyWillyCoreModTabs {
 				tabData.accept(SillyWillyCoreModBlocks.WONDER_OAK_BUTTON.get().asItem());
 				tabData.accept(SillyWillyCoreModBlocks.WONDER_OAK_SAPLING.get().asItem());
 				tabData.accept(SillyWillyCoreModItems.TRIANGULUM_TIPPED_MACE.get());
+				tabData.accept(SillyWillyCoreModItems.DIRTY_ENTANGULUM_DUST.get());
+				tabData.accept(SillyWillyCoreModItems.ENTANGULUM_DUST.get());
 			})
 
 					.build());
@@ -93,8 +93,8 @@ public class SillyWillyCoreModTabs {
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 
-			tabData.accept(SillyWillyCoreModItems.DIRTYENTANGULUM.get());
-			tabData.accept(SillyWillyCoreModItems.ENTANGULUMDUST.get());
+			tabData.accept(SillyWillyCoreModItems.DIRTY_ENTANGULUM_DUST.get());
+			tabData.accept(SillyWillyCoreModItems.ENTANGULUM_DUST.get());
 			tabData.accept(SillyWillyCoreModItems.ENTANGULUMPLATE.get());
 			tabData.accept(SillyWillyCoreModItems.ENTANGULUMSPOOL.get());
 			tabData.accept(SillyWillyCoreModItems.RAW_ENTANGULUM.get());

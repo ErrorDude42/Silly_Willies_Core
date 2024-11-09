@@ -1,0 +1,62 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "silly_willy_core:raw_triangulum"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "item": "silly_willy_core:refined_triangulum"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "silly_willy_core:refined_triangulum"
+        },
+        [
+          {
+            "item": "minecraft:diamond"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "silly_willy_core:refined_triangulum"
+        }
+      ]
+    },
+    {
+	  "type": "create:cutting",
+	  "ingredients": [
+	    {
+  	    "item": "silly_willy_core:refined_triangulum"
+  	  }
+	  ],
+	  "processingTime": 50,
+ 	 "results": [
+   	 {
+   	   "item": "silly_willy_core:refined_triangulum"
+  	  }
+ 	 ]
+	},
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "silly_willy_core:refined_triangulum"
+        }
+      ],
+      "results": [
+        {
+          "item": "silly_willy_core:refined_triangulum"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "silly_willy_core:refined_triangulum"
+  }
+}

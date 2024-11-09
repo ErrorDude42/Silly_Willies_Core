@@ -44,8 +44,8 @@ public class SillyWillyCoreModItems {
 	public static final RegistryObject<Item> TRIANGULUMBRICKS = block(SillyWillyCoreModBlocks.TRIANGULUMBRICKS);
 	public static final RegistryObject<Item> GEOSTONE = block(SillyWillyCoreModBlocks.GEOSTONE);
 	public static final RegistryObject<Item> ENTANGULUMORE = block(SillyWillyCoreModBlocks.ENTANGULUMORE);
-	public static final RegistryObject<Item> DIRTYENTANGULUM = REGISTRY.register("dirtyentangulum", () -> new DirtyentangulumItem());
-	public static final RegistryObject<Item> ENTANGULUMDUST = REGISTRY.register("entangulumdust", () -> new EntangulumdustItem());
+	public static final RegistryObject<Item> DIRTY_ENTANGULUM_DUST = REGISTRY.register("dirty_entangulum_dust", () -> new DirtyentangulumItem());
+	public static final RegistryObject<Item> ENTANGULUM_DUST = REGISTRY.register("entangulum_dust", () -> new EntangulumdustItem());
 	public static final RegistryObject<Item> ENTANGULUMPLATE = REGISTRY.register("entangulumplate", () -> new EntangulumplateItem());
 	public static final RegistryObject<Item> ENTANGULUMSPOOL = REGISTRY.register("entangulumspool", () -> new EntangulumspoolItem());
 	public static final RegistryObject<Item> RAW_ENTANGULUM = REGISTRY.register("raw_entangulum", () -> new RawEntangulumItem());

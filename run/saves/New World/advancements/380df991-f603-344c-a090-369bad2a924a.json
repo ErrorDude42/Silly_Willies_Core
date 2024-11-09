@@ -516,12 +516,6 @@
     },
     "done": true
   },
-  "silly_willy_core:make_refined_triangulum": {
-    "criteria": {
-      "make_refined_triangulum_0": "2024-11-07 21:58:46 -0600"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/lime_concrete_powder": {
     "criteria": {
       "has_sand": "2024-11-07 21:54:50 -0600"
@@ -573,6 +567,12 @@
   "minecraft:recipes/building_blocks/cyan_concrete_powder": {
     "criteria": {
       "has_sand": "2024-11-07 21:54:50 -0600"
+    },
+    "done": true
+  },
+  "silly_willy_core:make_refined_triangulum": {
+    "criteria": {
+      "make_refined_triangulum_0": "2024-11-07 21:58:46 -0600"
     },
     "done": true
   },

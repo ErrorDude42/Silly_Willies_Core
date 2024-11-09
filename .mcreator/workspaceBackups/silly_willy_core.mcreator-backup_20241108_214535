@@ -1670,8 +1670,8 @@
       "advancements.get_raw_entangulum.descr": "Mine Entangulum Ore",
       "block.silly_willy_core.wonder_oak_button": "Wonder Oak Button",
       "advancements.get_raw_triangulum.title": "That\u0027s not a square",
-      "item.silly_willy_core.refined_triangulum": "Refined Triangulum",
       "block.silly_willy_core.wonder_oak_leaves": "Wonder Oak Leaves",
+      "item.silly_willy_core.refined_triangulum": "Refined Triangulum",
       "item.silly_willy_core.entangulumdust": "Entangulum Dust",
       "block.silly_willy_core.geometriusdown": "Geometrius Vari. Down",
       "biome.silly_willy_core.wonder_forest": "Wonder Forest",
@@ -1748,6 +1748,10 @@
               },
               {
                 "name": "Dyes",
+                "children": []
+              },
+              {
+                "name": "Processing",
                 "children": []
               }
             ]

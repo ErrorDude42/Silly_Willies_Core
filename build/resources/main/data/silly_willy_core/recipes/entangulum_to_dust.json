@@ -1,0 +1,22 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "silly_willy_core:raw_entangulum"
+    }
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "item": "silly_willy_core:dirty_entangulum_dust"
+    },
+    {
+      "chance": 0.75,
+      "item": "silly_willy_core:dirty_entangulum_dust"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    }
+  ]
+}

@@ -1441,7 +1441,7 @@
         ],
         "dependencies": [
           {
-            "name": "entity",
+            "name": "sourceentity",
             "type": "entity"
           },
           {
@@ -1494,11 +1494,66 @@
         ]
       },
       "path": "~/Geo_Dimension/Advancements"
+    },
+    {
+      "name": "GetRawEntangulum",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_raw_entangulum",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/advancements/get_raw_entangulum.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Advancements"
+    },
+    {
+      "name": "GetDirtyEntangulumDust",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_dirty_entangulum_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/advancements/get_dirty_entangulum_dust.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Advancements"
+    },
+    {
+      "name": "TriangulumProcessing",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "triangulum_processing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/recipes/triangulum_processing.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Recipes/Processing"
+    },
+    {
+      "name": "EntangulumToDust",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "entangulum_to_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/recipes/entangulum_to_dust.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Recipes/Processing"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
+    "ITEMS:silly_willy_core:raw_triangulum": [
+      "CUSTOM:RawTriangulum"
+    ],
     "BLOCKS:minecraft:needs_diamond_tool": [
       "~CUSTOM:TriangulumoreDeepslate",
       "~CUSTOM:Triangulumore"
@@ -1623,9 +1678,7 @@
       "block.silly_willy_core.wonder_oak_stairs": "Wonder Oak Stairs",
       "biome.silly_willy_core.geotestinggrounds": "Testing Grounds",
       "item.silly_willy_core.triangulum_shovel": "Triangulum Shovel",
-      "biome.silly_willy_core.wonder_forest": "Wonder Forest",
       "block.silly_willy_core.blockofrawentangulum": "Block of Raw Entangulum",
-      "block.silly_willy_core.entangulumore": "Entangulum Ore",
       "item.silly_willy_core.triangulum_hoe": "Triangulum Hoe",
       "item.silly_willy_core.raw_entangulum": "Raw Entangulum",
       "block.silly_willy_core.wonder_oak_fence_gate": "Wonder Oak Fence Gate",
@@ -1634,33 +1687,39 @@
       "block.silly_willy_core.geostone": "Geostone",
       "item_group.silly_willy_core.structureblocks": "Structure Blocks",
       "item.silly_willy_core.entangulumplate": "Entangulum Plate",
-      "block.silly_willy_core.blockrawtriangulum": "Block of Raw Triangulum",
       "item.silly_willy_core.raw_triangulum": "Raw Triangulum",
-      "advancements.get_raw_triangulum.descr": "Get Raw Triangulum",
-      "block.silly_willy_core.structure_triangulumbricks": "Structure Triangulum Bricks",
       "block.silly_willy_core.wonder_oak_fence": "Wonder Oak Fence",
       "block.silly_willy_core.wonder_oak_log": "Wonder Oak Log",
       "block.silly_willy_core.wonder_oak_sapling": "Wonder Oak Sapling",
       "block.silly_willy_core.triangulumore": "Triangulum Ore",
-      "fluid.silly_willy_core.melted_entangulum_fluid": "Melted Entangulum Fluid",
       "item.silly_willy_core.melted_entangulum_fluid_bucket": "Bucket of Melted Entangulum",
-      "block.silly_willy_core.wonder_oak_slab": "Wonder Oak Slabs",
-      "block.silly_willy_core.wonder_oak_pressure_plate": "Wonder Oak Pressure Plate",
       "block.silly_willy_core.wonder_oak_planks": "Wonder Oak Planks",
       "item.silly_willy_core.triangulum_sword": "Triangulum Sword",
       "item.silly_willy_core.triangulum_tipped_mace": "Triangulum Tipped Mace",
-      "item.silly_willy_core.triangulum_pickaxe": "Triangulum Pickaxe",
+      "advancements.get_raw_entangulum.descr": "Mine Entangulum Ore",
       "block.silly_willy_core.wonder_oak_button": "Wonder Oak Button",
       "advancements.get_raw_triangulum.title": "That\u0027s not a square",
+      "block.silly_willy_core.wonder_oak_leaves": "Wonder Oak Leaves",
+      "item.silly_willy_core.refined_triangulum": "Refined Triangulum",
+      "item.silly_willy_core.entangulumdust": "Entangulum Dust",
+      "block.silly_willy_core.geometriusdown": "Geometrius Vari. Down",
+      "biome.silly_willy_core.wonder_forest": "Wonder Forest",
+      "block.silly_willy_core.entangulumore": "Entangulum Ore",
+      "advancements.get_dirty_entangulum_dust.title": "That\u0027s only the first step?",
+      "block.silly_willy_core.blockrawtriangulum": "Block of Raw Triangulum",
+      "block.silly_willy_core.structure_triangulumbricks": "Structure Triangulum Bricks",
+      "advancements.get_raw_triangulum.descr": "Get Raw Triangulum",
+      "advancements.get_dirty_entangulum_dust.descr": "Start the long refining process for Entangulum Spools",
+      "fluid.silly_willy_core.melted_entangulum_fluid": "Melted Entangulum Fluid",
+      "block.silly_willy_core.wonder_oak_slab": "Wonder Oak Slabs",
+      "block.silly_willy_core.wonder_oak_pressure_plate": "Wonder Oak Pressure Plate",
+      "item.silly_willy_core.triangulum_pickaxe": "Triangulum Pickaxe",
       "block.silly_willy_core.triangulumore_deepslate": "Triangulum Ore Deepslate",
       "item.silly_willy_core.dirtyentangulum": "Dirty Entangulum Dust ",
       "block.silly_willy_core.triangulumbricks": "Triangulumbricks",
-      "item.silly_willy_core.refined_triangulum": "Refined Triangulum",
-      "block.silly_willy_core.wonder_oak_leaves": "Wonder Oak Leaves",
       "block.silly_willy_core.geometriusup": "Geometrius Vari. Up ",
-      "item.silly_willy_core.entangulumdust": "Entangulum Dust",
       "item.silly_willy_core.triangulum_axe": "Triangulum Axe",
-      "block.silly_willy_core.geometriusdown": "Geometrius Vari. Down",
+      "advancements.get_raw_entangulum.title": "Get Raw Entangulum",
       "block.silly_willy_core.melted_entangulum_fluid": "Melted Entangulum Fluid",
       "item.silly_willy_core.entangulumspool": "Entangulum Spool"
     }
@@ -1719,6 +1778,19 @@
               {
                 "name": "Dyes",
                 "children": []
+              },
+              {
+                "name": "Processing",
+                "children": [
+                  {
+                    "name": "Create",
+                    "children": []
+                  },
+                  {
+                    "name": "Mekanism",
+                    "children": []
+                  }
+                ]
               }
             ]
           },

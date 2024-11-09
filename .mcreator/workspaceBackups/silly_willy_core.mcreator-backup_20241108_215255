@@ -1520,11 +1520,27 @@
         ]
       },
       "path": "~/Geo_Dimension/Advancements"
+    },
+    {
+      "name": "TriangulumProcessing",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "triangulum_processing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/recipes/triangulum_processing.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Recipes/Processing"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
+    "ITEMS:silly_willy_core:raw_triangulum": [
+      "CUSTOM:RawTriangulum"
+    ],
     "BLOCKS:minecraft:needs_diamond_tool": [
       "~CUSTOM:TriangulumoreDeepslate",
       "~CUSTOM:Triangulumore"
@@ -1670,8 +1686,8 @@
       "advancements.get_raw_entangulum.descr": "Mine Entangulum Ore",
       "block.silly_willy_core.wonder_oak_button": "Wonder Oak Button",
       "advancements.get_raw_triangulum.title": "That\u0027s not a square",
-      "item.silly_willy_core.refined_triangulum": "Refined Triangulum",
       "block.silly_willy_core.wonder_oak_leaves": "Wonder Oak Leaves",
+      "item.silly_willy_core.refined_triangulum": "Refined Triangulum",
       "item.silly_willy_core.entangulumdust": "Entangulum Dust",
       "block.silly_willy_core.geometriusdown": "Geometrius Vari. Down",
       "biome.silly_willy_core.wonder_forest": "Wonder Forest",
@@ -1748,6 +1764,10 @@
               },
               {
                 "name": "Dyes",
+                "children": []
+              },
+              {
+                "name": "Processing",
                 "children": []
               }
             ]

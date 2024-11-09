@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "silly_willy_core:dirtyentangulum"
+      "item": "silly_willy_core:dirty_entangulum_dust"
     },
     "title": {
       "translate": "advancements.get_dirty_entangulum_dust.title"
@@ -21,7 +21,7 @@
         "items": [
           {
             "items": [
-              "silly_willy_core:dirtyentangulum"
+              "silly_willy_core:dirty_entangulum_dust"
             ],
             "count": {
               "min": 1,
