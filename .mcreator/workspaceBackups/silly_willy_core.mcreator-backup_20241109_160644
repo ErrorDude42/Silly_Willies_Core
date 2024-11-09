@@ -1551,11 +1551,24 @@
       "name": "DirtyEntangulumToClean",
       "type": "recipe",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "dirty_entangulum_to_clean",
       "metadata": {
         "files": [
           "src/main/resources/data/silly_willy_core/recipes/dirty_entangulum_to_clean.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Recipes/Processing/Create"
+    },
+    {
+      "name": "DustToLiquid",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dust_to_liquid",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/recipes/dust_to_liquid.json"
         ]
       },
       "path": "~/Geo_Dimension/Recipes/Processing/Create"

@@ -25,6 +25,7 @@ import io.github.errordude42.sillywillycore.item.MeltedEntangulumFluidItem;
 import io.github.errordude42.sillywillycore.item.EntangulumspoolItem;
 import io.github.errordude42.sillywillycore.item.EntangulumplateItem;
 import io.github.errordude42.sillywillycore.item.EntangulumdustItem;
+import io.github.errordude42.sillywillycore.item.EntangulumStringItem;
 import io.github.errordude42.sillywillycore.item.DirtyentangulumItem;
 import io.github.errordude42.sillywillycore.SillyWillyCoreMod;
 
@@ -65,6 +66,7 @@ public class SillyWillyCoreModItems {
 	public static final RegistryObject<Item> WONDER_OAK_BUTTON = block(SillyWillyCoreModBlocks.WONDER_OAK_BUTTON);
 	public static final RegistryObject<Item> WONDER_OAK_SAPLING = block(SillyWillyCoreModBlocks.WONDER_OAK_SAPLING);
 	public static final RegistryObject<Item> TRIANGULUM_TIPPED_MACE = REGISTRY.register("triangulum_tipped_mace", () -> new TriangulumTippedMaceItem());
+	public static final RegistryObject<Item> ENTANGULUM_STRING = REGISTRY.register("entangulum_string", () -> new EntangulumStringItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

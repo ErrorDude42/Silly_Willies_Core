@@ -351,10 +351,10 @@
       "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dirtyentangulum",
+      "registry_name": "dirty_entangulum_dust",
       "metadata": {
         "files": [
-          "src/main/resources/assets/silly_willy_core/models/item/dirtyentangulum.json",
+          "src/main/resources/assets/silly_willy_core/models/item/dirty_entangulum_dust.json",
           "src/main/java/io/github/errordude42/sillywillycore/item/DirtyentangulumItem.java"
         ]
       },
@@ -365,11 +365,11 @@
       "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "entangulumdust",
+      "registry_name": "entangulum_dust",
       "metadata": {
         "files": [
           "src/main/java/io/github/errordude42/sillywillycore/item/EntangulumdustItem.java",
-          "src/main/resources/assets/silly_willy_core/models/item/entangulumdust.json"
+          "src/main/resources/assets/silly_willy_core/models/item/entangulum_dust.json"
         ]
       },
       "path": "~/Geo_Dimension/Items/Entangulum Materials"
@@ -1520,11 +1520,66 @@
         ]
       },
       "path": "~/Geo_Dimension/Advancements"
+    },
+    {
+      "name": "TriangulumProcessing",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "triangulum_processing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/recipes/triangulum_processing.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Recipes/Processing/Create"
+    },
+    {
+      "name": "EntangulumToDust",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "entangulum_to_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/recipes/entangulum_to_dust.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Recipes/Processing/Create"
+    },
+    {
+      "name": "DirtyEntangulumToClean",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "dirty_entangulum_to_clean",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/recipes/dirty_entangulum_to_clean.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Recipes/Processing/Create"
+    },
+    {
+      "name": "DustToLiquid",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "dust_to_liquid",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/recipes/dust_to_liquid.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Recipes/Processing/Create"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
+    "ITEMS:silly_willy_core:raw_triangulum": [
+      "CUSTOM:RawTriangulum"
+    ],
     "BLOCKS:minecraft:needs_diamond_tool": [
       "~CUSTOM:TriangulumoreDeepslate",
       "~CUSTOM:Triangulumore"
@@ -1620,8 +1675,6 @@
       "Geostone",
       "Blockofrawentangulum",
       "Entangulumore",
-      "Dirtyentangulum",
-      "Entangulumdust",
       "Entangulumplate",
       "Entangulumspool",
       "RawEntangulum",
@@ -1639,7 +1692,9 @@
       "Wonder_oakPressurePlate",
       "Wonder_oakButton",
       "WonderOakSapling",
-      "TriangulumTippedMace"
+      "TriangulumTippedMace",
+      "Dirtyentangulum",
+      "Entangulumdust"
     ]
   },
   "language_map": {
@@ -1658,6 +1713,8 @@
       "block.silly_willy_core.geostone": "Geostone",
       "item_group.silly_willy_core.structureblocks": "Structure Blocks",
       "item.silly_willy_core.entangulumplate": "Entangulum Plate",
+      "item.silly_willy_core.dirty_entangulum_dust": "Dirty Entangulum Dust ",
+      "item.silly_willy_core.entangulum_dust": "Entangulum Dust",
       "item.silly_willy_core.raw_triangulum": "Raw Triangulum",
       "block.silly_willy_core.wonder_oak_fence": "Wonder Oak Fence",
       "block.silly_willy_core.wonder_oak_log": "Wonder Oak Log",
@@ -1672,7 +1729,6 @@
       "advancements.get_raw_triangulum.title": "That\u0027s not a square",
       "block.silly_willy_core.wonder_oak_leaves": "Wonder Oak Leaves",
       "item.silly_willy_core.refined_triangulum": "Refined Triangulum",
-      "item.silly_willy_core.entangulumdust": "Entangulum Dust",
       "block.silly_willy_core.geometriusdown": "Geometrius Vari. Down",
       "biome.silly_willy_core.wonder_forest": "Wonder Forest",
       "block.silly_willy_core.entangulumore": "Entangulum Ore",
@@ -1686,7 +1742,6 @@
       "block.silly_willy_core.wonder_oak_pressure_plate": "Wonder Oak Pressure Plate",
       "item.silly_willy_core.triangulum_pickaxe": "Triangulum Pickaxe",
       "block.silly_willy_core.triangulumore_deepslate": "Triangulum Ore Deepslate",
-      "item.silly_willy_core.dirtyentangulum": "Dirty Entangulum Dust ",
       "block.silly_willy_core.triangulumbricks": "Triangulumbricks",
       "block.silly_willy_core.geometriusup": "Geometrius Vari. Up ",
       "item.silly_willy_core.triangulum_axe": "Triangulum Axe",
@@ -1752,7 +1807,16 @@
               },
               {
                 "name": "Processing",
-                "children": []
+                "children": [
+                  {
+                    "name": "Create",
+                    "children": []
+                  },
+                  {
+                    "name": "Mekanism",
+                    "children": []
+                  }
+                ]
               }
             ]
           },

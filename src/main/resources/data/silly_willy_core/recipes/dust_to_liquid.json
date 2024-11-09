@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "silly_willy_core:entangulum_dust"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "silly_willy_core:melted_entangulum_fluid",
+      "amount": 100
+    }
+  ],
+  "heatRequirement": "superheated"
+}

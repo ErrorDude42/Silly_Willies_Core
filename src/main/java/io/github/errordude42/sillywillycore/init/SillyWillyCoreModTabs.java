@@ -64,6 +64,7 @@ public class SillyWillyCoreModTabs {
 				tabData.accept(SillyWillyCoreModItems.TRIANGULUM_TIPPED_MACE.get());
 				tabData.accept(SillyWillyCoreModItems.DIRTY_ENTANGULUM_DUST.get());
 				tabData.accept(SillyWillyCoreModItems.ENTANGULUM_DUST.get());
+				tabData.accept(SillyWillyCoreModItems.ENTANGULUM_STRING.get());
 			})
 
 					.build());

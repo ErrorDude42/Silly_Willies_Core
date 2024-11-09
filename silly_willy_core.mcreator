@@ -1551,7 +1551,7 @@
       "name": "DirtyEntangulumToClean",
       "type": "recipe",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "dirty_entangulum_to_clean",
       "metadata": {
         "files": [
@@ -1559,6 +1559,33 @@
         ]
       },
       "path": "~/Geo_Dimension/Recipes/Processing/Create"
+    },
+    {
+      "name": "DustToLiquid",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "dust_to_liquid",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/recipes/dust_to_liquid.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Recipes/Processing/Create"
+    },
+    {
+      "name": "EntangulumString",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entangulum_string",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/errordude42/sillywillycore/item/EntangulumStringItem.java",
+          "src/main/resources/assets/silly_willy_core/models/item/entangulum_string.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Items/Entangulum Materials"
     }
   ],
   "variable_elements": [],
@@ -1681,7 +1708,8 @@
       "WonderOakSapling",
       "TriangulumTippedMace",
       "Dirtyentangulum",
-      "Entangulumdust"
+      "Entangulumdust",
+      "EntangulumString"
     ]
   },
   "language_map": {
@@ -1708,6 +1736,7 @@
       "block.silly_willy_core.wonder_oak_sapling": "Wonder Oak Sapling",
       "block.silly_willy_core.triangulumore": "Triangulum Ore",
       "item.silly_willy_core.melted_entangulum_fluid_bucket": "Bucket of Melted Entangulum",
+      "item.silly_willy_core.entangulum_string": "Entangulum String",
       "block.silly_willy_core.wonder_oak_planks": "Wonder Oak Planks",
       "item.silly_willy_core.triangulum_sword": "Triangulum Sword",
       "item.silly_willy_core.triangulum_tipped_mace": "Triangulum Tipped Mace",

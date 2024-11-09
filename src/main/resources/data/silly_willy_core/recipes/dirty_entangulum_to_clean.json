@@ -1,16 +1,76 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "pattern": [
-    "a"
-  ],
-  "key": {
-    "a": {
-      "item": "silly_willy_core:dirty_entangulum_dust"
-    }
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "silly_willy_core:dirty_entangulum_dust"
   },
-  "result": {
-    "item": "silly_willy_core:entangulum_dust",
-    "count": 1
+  "loops": 5,
+  "results": [
+  	{
+  	"item": "silly_willy_core:entangulum_dust"
+  	}
+  	],
+  	 "sequence": [
+  	 	{
+ 	 "type": "create:cutting",
+	  "ingredients": [
+ 	   {
+ 	     "item": "silly_willy_core:entangulum_dust"
+ 	   }
+	  ],
+	  "processingTime": 500,
+	  "results": [
+ 	   {
+     	 "item": "silly_willy_core:entangulum_dust"
+	   		 }
+  			]
+		},
+		 {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "silly_willy_core:entangulum_dust"
+        }
+      ],
+      "results": [
+        {
+          "item": "silly_willy_core:entangulum_dust"
+        }
+      ]
+    },
+    {
+    	"type": "create:cutting",
+	  "ingredients": [
+ 	   {
+ 	     "item": "silly_willy_core:entangulum_dust"
+ 	   }
+	  ],
+	  "processingTime": 500,
+	  "results": [
+ 	   {
+     	 "item": "silly_willy_core:entangulum_dust"
+	   		 }
+  			]
+		},
+		 {
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "silly_willy_core:entangulum_dust"
+    },
+    {
+      "fluid": "minecraft:water",
+      "nbt": {},
+      "amount": 500
+    }
+  ],
+  "results": [
+    {
+      "item": "silly_willy_core:entangulum_dust"
+    }
+  ]
+}
+	],
+	 "transitionalItem": {
+    "item": "silly_willy_core:entangulum_dust"
   }
 }
