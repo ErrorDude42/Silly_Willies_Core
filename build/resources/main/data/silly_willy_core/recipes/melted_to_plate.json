@@ -1,0 +1,66 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "silly_willy_core:plate_mold"
+  },
+  "loops": 1,
+  "results": [
+  	{
+  	"item": "silly_willy_core:entangulum_plate"
+  	}
+  	],
+  	 "sequence": [
+  	 	{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "silly_willy_core:incomplete_entangulum_plate"
+    },
+    {
+      "amount": 1000,
+      "fluid": "silly_willy_core:melted_entangulum_fluid",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "silly_willy_core:incomplete_entangulum_plate"
+    }
+  ]
+},
+		 {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "silly_willy_core:incomplete_entangulum_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "silly_willy_core:incomplete_entangulum_plate"
+        }
+      ]
+    },
+    {
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "silly_willy_core:incomplete_entangulum_plate"
+    },
+    {
+      "amount": 2000,
+      "fluid": "minecraft:water",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "silly_willy_core:incomplete_entangulum_plate"
+    }
+  ]
+}
+	],
+	 "transitionalItem": {
+    "item": "silly_willy_core:incomplete_entangulum_plate"
+  }
+}

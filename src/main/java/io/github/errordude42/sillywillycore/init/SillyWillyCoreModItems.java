@@ -12,16 +12,20 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import io.github.errordude42.sillywillycore.item.TriangulumUpgradeTemplateItem;
 import io.github.errordude42.sillywillycore.item.TriangulumTippedMaceItem;
 import io.github.errordude42.sillywillycore.item.TriangulumSwordItem;
 import io.github.errordude42.sillywillycore.item.TriangulumShovelItem;
+import io.github.errordude42.sillywillycore.item.TriangulumPlateItem;
 import io.github.errordude42.sillywillycore.item.TriangulumPickaxeItem;
 import io.github.errordude42.sillywillycore.item.TriangulumHoeItem;
 import io.github.errordude42.sillywillycore.item.TriangulumAxeItem;
 import io.github.errordude42.sillywillycore.item.RefinedTriangulumItem;
 import io.github.errordude42.sillywillycore.item.RawTriangulumItem;
 import io.github.errordude42.sillywillycore.item.RawEntangulumItem;
+import io.github.errordude42.sillywillycore.item.PlateMoldItem;
 import io.github.errordude42.sillywillycore.item.MeltedEntangulumFluidItem;
+import io.github.errordude42.sillywillycore.item.IncompleteEntangulumPlateItem;
 import io.github.errordude42.sillywillycore.item.EntangulumspoolItem;
 import io.github.errordude42.sillywillycore.item.EntangulumplateItem;
 import io.github.errordude42.sillywillycore.item.EntangulumdustItem;
@@ -47,8 +51,8 @@ public class SillyWillyCoreModItems {
 	public static final RegistryObject<Item> ENTANGULUMORE = block(SillyWillyCoreModBlocks.ENTANGULUMORE);
 	public static final RegistryObject<Item> DIRTY_ENTANGULUM_DUST = REGISTRY.register("dirty_entangulum_dust", () -> new DirtyentangulumItem());
 	public static final RegistryObject<Item> ENTANGULUM_DUST = REGISTRY.register("entangulum_dust", () -> new EntangulumdustItem());
-	public static final RegistryObject<Item> ENTANGULUMPLATE = REGISTRY.register("entangulumplate", () -> new EntangulumplateItem());
-	public static final RegistryObject<Item> ENTANGULUMSPOOL = REGISTRY.register("entangulumspool", () -> new EntangulumspoolItem());
+	public static final RegistryObject<Item> ENTANGULUM_PLATE = REGISTRY.register("entangulum_plate", () -> new EntangulumplateItem());
+	public static final RegistryObject<Item> ENTANGULUM_SPOOL = REGISTRY.register("entangulum_spool", () -> new EntangulumspoolItem());
 	public static final RegistryObject<Item> RAW_ENTANGULUM = REGISTRY.register("raw_entangulum", () -> new RawEntangulumItem());
 	public static final RegistryObject<Item> MELTED_ENTANGULUM_FLUID_BUCKET = REGISTRY.register("melted_entangulum_fluid_bucket", () -> new MeltedEntangulumFluidItem());
 	public static final RegistryObject<Item> STRUCTURE_TRIANGULUMBRICKS = block(SillyWillyCoreModBlocks.STRUCTURE_TRIANGULUMBRICKS);
@@ -67,6 +71,10 @@ public class SillyWillyCoreModItems {
 	public static final RegistryObject<Item> WONDER_OAK_SAPLING = block(SillyWillyCoreModBlocks.WONDER_OAK_SAPLING);
 	public static final RegistryObject<Item> TRIANGULUM_TIPPED_MACE = REGISTRY.register("triangulum_tipped_mace", () -> new TriangulumTippedMaceItem());
 	public static final RegistryObject<Item> ENTANGULUM_STRING = REGISTRY.register("entangulum_string", () -> new EntangulumStringItem());
+	public static final RegistryObject<Item> PLATE_MOLD = REGISTRY.register("plate_mold", () -> new PlateMoldItem());
+	public static final RegistryObject<Item> TRIANGULUM_PLATE = REGISTRY.register("triangulum_plate", () -> new TriangulumPlateItem());
+	public static final RegistryObject<Item> TRIANGULUM_UPGRADE_TEMPLATE = REGISTRY.register("triangulum_upgrade_template", () -> new TriangulumUpgradeTemplateItem());
+	public static final RegistryObject<Item> INCOMPLETE_ENTANGULUM_PLATE = REGISTRY.register("incomplete_entangulum_plate", () -> new IncompleteEntangulumPlateItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

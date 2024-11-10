@@ -379,11 +379,11 @@
       "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "entangulumplate",
+      "registry_name": "entangulum_plate",
       "metadata": {
         "files": [
           "src/main/java/io/github/errordude42/sillywillycore/item/EntangulumplateItem.java",
-          "src/main/resources/assets/silly_willy_core/models/item/entangulumplate.json"
+          "src/main/resources/assets/silly_willy_core/models/item/entangulum_plate.json"
         ]
       },
       "path": "~/Geo_Dimension/Items/Entangulum Materials"
@@ -393,11 +393,11 @@
       "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "entangulumspool",
+      "registry_name": "entangulum_spool",
       "metadata": {
         "files": [
           "src/main/java/io/github/errordude42/sillywillycore/item/EntangulumspoolItem.java",
-          "src/main/resources/assets/silly_willy_core/models/item/entangulumspool.json"
+          "src/main/resources/assets/silly_willy_core/models/item/entangulum_spool.json"
         ]
       },
       "path": "~/Geo_Dimension/Items/Entangulum Materials"
@@ -1559,6 +1559,88 @@
         ]
       },
       "path": "~/Geo_Dimension/Recipes/Processing/Create"
+    },
+    {
+      "name": "DustToLiquid",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "dust_to_liquid",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/recipes/dust_to_liquid.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Recipes/Processing/Create"
+    },
+    {
+      "name": "EntangulumString",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entangulum_string",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/errordude42/sillywillycore/item/EntangulumStringItem.java",
+          "src/main/resources/assets/silly_willy_core/models/item/entangulum_string.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Items/Entangulum Materials"
+    },
+    {
+      "name": "PlateMold",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plate_mold",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/errordude42/sillywillycore/item/PlateMoldItem.java",
+          "src/main/resources/assets/silly_willy_core/models/item/plate_mold.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Items/Entangulum Materials"
+    },
+    {
+      "name": "TriangulumPlate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triangulum_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/errordude42/sillywillycore/item/TriangulumPlateItem.java",
+          "src/main/resources/assets/silly_willy_core/models/item/triangulum_plate.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Items/Triangulum Materials "
+    },
+    {
+      "name": "TriangulumUpgradeTemplate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triangulum_upgrade_template",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/errordude42/sillywillycore/item/TriangulumUpgradeTemplateItem.java",
+          "src/main/resources/assets/silly_willy_core/models/item/triangulum_upgrade_template.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Items/Triangulum Materials "
+    },
+    {
+      "name": "MeltedToPlate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "melted_to_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/recipes/melted_to_plate.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Recipes/Processing/Create"
     }
   ],
   "variable_elements": [],
@@ -1648,24 +1730,26 @@
   },
   "tab_element_order": {
     "CUSTOM:GeometeryDimensionBeta": [
-      "RawTriangulum",
-      "Blockrawtriangulum",
-      "RefinedTriangulum",
-      "Triangulumbricks",
       "Triangulumore",
       "TriangulumoreDeepslate",
+      "RawTriangulum",
+      "RefinedTriangulum",
+      "Blockrawtriangulum",
+      "Triangulumbricks",
       "TriangulumPickaxe",
       "TriangulumAxe",
       "TriangulumSword",
       "TriangulumShovel",
       "TriangulumHoe",
+      "TriangulumTippedMace",
       "Geostone",
-      "Blockofrawentangulum",
       "Entangulumore",
-      "Entangulumplate",
-      "Entangulumspool",
+      "Blockofrawentangulum",
       "RawEntangulum",
+      "Dirtyentangulum",
+      "Entangulumdust",
       "MeltedEntangulumFluid",
+      "EntangulumString",
       "Geometriusdown",
       "Geometriusup",
       "Wonder_oakWood",
@@ -1679,9 +1763,9 @@
       "Wonder_oakPressurePlate",
       "Wonder_oakButton",
       "WonderOakSapling",
-      "TriangulumTippedMace",
-      "Dirtyentangulum",
-      "Entangulumdust"
+      "PlateMold",
+      "Entangulumplate",
+      "Entangulumspool"
     ]
   },
   "language_map": {
@@ -1699,30 +1783,35 @@
       "advancements.make_refined_triangulum.title": "Make Refined Triangulum",
       "block.silly_willy_core.geostone": "Geostone",
       "item_group.silly_willy_core.structureblocks": "Structure Blocks",
-      "item.silly_willy_core.entangulumplate": "Entangulum Plate",
       "item.silly_willy_core.dirty_entangulum_dust": "Dirty Entangulum Dust ",
       "item.silly_willy_core.entangulum_dust": "Entangulum Dust",
       "item.silly_willy_core.raw_triangulum": "Raw Triangulum",
       "block.silly_willy_core.wonder_oak_fence": "Wonder Oak Fence",
       "block.silly_willy_core.wonder_oak_log": "Wonder Oak Log",
       "block.silly_willy_core.wonder_oak_sapling": "Wonder Oak Sapling",
+      "item.silly_willy_core.plate_mold": "Plate Mold",
       "block.silly_willy_core.triangulumore": "Triangulum Ore",
       "item.silly_willy_core.melted_entangulum_fluid_bucket": "Bucket of Melted Entangulum",
+      "item.silly_willy_core.entangulum_string": "Entangulum String",
       "block.silly_willy_core.wonder_oak_planks": "Wonder Oak Planks",
       "item.silly_willy_core.triangulum_sword": "Triangulum Sword",
       "item.silly_willy_core.triangulum_tipped_mace": "Triangulum Tipped Mace",
       "advancements.get_raw_entangulum.descr": "Mine Entangulum Ore",
       "block.silly_willy_core.wonder_oak_button": "Wonder Oak Button",
       "advancements.get_raw_triangulum.title": "That\u0027s not a square",
-      "item.silly_willy_core.refined_triangulum": "Refined Triangulum",
       "block.silly_willy_core.wonder_oak_leaves": "Wonder Oak Leaves",
+      "item.silly_willy_core.refined_triangulum": "Refined Triangulum",
+      "item.silly_willy_core.triangulum_plate": "Triangulum Plate",
       "block.silly_willy_core.geometriusdown": "Geometrius Vari. Down",
+      "item.silly_willy_core.triangulum_upgrade_template": "Triangulum Upgrade Template",
       "biome.silly_willy_core.wonder_forest": "Wonder Forest",
       "block.silly_willy_core.entangulumore": "Entangulum Ore",
       "advancements.get_dirty_entangulum_dust.title": "That\u0027s only the first step?",
+      "item.silly_willy_core.entangulum_spool": "Entangulum Spool",
       "block.silly_willy_core.blockrawtriangulum": "Block of Raw Triangulum",
       "block.silly_willy_core.structure_triangulumbricks": "Structure Triangulum Bricks",
       "advancements.get_raw_triangulum.descr": "Get Raw Triangulum",
+      "item.silly_willy_core.entangulum_plate": "Entangulum Plate",
       "advancements.get_dirty_entangulum_dust.descr": "Start the long refining process for Entangulum Spools",
       "fluid.silly_willy_core.melted_entangulum_fluid": "Melted Entangulum Fluid",
       "block.silly_willy_core.wonder_oak_slab": "Wonder Oak Slabs",
@@ -1733,8 +1822,7 @@
       "block.silly_willy_core.geometriusup": "Geometrius Vari. Up ",
       "item.silly_willy_core.triangulum_axe": "Triangulum Axe",
       "advancements.get_raw_entangulum.title": "Get Raw Entangulum",
-      "block.silly_willy_core.melted_entangulum_fluid": "Melted Entangulum Fluid",
-      "item.silly_willy_core.entangulumspool": "Entangulum Spool"
+      "block.silly_willy_core.melted_entangulum_fluid": "Melted Entangulum Fluid"
     }
   },
   "foldersRoot": {
@@ -1891,7 +1979,7 @@
   "workspaceSettings": {
     "modid": "silly_willy_core",
     "modName": "Silly Willy Core",
-    "version": "0.0.6c",
+    "version": "0.0.7",
     "description": "This mod is the core mod for the silly willies modpack",
     "author": "Crit (J.V), Zomagon, P",
     "websiteURL": "https://modrinth.com/organization/silly-willies",
