@@ -1805,8 +1805,8 @@
       "block.silly_willy_core.wonder_oak_sapling": "Wonder Oak Sapling",
       "item.silly_willy_core.plate_mold": "Plate Mold",
       "block.silly_willy_core.triangulumore": "Triangulum Ore",
-      "item.silly_willy_core.melted_entangulum_fluid_bucket": "Bucket of Melted Entangulum",
       "item.silly_willy_core.entangulum_string": "Entangulum String",
+      "item.silly_willy_core.melted_entangulum_fluid_bucket": "Bucket of Melted Entangulum",
       "block.silly_willy_core.wonder_oak_planks": "Wonder Oak Planks",
       "item.silly_willy_core.triangulum_sword": "Triangulum Sword",
       "item.silly_willy_core.triangulum_tipped_mace": "Triangulum Tipped Mace",
@@ -1994,7 +1994,7 @@
   "workspaceSettings": {
     "modid": "silly_willy_core",
     "modName": "Silly Willy Core",
-    "version": "0.0.7",
+    "version": "0.0.7.5",
     "description": "This mod is the core mod for the silly willies modpack",
     "author": "Crit (J.V), Zomagon, P",
     "websiteURL": "https://modrinth.com/organization/silly-willies",
