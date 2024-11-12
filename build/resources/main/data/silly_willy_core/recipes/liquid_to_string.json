@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:string"
+    },
+    {
+      "amount": 1000,
+      "fluid": "silly_willy_core:melted_entangulum_fluid",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "silly_willy_core:entangulum_string"
+    }
+  ]
+}

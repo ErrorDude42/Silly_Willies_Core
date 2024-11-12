@@ -66,6 +66,7 @@ public class SillyWillyCoreModTabs {
 				tabData.accept(SillyWillyCoreModItems.PLATE_MOLD.get());
 				tabData.accept(SillyWillyCoreModItems.ENTANGULUM_PLATE.get());
 				tabData.accept(SillyWillyCoreModItems.ENTANGULUM_SPOOL.get());
+				tabData.accept(SillyWillyCoreModItems.TRIANGULUM_BRICK.get());
 			})
 
 					.build());

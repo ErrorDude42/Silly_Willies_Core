@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "silly_willy_core:entangulum_string"
+    },
+    "b": {
+      "item": "createaddition:spool"
+    }
+  },
+  "result": {
+    "item": "silly_willy_core:entangulum_spool",
+    "count": 1
+  }
+}
