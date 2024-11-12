@@ -98,7 +98,7 @@
           "src/main/resources/data/silly_willy_core/loot_tables/chests/triangulumalter_1.json"
         ]
       },
-      "path": "~/Geo_Dimension/Loot Tables"
+      "path": "~/Geo_Dimension/Loot Tables/Structures"
     },
     {
       "name": "Die",
@@ -111,7 +111,7 @@
           "src/main/resources/data/silly_willy_core/loot_tables/blocks/triangulumore.json"
         ]
       },
-      "path": "~/Geo_Dimension/Loot Tables"
+      "path": "~/Geo_Dimension/Loot Tables/Blocks"
     },
     {
       "name": "Dienow",
@@ -124,7 +124,7 @@
           "src/main/resources/data/silly_willy_core/loot_tables/blocks/triangulumore_deepslate.json"
         ]
       },
-      "path": "~/Geo_Dimension/Loot Tables"
+      "path": "~/Geo_Dimension/Loot Tables/Blocks"
     },
     {
       "name": "TriangulumPickaxe",
@@ -1721,6 +1721,19 @@
         ]
       },
       "path": "~/Geo_Dimension/Advancements"
+    },
+    {
+      "name": "EndCityTreasureEdit",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "end_city_treasure_edit",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/chests/end_city_treasure.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Loot Tables/Vanilla"
     }
   ],
   "variable_elements": [],
@@ -1814,22 +1827,27 @@
       "TriangulumoreDeepslate",
       "RawTriangulum",
       "RefinedTriangulum",
+      "TriangulumPlate",
+      "TriangulumBrick",
       "Blockrawtriangulum",
       "Triangulumbricks",
+      "TriangulumUpgradeTemplate",
       "TriangulumPickaxe",
       "TriangulumAxe",
       "TriangulumSword",
       "TriangulumShovel",
       "TriangulumHoe",
-      "TriangulumTippedMace",
       "Geostone",
       "Entangulumore",
       "Blockofrawentangulum",
       "RawEntangulum",
       "Dirtyentangulum",
       "Entangulumdust",
-      "MeltedEntangulumFluid",
+      "PlateMold",
+      "Entangulumplate",
       "EntangulumString",
+      "Entangulumspool",
+      "MeltedEntangulumFluid",
       "Geometriusdown",
       "Geometriusup",
       "Wonder_oakWood",
@@ -1842,11 +1860,7 @@
       "Wonder_oakFenceGate",
       "Wonder_oakPressurePlate",
       "Wonder_oakButton",
-      "WonderOakSapling",
-      "PlateMold",
-      "Entangulumplate",
-      "Entangulumspool",
-      "TriangulumBrick"
+      "WonderOakSapling"
     ]
   },
   "language_map": {
@@ -1946,7 +1960,20 @@
           },
           {
             "name": "Loot Tables",
-            "children": []
+            "children": [
+              {
+                "name": "Blocks",
+                "children": []
+              },
+              {
+                "name": "Structures",
+                "children": []
+              },
+              {
+                "name": "Vanilla",
+                "children": []
+              }
+            ]
           },
           {
             "name": "Recipes",
@@ -2075,7 +2102,7 @@
   "workspaceSettings": {
     "modid": "silly_willy_core",
     "modName": "Silly Willy Core",
-    "version": "0.0.7.5",
+    "version": "0.0.7.8",
     "description": "This mod is the core mod for the silly willies modpack",
     "author": "Crit (J.V), Zomagon, P",
     "websiteURL": "https://modrinth.com/organization/silly-willies",
