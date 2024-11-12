@@ -45,9 +45,6 @@
     "isWaterloggable": false,
     "creativeTabs": [
       {
-        "value": "DECORATIONS"
-      },
-      {
         "value": "CUSTOM:GeometeryDimensionBeta"
       }
     ],

@@ -44,9 +44,6 @@
     "isWaterloggable": false,
     "creativeTabs": [
       {
-        "value": "BUILDING_BLOCKS"
-      },
-      {
         "value": "CUSTOM:GeometeryDimensionBeta"
       }
     ],

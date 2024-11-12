@@ -45,9 +45,6 @@
     "creativeTabs": [
       {
         "value": "CUSTOM:GeometeryDimensionBeta"
-      },
-      {
-        "value": "BUILDING_BLOCKS"
       }
     ],
     "destroyTool": "Not specified",

@@ -98,7 +98,7 @@
           "src/main/resources/data/silly_willy_core/loot_tables/chests/triangulumalter_1.json"
         ]
       },
-      "path": "~/Geo_Dimension/Loot Tables"
+      "path": "~/Geo_Dimension/Loot Tables/Structures"
     },
     {
       "name": "Die",
@@ -111,7 +111,7 @@
           "src/main/resources/data/silly_willy_core/loot_tables/blocks/triangulumore.json"
         ]
       },
-      "path": "~/Geo_Dimension/Loot Tables"
+      "path": "~/Geo_Dimension/Loot Tables/Blocks"
     },
     {
       "name": "Dienow",
@@ -124,7 +124,7 @@
           "src/main/resources/data/silly_willy_core/loot_tables/blocks/triangulumore_deepslate.json"
         ]
       },
-      "path": "~/Geo_Dimension/Loot Tables"
+      "path": "~/Geo_Dimension/Loot Tables/Blocks"
     },
     {
       "name": "TriangulumPickaxe",
@@ -1532,7 +1532,7 @@
           "src/main/resources/data/silly_willy_core/recipes/triangulum_processing.json"
         ]
       },
-      "path": "~/Geo_Dimension/Recipes/Processing/Create"
+      "path": "~/Geo_Dimension/Recipes/Processing/Create/Triangulum"
     },
     {
       "name": "EntangulumToDust",
@@ -1545,7 +1545,7 @@
           "src/main/resources/data/silly_willy_core/recipes/entangulum_to_dust.json"
         ]
       },
-      "path": "~/Geo_Dimension/Recipes/Processing/Create"
+      "path": "~/Geo_Dimension/Recipes/Processing/Create/Entangulum"
     },
     {
       "name": "DirtyEntangulumToClean",
@@ -1558,7 +1558,7 @@
           "src/main/resources/data/silly_willy_core/recipes/dirty_entangulum_to_clean.json"
         ]
       },
-      "path": "~/Geo_Dimension/Recipes/Processing/Create"
+      "path": "~/Geo_Dimension/Recipes/Processing/Create/Entangulum"
     },
     {
       "name": "DustToLiquid",
@@ -1571,7 +1571,7 @@
           "src/main/resources/data/silly_willy_core/recipes/dust_to_liquid.json"
         ]
       },
-      "path": "~/Geo_Dimension/Recipes/Processing/Create"
+      "path": "~/Geo_Dimension/Recipes/Processing/Create/Entangulum"
     },
     {
       "name": "EntangulumString",
@@ -1640,7 +1640,7 @@
           "src/main/resources/data/silly_willy_core/recipes/melted_to_plate.json"
         ]
       },
-      "path": "~/Geo_Dimension/Recipes/Processing/Create"
+      "path": "~/Geo_Dimension/Recipes/Processing/Create/Entangulum"
     },
     {
       "name": "IncompleteEntangulumPlate",
@@ -1655,6 +1655,85 @@
         ]
       },
       "path": "~/Geo_Dimension/Items/Entangulum Materials"
+    },
+    {
+      "name": "LiquidToString",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "liquid_to_string",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/recipes/liquid_to_string.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Recipes/Processing/Create/Entangulum"
+    },
+    {
+      "name": "EntangulumSpoolRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "entangulum_spool_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/recipes/entangulum_spool_recipe.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Recipes/Processing/Create/Entangulum"
+    },
+    {
+      "name": "TriangulumBrick",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triangulum_brick",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/errordude42/sillywillycore/item/TriangulumBrickItem.java",
+          "src/main/resources/assets/silly_willy_core/models/item/triangulum_brick.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Items/Triangulum Materials "
+    },
+    {
+      "name": "GetEntangulumDust",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_entangulum_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/advancements/get_entangulum_dust.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Advancements"
+    },
+    {
+      "name": "GetEntangulumSpool",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_entangulum_spool",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/advancements/get_entangulum_spool.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Advancements"
+    },
+    {
+      "name": "EndCityTreasureEdit",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "end_city_treasure_edit",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/chests/end_city_treasure.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Loot Tables/Vanilla"
     }
   ],
   "variable_elements": [],
@@ -1779,7 +1858,8 @@
       "WonderOakSapling",
       "PlateMold",
       "Entangulumplate",
-      "Entangulumspool"
+      "Entangulumspool",
+      "TriangulumBrick"
     ]
   },
   "language_map": {
@@ -1800,6 +1880,7 @@
       "item.silly_willy_core.dirty_entangulum_dust": "Dirty Entangulum Dust ",
       "item.silly_willy_core.entangulum_dust": "Entangulum Dust",
       "item.silly_willy_core.raw_triangulum": "Raw Triangulum",
+      "item.silly_willy_core.triangulum_brick": "Triangulum Brick",
       "block.silly_willy_core.wonder_oak_fence": "Wonder Oak Fence",
       "block.silly_willy_core.wonder_oak_log": "Wonder Oak Log",
       "block.silly_willy_core.wonder_oak_sapling": "Wonder Oak Sapling",
@@ -1823,6 +1904,8 @@
       "block.silly_willy_core.entangulumore": "Entangulum Ore",
       "advancements.get_dirty_entangulum_dust.title": "That\u0027s only the first step?",
       "item.silly_willy_core.entangulum_spool": "Entangulum Spool",
+      "advancements.get_entangulum_spool.title": "Get Entangulum Spool",
+      "advancements.get_entangulum_dust.title": "Get Entangulum Dust",
       "block.silly_willy_core.blockrawtriangulum": "Block of Raw Triangulum",
       "block.silly_willy_core.structure_triangulumbricks": "Structure Triangulum Bricks",
       "advancements.get_raw_triangulum.descr": "Get Raw Triangulum",
@@ -1831,6 +1914,8 @@
       "fluid.silly_willy_core.melted_entangulum_fluid": "Melted Entangulum Fluid",
       "block.silly_willy_core.wonder_oak_slab": "Wonder Oak Slabs",
       "block.silly_willy_core.wonder_oak_pressure_plate": "Wonder Oak Pressure Plate",
+      "advancements.get_entangulum_spool.descr": "The perfect final product",
+      "advancements.get_entangulum_dust.descr": "Alright, we\u0027re getting somewhere",
       "item.silly_willy_core.triangulum_pickaxe": "Triangulum Pickaxe",
       "block.silly_willy_core.triangulumore_deepslate": "Triangulum Ore Deepslate",
       "block.silly_willy_core.triangulumbricks": "Triangulumbricks",
@@ -1874,7 +1959,20 @@
           },
           {
             "name": "Loot Tables",
-            "children": []
+            "children": [
+              {
+                "name": "Blocks",
+                "children": []
+              },
+              {
+                "name": "Structures",
+                "children": []
+              },
+              {
+                "name": "Vanilla",
+                "children": []
+              }
+            ]
           },
           {
             "name": "Recipes",
@@ -1900,7 +1998,16 @@
                 "children": [
                   {
                     "name": "Create",
-                    "children": []
+                    "children": [
+                      {
+                        "name": "Entangulum",
+                        "children": []
+                      },
+                      {
+                        "name": "Triangulum",
+                        "children": []
+                      }
+                    ]
                   },
                   {
                     "name": "Mekanism",
@@ -1994,7 +2101,7 @@
   "workspaceSettings": {
     "modid": "silly_willy_core",
     "modName": "Silly Willy Core",
-    "version": "0.0.7",
+    "version": "0.0.7.5",
     "description": "This mod is the core mod for the silly willies modpack",
     "author": "Crit (J.V), Zomagon, P",
     "websiteURL": "https://modrinth.com/organization/silly-willies",

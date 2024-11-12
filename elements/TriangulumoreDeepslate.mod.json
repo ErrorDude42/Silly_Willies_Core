@@ -45,9 +45,6 @@
     "creativeTabs": [
       {
         "value": "CUSTOM:GeometeryDimensionBeta"
-      },
-      {
-        "value": "DECORATIONS"
       }
     ],
     "destroyTool": "pickaxe",

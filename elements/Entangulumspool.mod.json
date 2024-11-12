@@ -12,9 +12,6 @@
     "creativeTabs": [
       {
         "value": "CUSTOM:GeometeryDimensionBeta"
-      },
-      {
-        "value": "MATERIALS"
       }
     ],
     "stackSize": 64,

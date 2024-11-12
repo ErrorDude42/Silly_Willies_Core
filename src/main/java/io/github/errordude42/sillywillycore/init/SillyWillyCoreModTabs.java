@@ -6,20 +6,15 @@ package io.github.errordude42.sillywillycore.init;
 
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
 import io.github.errordude42.sillywillycore.SillyWillyCoreMod;
 
-@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class SillyWillyCoreModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, SillyWillyCoreMod.MODID);
 	public static final RegistryObject<CreativeModeTab> STRUCTUREBLOCKS = REGISTRY.register("structureblocks",
@@ -34,22 +29,26 @@ public class SillyWillyCoreModTabs {
 				tabData.accept(SillyWillyCoreModBlocks.TRIANGULUMORE_DEEPSLATE.get().asItem());
 				tabData.accept(SillyWillyCoreModItems.RAW_TRIANGULUM.get());
 				tabData.accept(SillyWillyCoreModItems.REFINED_TRIANGULUM.get());
+				tabData.accept(SillyWillyCoreModItems.TRIANGULUM_BRICK.get());
 				tabData.accept(SillyWillyCoreModBlocks.BLOCKRAWTRIANGULUM.get().asItem());
 				tabData.accept(SillyWillyCoreModBlocks.TRIANGULUMBRICKS.get().asItem());
+				tabData.accept(SillyWillyCoreModItems.TRIANGULUM_UPGRADE_TEMPLATE.get());
 				tabData.accept(SillyWillyCoreModItems.TRIANGULUM_PICKAXE.get());
 				tabData.accept(SillyWillyCoreModItems.TRIANGULUM_AXE.get());
 				tabData.accept(SillyWillyCoreModItems.TRIANGULUM_SWORD.get());
 				tabData.accept(SillyWillyCoreModItems.TRIANGULUM_SHOVEL.get());
 				tabData.accept(SillyWillyCoreModItems.TRIANGULUM_HOE.get());
-				tabData.accept(SillyWillyCoreModItems.TRIANGULUM_TIPPED_MACE.get());
 				tabData.accept(SillyWillyCoreModBlocks.GEOSTONE.get().asItem());
 				tabData.accept(SillyWillyCoreModBlocks.ENTANGULUMORE.get().asItem());
 				tabData.accept(SillyWillyCoreModBlocks.BLOCKOFRAWENTANGULUM.get().asItem());
 				tabData.accept(SillyWillyCoreModItems.RAW_ENTANGULUM.get());
 				tabData.accept(SillyWillyCoreModItems.DIRTY_ENTANGULUM_DUST.get());
 				tabData.accept(SillyWillyCoreModItems.ENTANGULUM_DUST.get());
+				tabData.accept(SillyWillyCoreModItems.PLATE_MOLD.get());
+				tabData.accept(SillyWillyCoreModItems.ENTANGULUM_PLATE.get());
 				tabData.accept(SillyWillyCoreModItems.MELTED_ENTANGULUM_FLUID_BUCKET.get());
 				tabData.accept(SillyWillyCoreModItems.ENTANGULUM_STRING.get());
+				tabData.accept(SillyWillyCoreModItems.ENTANGULUM_SPOOL.get());
 				tabData.accept(SillyWillyCoreModBlocks.GEOMETRIUSDOWN.get().asItem());
 				tabData.accept(SillyWillyCoreModBlocks.GEOMETRIUSUP.get().asItem());
 				tabData.accept(SillyWillyCoreModBlocks.WONDER_OAK_WOOD.get().asItem());
@@ -62,63 +61,9 @@ public class SillyWillyCoreModTabs {
 				tabData.accept(SillyWillyCoreModBlocks.WONDER_OAK_FENCE_GATE.get().asItem());
 				tabData.accept(SillyWillyCoreModBlocks.WONDER_OAK_PRESSURE_PLATE.get().asItem());
 				tabData.accept(SillyWillyCoreModBlocks.WONDER_OAK_BUTTON.get().asItem());
+				tabData.accept(SillyWillyCoreModItems.TRIANGULUM_PLATE.get());
 				tabData.accept(SillyWillyCoreModBlocks.WONDER_OAK_SAPLING.get().asItem());
-				tabData.accept(SillyWillyCoreModItems.PLATE_MOLD.get());
-				tabData.accept(SillyWillyCoreModItems.ENTANGULUM_PLATE.get());
-				tabData.accept(SillyWillyCoreModItems.ENTANGULUM_SPOOL.get());
-				tabData.accept(SillyWillyCoreModItems.TRIANGULUM_BRICK.get());
 			})
 
 					.build());
-
-	@SubscribeEvent
-	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
-		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-
-			tabData.accept(SillyWillyCoreModBlocks.BLOCKRAWTRIANGULUM.get().asItem());
-			tabData.accept(SillyWillyCoreModBlocks.BLOCKOFRAWENTANGULUM.get().asItem());
-			tabData.accept(SillyWillyCoreModBlocks.TRIANGULUMBRICKS.get().asItem());
-			tabData.accept(SillyWillyCoreModBlocks.GEOSTONE.get().asItem());
-			tabData.accept(SillyWillyCoreModBlocks.WONDER_OAK_WOOD.get().asItem());
-			tabData.accept(SillyWillyCoreModBlocks.WONDER_OAK_LOG.get().asItem());
-			tabData.accept(SillyWillyCoreModBlocks.WONDER_OAK_PLANKS.get().asItem());
-			tabData.accept(SillyWillyCoreModBlocks.WONDER_OAK_STAIRS.get().asItem());
-			tabData.accept(SillyWillyCoreModBlocks.WONDER_OAK_SLAB.get().asItem());
-			tabData.accept(SillyWillyCoreModBlocks.WONDER_OAK_FENCE.get().asItem());
-			tabData.accept(SillyWillyCoreModBlocks.WONDER_OAK_FENCE_GATE.get().asItem());
-			tabData.accept(SillyWillyCoreModBlocks.WONDER_OAK_PRESSURE_PLATE.get().asItem());
-			tabData.accept(SillyWillyCoreModBlocks.WONDER_OAK_BUTTON.get().asItem());
-
-		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
-
-			tabData.accept(SillyWillyCoreModItems.TRIANGULUM_SWORD.get());
-			tabData.accept(SillyWillyCoreModItems.TRIANGULUM_TIPPED_MACE.get());
-
-		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-
-			tabData.accept(SillyWillyCoreModItems.DIRTY_ENTANGULUM_DUST.get());
-			tabData.accept(SillyWillyCoreModItems.ENTANGULUM_DUST.get());
-			tabData.accept(SillyWillyCoreModItems.ENTANGULUM_PLATE.get());
-			tabData.accept(SillyWillyCoreModItems.ENTANGULUM_SPOOL.get());
-			tabData.accept(SillyWillyCoreModItems.RAW_ENTANGULUM.get());
-
-		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
-
-			tabData.accept(SillyWillyCoreModBlocks.TRIANGULUMORE_DEEPSLATE.get().asItem());
-			tabData.accept(SillyWillyCoreModBlocks.ENTANGULUMORE.get().asItem());
-			tabData.accept(SillyWillyCoreModBlocks.GEOMETRIUSDOWN.get().asItem());
-			tabData.accept(SillyWillyCoreModBlocks.GEOMETRIUSUP.get().asItem());
-			tabData.accept(SillyWillyCoreModBlocks.WONDER_OAK_LEAVES.get().asItem());
-			tabData.accept(SillyWillyCoreModBlocks.WONDER_OAK_SAPLING.get().asItem());
-
-		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
-
-			tabData.accept(SillyWillyCoreModItems.TRIANGULUM_PICKAXE.get());
-			tabData.accept(SillyWillyCoreModItems.TRIANGULUM_AXE.get());
-			tabData.accept(SillyWillyCoreModItems.TRIANGULUM_SHOVEL.get());
-			tabData.accept(SillyWillyCoreModItems.TRIANGULUM_HOE.get());
-			tabData.accept(SillyWillyCoreModItems.MELTED_ENTANGULUM_FLUID_BUCKET.get());
-
-		}
-	}
 }

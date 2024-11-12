@@ -12,14 +12,7 @@
     "specialInformation": {
       "fixedValue": []
     },
-    "creativeTabs": [
-      {
-        "value": "CUSTOM:GeometeryDimensionBeta"
-      },
-      {
-        "value": "COMBAT"
-      }
-    ],
+    "creativeTabs": [],
     "efficiency": 4.0,
     "attackSpeed": 0.8,
     "enchantability": 2,
