@@ -29,6 +29,7 @@ public class SillyWillyCoreModTabs {
 				tabData.accept(SillyWillyCoreModBlocks.TRIANGULUMORE_DEEPSLATE.get().asItem());
 				tabData.accept(SillyWillyCoreModItems.RAW_TRIANGULUM.get());
 				tabData.accept(SillyWillyCoreModItems.REFINED_TRIANGULUM.get());
+				tabData.accept(SillyWillyCoreModItems.TRIANGULUM_PLATE.get());
 				tabData.accept(SillyWillyCoreModItems.TRIANGULUM_BRICK.get());
 				tabData.accept(SillyWillyCoreModBlocks.BLOCKRAWTRIANGULUM.get().asItem());
 				tabData.accept(SillyWillyCoreModBlocks.TRIANGULUMBRICKS.get().asItem());
@@ -46,9 +47,9 @@ public class SillyWillyCoreModTabs {
 				tabData.accept(SillyWillyCoreModItems.ENTANGULUM_DUST.get());
 				tabData.accept(SillyWillyCoreModItems.PLATE_MOLD.get());
 				tabData.accept(SillyWillyCoreModItems.ENTANGULUM_PLATE.get());
-				tabData.accept(SillyWillyCoreModItems.MELTED_ENTANGULUM_FLUID_BUCKET.get());
 				tabData.accept(SillyWillyCoreModItems.ENTANGULUM_STRING.get());
 				tabData.accept(SillyWillyCoreModItems.ENTANGULUM_SPOOL.get());
+				tabData.accept(SillyWillyCoreModItems.MELTED_ENTANGULUM_FLUID_BUCKET.get());
 				tabData.accept(SillyWillyCoreModBlocks.GEOMETRIUSDOWN.get().asItem());
 				tabData.accept(SillyWillyCoreModBlocks.GEOMETRIUSUP.get().asItem());
 				tabData.accept(SillyWillyCoreModBlocks.WONDER_OAK_WOOD.get().asItem());
@@ -61,7 +62,6 @@ public class SillyWillyCoreModTabs {
 				tabData.accept(SillyWillyCoreModBlocks.WONDER_OAK_FENCE_GATE.get().asItem());
 				tabData.accept(SillyWillyCoreModBlocks.WONDER_OAK_PRESSURE_PLATE.get().asItem());
 				tabData.accept(SillyWillyCoreModBlocks.WONDER_OAK_BUTTON.get().asItem());
-				tabData.accept(SillyWillyCoreModItems.TRIANGULUM_PLATE.get());
 				tabData.accept(SillyWillyCoreModBlocks.WONDER_OAK_SAPLING.get().asItem());
 			})
 
