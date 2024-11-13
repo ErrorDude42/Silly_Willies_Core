@@ -45,7 +45,7 @@
           "src/main/resources/assets/silly_willy_core/models/item/triangulumore.json"
         ]
       },
-      "path": "~/Geo_Dimension/Blocks"
+      "path": "~/Geo_Dimension/Blocks/Triangulum"
     },
     {
       "name": "TriangulumoreDeepslate",
@@ -61,7 +61,7 @@
           "src/main/java/io/github/errordude42/sillywillycore/block/TriangulumoreDeepslateBlock.java"
         ]
       },
-      "path": "~/Geo_Dimension/Blocks"
+      "path": "~/Geo_Dimension/Blocks/Triangulum"
     },
     {
       "name": "GeometeryDimensionBeta",
@@ -276,7 +276,7 @@
           "src/main/resources/data/silly_willy_core/loot_tables/blocks/blockrawtriangulum.json"
         ]
       },
-      "path": "~/Geo_Dimension/Blocks"
+      "path": "~/Geo_Dimension/Blocks/Triangulum"
     },
     {
       "name": "Blockofrawentangulum",
@@ -293,7 +293,7 @@
           "src/main/resources/data/silly_willy_core/loot_tables/blocks/blockofrawentangulum.json"
         ]
       },
-      "path": "~/Geo_Dimension/Blocks"
+      "path": "~/Geo_Dimension/Blocks/Entangulum"
     },
     {
       "name": "Triangulumbricks",
@@ -310,7 +310,7 @@
           "src/main/resources/assets/silly_willy_core/blockstates/triangulumbricks.json"
         ]
       },
-      "path": "~/Geo_Dimension/Blocks"
+      "path": "~/Geo_Dimension/Blocks/Triangulum"
     },
     {
       "name": "Geostone",
@@ -344,7 +344,7 @@
           "src/main/resources/assets/silly_willy_core/models/item/entangulumore.json"
         ]
       },
-      "path": "~/Geo_Dimension/Blocks"
+      "path": "~/Geo_Dimension/Blocks/Entangulum"
     },
     {
       "name": "Dirtyentangulum",
@@ -464,7 +464,7 @@
           "src/main/java/io/github/errordude42/sillywillycore/block/StructureTriangulumbricksBlock.java"
         ]
       },
-      "path": "~/Geo_Dimension/Blocks"
+      "path": "~/Geo_Dimension/Blocks/Triangulum"
     },
     {
       "name": "Structureblocks",
@@ -1734,6 +1734,23 @@
         ]
       },
       "path": "~/Geo_Dimension/Loot Tables/Vanilla"
+    },
+    {
+      "name": "Silt",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/loot_tables/blocks/silt.json",
+          "src/main/resources/assets/silly_willy_core/blockstates/silt.json",
+          "src/main/resources/assets/silly_willy_core/models/block/silt.json",
+          "src/main/java/io/github/errordude42/sillywillycore/block/SiltBlock.java",
+          "src/main/resources/assets/silly_willy_core/models/item/silt.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Blocks"
     }
   ],
   "variable_elements": [],
@@ -1878,7 +1895,7 @@
       "advancements.make_refined_triangulum.title": "Make Refined Triangulum",
       "block.silly_willy_core.geostone": "Geostone",
       "item_group.silly_willy_core.structureblocks": "Structure Blocks",
-      "item.silly_willy_core.dirty_entangulum_dust": "Dirty Entangulum Dust ",
+      "item.silly_willy_core.dirty_entangulum_dust": "Dirty Entangulum Dust",
       "item.silly_willy_core.entangulum_dust": "Entangulum Dust",
       "item.silly_willy_core.raw_triangulum": "Raw Triangulum",
       "item.silly_willy_core.triangulum_brick": "Triangulum Brick",
@@ -1903,6 +1920,7 @@
       "biome.silly_willy_core.wonder_forest": "Wonder Forest",
       "item.silly_willy_core.incomplete_entangulum_plate": "Incomplete Entangulum Plate",
       "block.silly_willy_core.entangulumore": "Entangulum Ore",
+      "block.silly_willy_core.silt": "Silt",
       "advancements.get_dirty_entangulum_dust.title": "That\u0027s only the first step?",
       "item.silly_willy_core.entangulum_spool": "Entangulum Spool",
       "advancements.get_entangulum_spool.title": "Get Entangulum Spool",
@@ -1919,8 +1937,8 @@
       "advancements.get_entangulum_dust.descr": "Alright, we\u0027re getting somewhere",
       "item.silly_willy_core.triangulum_pickaxe": "Triangulum Pickaxe",
       "block.silly_willy_core.triangulumore_deepslate": "Triangulum Ore Deepslate",
-      "block.silly_willy_core.triangulumbricks": "Triangulumbricks",
-      "block.silly_willy_core.geometriusup": "Geometrius Vari. Up ",
+      "block.silly_willy_core.triangulumbricks": "Triangulum Bricks",
+      "block.silly_willy_core.geometriusup": "Geometrius Vari. Up",
       "item.silly_willy_core.triangulum_axe": "Triangulum Axe",
       "advancements.get_raw_entangulum.title": "Get Raw Entangulum",
       "block.silly_willy_core.melted_entangulum_fluid": "Melted Entangulum Fluid"
@@ -1954,6 +1972,14 @@
             "children": [
               {
                 "name": "Wonder Oak",
+                "children": []
+              },
+              {
+                "name": "Triangulum",
+                "children": []
+              },
+              {
+                "name": "Entangulum",
                 "children": []
               }
             ]
@@ -2108,6 +2134,7 @@
     "websiteURL": "https://modrinth.com/organization/silly-willies",
     "license": "MIT License",
     "serverSideOnly": false,
+    "updateURL": "https://modrinth.com/mod/silly-willies-core/versions",
     "modPicture": "sillybilly",
     "requiredMods": [
       "create"

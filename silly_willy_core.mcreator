@@ -2128,16 +2128,14 @@
   "workspaceSettings": {
     "modid": "silly_willy_core",
     "modName": "Silly Willy Core",
-    "version": "0.0.8",
+    "version": "0.0.8b",
     "description": "This mod is the core mod for the silly willies modpack",
     "author": "Crit (J.V), Zomagon, P",
     "websiteURL": "https://modrinth.com/organization/silly-willies",
     "license": "MIT License",
     "serverSideOnly": false,
     "modPicture": "sillybilly",
-    "requiredMods": [
-      "create"
-    ],
+    "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [

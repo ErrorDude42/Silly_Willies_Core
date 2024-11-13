@@ -45,7 +45,7 @@
           "src/main/resources/assets/silly_willy_core/models/item/triangulumore.json"
         ]
       },
-      "path": "~/Geo_Dimension/Blocks"
+      "path": "~/Geo_Dimension/Blocks/Triangulum"
     },
     {
       "name": "TriangulumoreDeepslate",
@@ -61,7 +61,7 @@
           "src/main/java/io/github/errordude42/sillywillycore/block/TriangulumoreDeepslateBlock.java"
         ]
       },
-      "path": "~/Geo_Dimension/Blocks"
+      "path": "~/Geo_Dimension/Blocks/Triangulum"
     },
     {
       "name": "GeometeryDimensionBeta",
@@ -276,7 +276,7 @@
           "src/main/resources/data/silly_willy_core/loot_tables/blocks/blockrawtriangulum.json"
         ]
       },
-      "path": "~/Geo_Dimension/Blocks"
+      "path": "~/Geo_Dimension/Blocks/Triangulum"
     },
     {
       "name": "Blockofrawentangulum",
@@ -293,7 +293,7 @@
           "src/main/resources/data/silly_willy_core/loot_tables/blocks/blockofrawentangulum.json"
         ]
       },
-      "path": "~/Geo_Dimension/Blocks"
+      "path": "~/Geo_Dimension/Blocks/Entangulum"
     },
     {
       "name": "Triangulumbricks",
@@ -310,7 +310,7 @@
           "src/main/resources/assets/silly_willy_core/blockstates/triangulumbricks.json"
         ]
       },
-      "path": "~/Geo_Dimension/Blocks"
+      "path": "~/Geo_Dimension/Blocks/Triangulum"
     },
     {
       "name": "Geostone",
@@ -344,7 +344,7 @@
           "src/main/resources/assets/silly_willy_core/models/item/entangulumore.json"
         ]
       },
-      "path": "~/Geo_Dimension/Blocks"
+      "path": "~/Geo_Dimension/Blocks/Entangulum"
     },
     {
       "name": "Dirtyentangulum",
@@ -464,7 +464,7 @@
           "src/main/java/io/github/errordude42/sillywillycore/block/StructureTriangulumbricksBlock.java"
         ]
       },
-      "path": "~/Geo_Dimension/Blocks"
+      "path": "~/Geo_Dimension/Blocks/Triangulum"
     },
     {
       "name": "Structureblocks",
@@ -1734,6 +1734,23 @@
         ]
       },
       "path": "~/Geo_Dimension/Loot Tables/Vanilla"
+    },
+    {
+      "name": "Silt",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/loot_tables/blocks/silt.json",
+          "src/main/resources/assets/silly_willy_core/blockstates/silt.json",
+          "src/main/resources/assets/silly_willy_core/models/block/silt.json",
+          "src/main/java/io/github/errordude42/sillywillycore/block/SiltBlock.java",
+          "src/main/resources/assets/silly_willy_core/models/item/silt.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Blocks"
     }
   ],
   "variable_elements": [],
@@ -1903,6 +1920,7 @@
       "biome.silly_willy_core.wonder_forest": "Wonder Forest",
       "item.silly_willy_core.incomplete_entangulum_plate": "Incomplete Entangulum Plate",
       "block.silly_willy_core.entangulumore": "Entangulum Ore",
+      "block.silly_willy_core.silt": "Silt",
       "advancements.get_dirty_entangulum_dust.title": "That\u0027s only the first step?",
       "item.silly_willy_core.entangulum_spool": "Entangulum Spool",
       "advancements.get_entangulum_spool.title": "Get Entangulum Spool",
@@ -1958,6 +1976,10 @@
               },
               {
                 "name": "Triangulum",
+                "children": []
+              },
+              {
+                "name": "Entangulum",
                 "children": []
               }
             ]
@@ -2113,9 +2135,7 @@
     "license": "MIT License",
     "serverSideOnly": false,
     "modPicture": "sillybilly",
-    "requiredMods": [
-      "create"
-    ],
+    "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [
