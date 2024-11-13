@@ -22,6 +22,12 @@ description="This mod is the core mod for the silly willies modpack"
     ordering="AFTER"
     side="BOTH"
 
+[[dependencies.silly_willy_core]]
+    modId="create"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
 [[dependencies.silly_willy_core]]
     modId="pehkui"

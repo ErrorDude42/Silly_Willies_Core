@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "silly_willy_core:block/silt",
+    "particle": "silly_willy_core:block/silt"
+  },
+  "render_type": "solid"
+}
