@@ -122,10 +122,13 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "generateFeature": false,
+    "generateFeature": true,
     "restrictionBiomes": [
       {
         "value": "CUSTOM:Geotestinggrounds"
+      },
+      {
+        "value": "CUSTOM:WonderForest"
       }
     ],
     "blocksToReplace": [
@@ -133,10 +136,10 @@
         "value": "CUSTOM:Geostone"
       }
     ],
-    "generationShape": "UNIFORM",
+    "generationShape": "TRIANGLE",
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "minGenerateHeight": -50,
+    "maxGenerateHeight": 20
   }
 }

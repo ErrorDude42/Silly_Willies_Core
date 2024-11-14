@@ -122,8 +122,12 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "generateFeature": false,
-    "restrictionBiomes": [],
+    "generateFeature": true,
+    "restrictionBiomes": [
+      {
+        "value": "#minecraft:is_overworld"
+      }
+    ],
     "blocksToReplace": [
       {
         "value": "Blocks.DEEPSLATE"

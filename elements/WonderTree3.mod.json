@@ -2,7 +2,7 @@
   "_fv": 69,
   "_type": "structure",
   "definition": {
-    "structure": "geocube1",
+    "structure": "wondertree3",
     "projection": "rigid",
     "ignoredBlocks": [
       {
@@ -12,8 +12,8 @@
         "value": "Blocks.AIR"
       }
     ],
-    "spacing": 4,
-    "separation": 3,
+    "spacing": 1,
+    "separation": 0,
     "restrictionBiomes": [
       {
         "value": "CUSTOM:WonderForest"

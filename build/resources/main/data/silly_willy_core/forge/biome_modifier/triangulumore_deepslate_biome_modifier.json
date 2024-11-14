@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": "silly_willy_core:triangulumore_deepslate",
+  "step": "underground_ores"
+}

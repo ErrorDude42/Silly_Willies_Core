@@ -82,10 +82,10 @@
     "speedFactor": 1.0,
     "canBePlacedOn": [
       {
-        "value": "CUSTOM:Geostone"
+        "value": "CUSTOM:StructureTriangulumbricks"
       },
       {
-        "value": "CUSTOM:StructureTriangulumbricks"
+        "value": "CUSTOM:Silt"
       }
     ],
     "isBonemealable": false,

@@ -9,7 +9,7 @@
   "start_height": {
     "absolute": 0
   },
-  "project_start_to_heightmap": "WORLD_SURFACE",
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
   "biomes": "silly_willy_core:wonder_forest",
   "use_expansion_hack": false
 }

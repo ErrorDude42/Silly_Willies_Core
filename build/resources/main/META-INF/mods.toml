@@ -4,7 +4,7 @@ license="MIT License"
 
 [[mods]]
 modId="silly_willy_core"
-version="0.0.8"
+version="0.0.9"
 displayName="Silly Willy Core"
 displayURL="https://modrinth.com/organization/silly-willies"
 logoFile="logo.png"

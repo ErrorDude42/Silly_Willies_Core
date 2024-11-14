@@ -12,8 +12,8 @@
         "value": "Blocks.AIR"
       }
     ],
-    "spacing": 3,
-    "separation": 2,
+    "spacing": 1,
+    "separation": 0,
     "restrictionBiomes": [
       {
         "value": "CUSTOM:WonderForest"
@@ -21,7 +21,7 @@
     ],
     "terrainAdaptation": "none",
     "generationStep": "SURFACE_STRUCTURES",
-    "surfaceDetectionType": "WORLD_SURFACE",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
     "useStartHeight": false,
     "startHeightProviderType": "UNIFORM",
     "startHeightMin": 0,

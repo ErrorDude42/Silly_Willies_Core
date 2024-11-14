@@ -58,7 +58,10 @@
           "src/main/resources/assets/silly_willy_core/models/block/triangulumore_deepslate.json",
           "src/main/resources/assets/silly_willy_core/models/item/triangulumore_deepslate.json",
           "src/main/resources/assets/silly_willy_core/blockstates/triangulumore_deepslate.json",
-          "src/main/java/io/github/errordude42/sillywillycore/block/TriangulumoreDeepslateBlock.java"
+          "src/main/resources/data/silly_willy_core/worldgen/placed_feature/triangulumore_deepslate.json",
+          "src/main/java/io/github/errordude42/sillywillycore/block/TriangulumoreDeepslateBlock.java",
+          "src/main/resources/data/silly_willy_core/forge/biome_modifier/triangulumore_deepslate_biome_modifier.json",
+          "src/main/resources/data/silly_willy_core/worldgen/configured_feature/triangulumore_deepslate.json"
         ]
       },
       "path": "~/Geo_Dimension/Blocks/Triangulum"
@@ -339,9 +342,12 @@
         "files": [
           "src/main/java/io/github/errordude42/sillywillycore/block/EntangulumoreBlock.java",
           "src/main/resources/data/silly_willy_core/loot_tables/blocks/entangulumore.json",
+          "src/main/resources/data/silly_willy_core/worldgen/configured_feature/entangulumore.json",
+          "src/main/resources/data/silly_willy_core/forge/biome_modifier/entangulumore_biome_modifier.json",
           "src/main/resources/assets/silly_willy_core/models/block/entangulumore.json",
           "src/main/resources/assets/silly_willy_core/blockstates/entangulumore.json",
-          "src/main/resources/assets/silly_willy_core/models/item/entangulumore.json"
+          "src/main/resources/assets/silly_willy_core/models/item/entangulumore.json",
+          "src/main/resources/data/silly_willy_core/worldgen/placed_feature/entangulumore.json"
         ]
       },
       "path": "~/Geo_Dimension/Blocks/Entangulum"
@@ -2192,7 +2198,7 @@
   "workspaceSettings": {
     "modid": "silly_willy_core",
     "modName": "Silly Willy Core",
-    "version": "0.0.8b",
+    "version": "0.0.9",
     "description": "This mod is the core mod for the silly willies modpack",
     "author": "Crit (J.V), Zomagon, P",
     "websiteURL": "https://modrinth.com/organization/silly-willies",

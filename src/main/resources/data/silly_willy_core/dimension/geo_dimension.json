@@ -14,19 +14,19 @@
             ],
             "humidity": [
               -1,
-              1
+              2
             ],
             "continentalness": [
               0,
-              2
+              1
             ],
             "weirdness": [
               -1,
-              1
+              2
             ],
             "erosion": [
               0,
-              0.75
+              1
             ],
             "depth": 0,
             "offset": 0
@@ -36,7 +36,7 @@
           "biome": "silly_willy_core:geotestinggrounds",
           "parameters": {
             "temperature": [
-              -1,
+              -0.5,
               1
             ],
             "humidity": [
