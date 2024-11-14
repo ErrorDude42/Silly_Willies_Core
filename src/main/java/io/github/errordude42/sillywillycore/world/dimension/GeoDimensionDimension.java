@@ -26,7 +26,7 @@ public class GeoDimensionDimension {
 
 				@Override
 				public boolean isFoggyAt(int x, int y) {
-					return true;
+					return false;
 				}
 			};
 			event.register(new ResourceLocation("silly_willy_core:geo_dimension"), customEffect);

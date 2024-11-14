@@ -21,8 +21,8 @@
               2
             ],
             "weirdness": [
-              -2,
-              2
+              -1,
+              1
             ],
             "erosion": [
               0,
@@ -40,11 +40,11 @@
               1
             ],
             "humidity": [
-              -0.5,
+              -1,
               1
             ],
             "continentalness": [
-              0.33,
+              0,
               2
             ],
             "weirdness": [
@@ -52,8 +52,8 @@
               1
             ],
             "erosion": [
-              -1,
-              1
+              0,
+              0.75
             ],
             "depth": 0,
             "offset": 0
@@ -456,7 +456,7 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "silly_willy_core:geostone"
+                              "Name": "silly_willy_core:silt"
                             }
                           }
                         },
@@ -528,7 +528,7 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "silly_willy_core:geostone"
+                              "Name": "silly_willy_core:silt"
                             }
                           }
                         },

@@ -4,7 +4,7 @@
   "definition": {
     "name": "Wonder Forest",
     "groundBlock": {
-      "value": "CUSTOM:Geostone"
+      "value": "CUSTOM:Silt"
     },
     "undergroundBlock": {
       "value": "CUSTOM:Geostone"
@@ -64,8 +64,8 @@
       "max": 0.75
     },
     "genWeirdness": {
-      "min": -2.0,
-      "max": 2.0
+      "min": -1.0,
+      "max": 1.0
     },
     "treesPerChunk": 0,
     "vanillaTreeType": "Default",

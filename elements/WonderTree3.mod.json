@@ -16,7 +16,7 @@
     "separation": 3,
     "restrictionBiomes": [
       {
-        "value": "CUSTOM:Geotestinggrounds"
+        "value": "CUSTOM:WonderForest"
       }
     ],
     "terrainAdaptation": "none",

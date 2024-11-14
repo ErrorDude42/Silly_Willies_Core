@@ -10,7 +10,7 @@ import net.minecraft.core.BlockPos;
 
 public class SiltBlock extends Block {
 	public SiltBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.GRAVEL).strength(1f, 10f));
+		super(BlockBehaviour.Properties.of().sound(SoundType.WET_GRASS).strength(1f, 10f));
 	}
 
 	@Override

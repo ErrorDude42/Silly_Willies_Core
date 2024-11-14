@@ -59,7 +59,7 @@ side="BOTH"
 [[dependencies.silly_willy_core]]
 modId="create"
 mandatory=true
-versionRange="[0.5.1.i,)"
+versionRange="[0.5.1.f,)"
 ordering="NONE"
 side="BOTH"
 
@@ -70,10 +70,10 @@ versionRange="[1.2.4,)"
 ordering="NONE"
 side="BOTH"
 
-[[dependencies.crits_bambood]]
+[[dependencies.silly_willy_core]]
 modId="geckolib"
 mandatory=true
-versionRange="[4.4.9,)"
+versionRange="[4.4.2,)"
 ordering="AFTER"
 side="BOTH"
 # End of user code block dependencies configuration
