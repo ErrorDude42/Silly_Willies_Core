@@ -7,7 +7,7 @@ public class WonderOakSaplingOnTickUpdateProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		double lightLevel = 0;
 		if (!world.isClientSide()) {
-			lightLevel = 0;
+			lightLevel = 9;
 			if (WonderOakSaplingBoneMealSuccessConditionProcedure.execute() && (world.getMaxLocalRawBrightness(BlockPos.containing(x, y + 1, z)) >= lightLevel + 1
 					|| world.getMaxLocalRawBrightness(BlockPos.containing(x + 1, y, z)) >= lightLevel + 1 && world.getMaxLocalRawBrightness(BlockPos.containing(x - 1, y, z)) >= lightLevel - 1
 					|| world.getMaxLocalRawBrightness(BlockPos.containing(x - 1, y, z)) >= lightLevel + 1 && world.getMaxLocalRawBrightness(BlockPos.containing(x + 1, y, z)) >= lightLevel - 1

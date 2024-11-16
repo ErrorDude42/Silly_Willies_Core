@@ -10,18 +10,18 @@
       "value": "CUSTOM:Geostone"
     },
     "underwaterBlock": {
-      "value": ""
+      "value": "Blocks.CLAY"
     },
     "airColor": {
       "value": -205,
       "falpha": 0.0
     },
-    "grassColor": {
-      "value": -10066432,
+    "waterColor": {
+      "value": -6710887,
       "falpha": 0.0
     },
-    "foliageColor": {
-      "value": -13421824,
+    "waterFogColor": {
+      "value": -10066330,
       "falpha": 0.0
     },
     "ambientSound": {

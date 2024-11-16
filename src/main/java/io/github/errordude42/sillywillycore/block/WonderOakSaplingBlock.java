@@ -29,7 +29,7 @@ import io.github.errordude42.sillywillycore.procedures.WonderOakSaplingBlockVali
 
 public class WonderOakSaplingBlock extends Block implements BonemealableBlock {
 	public WonderOakSaplingBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.GRASS).instabreak().noCollission().noOcclusion().randomTicks().pushReaction(PushReaction.DESTROY).isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of().ignitedByLava().sound(SoundType.GRASS).instabreak().noCollission().noOcclusion().randomTicks().pushReaction(PushReaction.DESTROY).isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override

@@ -72,7 +72,10 @@
         "Name": "silly_willy_core:geostone"
       },
       "default_fluid": {
-        "Name": "minecraft:void_air"
+        "Name": "minecraft:water",
+        "Properties": {
+          "level": "0"
+        }
       },
       "spawn_target": [],
       "noise": {
@@ -463,7 +466,7 @@
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "silly_willy_core:geostone"
+                            "Name": "minecraft:clay"
                           }
                         }
                       ]
@@ -535,7 +538,7 @@
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "silly_willy_core:geostone"
+                            "Name": "minecraft:clay"
                           }
                         }
                       ]

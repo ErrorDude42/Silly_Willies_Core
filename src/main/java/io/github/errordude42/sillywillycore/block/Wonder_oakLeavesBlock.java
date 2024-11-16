@@ -1,18 +1,13 @@
 
 package io.github.errordude42.sillywillycore.block;
 
-import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.LeavesBlock;
-import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
-
-import io.github.errordude42.sillywillycore.procedures.WonderoakLeavesBlockDestroyedByPlayerProcedure;
 
 public class Wonder_oakLeavesBlock extends LeavesBlock {
 	public Wonder_oakLeavesBlock() {
@@ -27,12 +22,5 @@ public class Wonder_oakLeavesBlock extends LeavesBlock {
 	@Override
 	public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
 		return 30;
-	}
-
-	@Override
-	public boolean onDestroyedByPlayer(BlockState blockstate, Level world, BlockPos pos, Player entity, boolean willHarvest, FluidState fluid) {
-		boolean retval = super.onDestroyedByPlayer(blockstate, world, pos, entity, willHarvest, fluid);
-		WonderoakLeavesBlockDestroyedByPlayerProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
-		return retval;
 	}
 }

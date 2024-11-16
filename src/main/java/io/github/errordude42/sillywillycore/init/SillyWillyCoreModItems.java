@@ -78,6 +78,7 @@ public class SillyWillyCoreModItems {
 	public static final RegistryObject<Item> INCOMPLETE_ENTANGULUM_PLATE = REGISTRY.register("incomplete_entangulum_plate", () -> new IncompleteEntangulumPlateItem());
 	public static final RegistryObject<Item> TRIANGULUM_BRICK = REGISTRY.register("triangulum_brick", () -> new TriangulumBrickItem());
 	public static final RegistryObject<Item> SILT = block(SillyWillyCoreModBlocks.SILT);
+	public static final RegistryObject<Item> TWISTED_GRASS = block(SillyWillyCoreModBlocks.TWISTED_GRASS);
 
 	// Start of user code block custom items
 	// End of user code block custom items

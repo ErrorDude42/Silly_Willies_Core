@@ -21,6 +21,7 @@ import io.github.errordude42.sillywillycore.block.Wonder_oakFenceGateBlock;
 import io.github.errordude42.sillywillycore.block.Wonder_oakFenceBlock;
 import io.github.errordude42.sillywillycore.block.Wonder_oakButtonBlock;
 import io.github.errordude42.sillywillycore.block.WonderOakSaplingBlock;
+import io.github.errordude42.sillywillycore.block.TwistedGrassBlock;
 import io.github.errordude42.sillywillycore.block.TriangulumoreDeepslateBlock;
 import io.github.errordude42.sillywillycore.block.TriangulumoreBlock;
 import io.github.errordude42.sillywillycore.block.TriangulumbricksBlock;
@@ -60,6 +61,7 @@ public class SillyWillyCoreModBlocks {
 	public static final RegistryObject<Block> WONDER_OAK_BUTTON = REGISTRY.register("wonder_oak_button", () -> new Wonder_oakButtonBlock());
 	public static final RegistryObject<Block> WONDER_OAK_SAPLING = REGISTRY.register("wonder_oak_sapling", () -> new WonderOakSaplingBlock());
 	public static final RegistryObject<Block> SILT = REGISTRY.register("silt", () -> new SiltBlock());
+	public static final RegistryObject<Block> TWISTED_GRASS = REGISTRY.register("twisted_grass", () -> new TwistedGrassBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

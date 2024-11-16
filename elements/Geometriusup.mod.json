@@ -89,7 +89,7 @@
       }
     ],
     "isBonemealable": false,
-    "frequencyOnChunks": 20,
+    "frequencyOnChunks": 10,
     "generateFeature": true,
     "restrictionBiomes": [
       {
@@ -100,7 +100,7 @@
       }
     ],
     "generationType": "Flower",
-    "patchSize": 30,
-    "generateAtAnyHeight": true
+    "patchSize": 40,
+    "generateAtAnyHeight": false
   }
 }

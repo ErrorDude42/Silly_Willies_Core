@@ -7,6 +7,15 @@
     "ignoredBlocks": [
       {
         "value": "Blocks.STRUCTURE_BLOCK"
+      },
+      {
+        "value": "Blocks.AIR"
+      },
+      {
+        "value": "Blocks.VOID_AIR"
+      },
+      {
+        "value": "Blocks.CAVE_AIR"
       }
     ],
     "spacing": 20,

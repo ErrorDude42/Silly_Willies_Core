@@ -64,6 +64,7 @@ public class SillyWillyCoreModTabs {
 				tabData.accept(SillyWillyCoreModBlocks.WONDER_OAK_BUTTON.get().asItem());
 				tabData.accept(SillyWillyCoreModBlocks.WONDER_OAK_SAPLING.get().asItem());
 				tabData.accept(SillyWillyCoreModBlocks.SILT.get().asItem());
+				tabData.accept(SillyWillyCoreModBlocks.TWISTED_GRASS.get().asItem());
 			})
 
 					.build());

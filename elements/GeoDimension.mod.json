@@ -15,7 +15,7 @@
       "value": "CUSTOM:Geostone"
     },
     "fluidBlock": {
-      "value": "Blocks.VOID_AIR"
+      "value": "Blocks.FLOWING_WATER"
     },
     "airColor": {
       "value": -205,

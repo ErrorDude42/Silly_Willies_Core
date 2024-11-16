@@ -4,5 +4,5 @@
     "cross": "silly_willy_core:block/wonder_sapling",
     "particle": "silly_willy_core:block/wonder_sapling"
   },
-  "render_type": "translucent"
+  "render_type": "cutout_mipped"
 }
