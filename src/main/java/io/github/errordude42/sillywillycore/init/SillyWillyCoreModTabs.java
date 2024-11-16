@@ -65,6 +65,7 @@ public class SillyWillyCoreModTabs {
 				tabData.accept(SillyWillyCoreModBlocks.WONDER_OAK_SAPLING.get().asItem());
 				tabData.accept(SillyWillyCoreModBlocks.SILT.get().asItem());
 				tabData.accept(SillyWillyCoreModBlocks.TWISTED_GRASS.get().asItem());
+				tabData.accept(SillyWillyCoreModBlocks.TRIANGULUM_GEO_STONE.get().asItem());
 			})
 
 					.build());

@@ -1865,12 +1865,12 @@
       "Blocks.VOID_AIR",
       "Blocks.CAVE_AIR"
     ],
-    "BLOCKS:minecraft:leaves": [
-      "~CUSTOM:Wonder_oakLeaves"
-    ],
     "BLOCKS:minecraft:small_flowers": [
       "CUSTOM:Geometriusdown",
       "CUSTOM:Geometriusup"
+    ],
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:Wonder_oakLeaves"
     ],
     "BLOCKS:minecraft:dragon_immune": [
       "CUSTOM:Triangulumbricks",
@@ -1909,7 +1909,6 @@
       "~CUSTOM:Silt",
       "~CUSTOM:Geostone"
     ],
-    "BIOMES:minecraft:is_overworld": [],
     "ITEMS:silly_willy_core:geometrius_interchange": [
       "CUSTOM:Geometriusdown",
       "CUSTOM:Geometriusup"
@@ -1922,16 +1921,15 @@
       "Blocks.LAVA",
       "CUSTOM:MeltedEntangulumFluid"
     ],
-    "BLOCKS:minecraft:dirt": [],
-    "BLOCKS:minecraft:mineable/axe": [
-      "~CUSTOM:Wonder_oakPlanks",
-      "~CUSTOM:Wonder_oakLog",
-      "~CUSTOM:Wonder_oakWood"
-    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:TriangulumoreDeepslate",
       "~CUSTOM:Triangulumore",
       "CUSTOM:Geostone"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:Wonder_oakPlanks",
+      "~CUSTOM:Wonder_oakLog",
+      "~CUSTOM:Wonder_oakWood"
     ],
     "BLOCKS:minecraft:fences": [
       "~CUSTOM:Wonder_oakFence"
@@ -1997,8 +1995,8 @@
       "item_group.silly_willy_core.geometery_dimension_beta": "Geometery Dimension Beta",
       "block.silly_willy_core.wonder_oak_stairs": "Wonder Oak Stairs",
       "biome.silly_willy_core.geotestinggrounds": "Testing Grounds",
-      "block.silly_willy_core.twisted_grass": "Twisted Grass",
       "item.silly_willy_core.triangulum_shovel": "Triangulum Shovel",
+      "block.silly_willy_core.twisted_grass": "Twisted Grass",
       "block.silly_willy_core.blockofrawentangulum": "Block of Raw Entangulum",
       "item.silly_willy_core.triangulum_hoe": "Triangulum Hoe",
       "item.silly_willy_core.raw_entangulum": "Raw Entangulum",
@@ -2060,8 +2058,8 @@
       "item_group.silly_willy_core.geometery_dimension_beta": "Geometery Dimension Beta",
       "block.silly_willy_core.wonder_oak_stairs": "Wonder Oak Stairs",
       "biome.silly_willy_core.geotestinggrounds": "Testing Grounds",
-      "block.silly_willy_core.twisted_grass": "Twisted Grass",
       "item.silly_willy_core.triangulum_shovel": "Triangulum Shovel",
+      "block.silly_willy_core.twisted_grass": "Twisted Grass",
       "block.silly_willy_core.blockofrawentangulum": "Block of Raw Entangulum",
       "item.silly_willy_core.triangulum_hoe": "Triangulum Hoe",
       "item.silly_willy_core.raw_entangulum": "Raw Entangulum",

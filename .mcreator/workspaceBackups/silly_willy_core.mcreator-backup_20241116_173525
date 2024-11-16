@@ -1850,6 +1850,8 @@
     "BLOCKS:silly_willy_core:silt": [
       "CUSTOM:Silt"
     ],
+    "BLOCKS:minecraft:valid_spawn": [],
+    "BIOMES:minecraft:is_ocean": [],
     "ITEMS:minecraft:flowers": [
       "CUSTOM:Geometriusdown",
       "CUSTOM:Geometriusup"
@@ -1879,6 +1881,7 @@
     "BLOCKS:minecraft:slabs": [
       "~CUSTOM:Wonder_oakSlab"
     ],
+    "BIOMES:minecraft:is_mountain": [],
     "ITEMS:minecraft:axes": [
       "~CUSTOM:TriangulumAxe"
     ],
@@ -1892,20 +1895,25 @@
     "ITEMS:silly_willy_core:refined_triangulum": [
       "CUSTOM:RefinedTriangulum"
     ],
+    "BIOMES:minecraft:is_nether": [],
     "ITEMS:minecraft:planks": [
       "CUSTOM:Wonder_oakPlanks"
     ],
     "ITEMS:silly_willy_core:raw_triangulum": [
       "CUSTOM:RawTriangulum"
     ],
+    "BIOMES:minecraft:is_savanna": [],
     "BLOCKS:minecraft:needs_diamond_tool": [
       "~CUSTOM:TriangulumoreDeepslate",
       "~CUSTOM:Triangulumore"
     ],
+    "BIOMES:minecraft:is_river": [],
+    "BLOCKS:minecraft:wooden_fences": [],
     "ITEMS:minecraft:pickaxes": [
       "~CUSTOM:TriangulumPickaxe"
     ],
-    "BLOCKS:minecraft:overworld_carver_replaceables": [],
+    "BIOMES:minecraft:is_hill": [],
+    "BIOMES:minecraft:is_overworld": [],
     "ITEMS:silly_willy_core:geometrius_interchange": [
       "CUSTOM:Geometriusdown",
       "CUSTOM:Geometriusup"
@@ -1918,6 +1926,8 @@
       "Blocks.LAVA",
       "CUSTOM:MeltedEntangulumFluid"
     ],
+    "BIOMES:minecraft:is_end": [],
+    "BLOCKS:minecraft:dirt": [],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:TriangulumoreDeepslate",
       "~CUSTOM:Triangulumore",
@@ -1935,6 +1945,7 @@
       "CUSTOM:TriangulumAxe",
       "CUSTOM:TriangulumSword"
     ],
+    "BIOMES:minecraft:is_forest": [],
     "BLOCKS:silly_willy_core:geo_floor": [
       "CUSTOM:Geostone"
     ],

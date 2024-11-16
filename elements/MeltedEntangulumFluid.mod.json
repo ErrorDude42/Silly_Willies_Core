@@ -4,7 +4,7 @@
   "definition": {
     "name": "Melted Entangulum Fluid",
     "bucketName": "Bucket of Melted Entangulum",
-    "textureStill": "liquid_entangulum_still",
+    "textureStill": "liquid_entangulum",
     "textureFlowing": "liquid_entangulum_flowing",
     "tintType": "No tint",
     "canMultiply": false,

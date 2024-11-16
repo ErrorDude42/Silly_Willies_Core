@@ -25,6 +25,7 @@ import io.github.errordude42.sillywillycore.block.TwistedGrassBlock;
 import io.github.errordude42.sillywillycore.block.TriangulumoreDeepslateBlock;
 import io.github.errordude42.sillywillycore.block.TriangulumoreBlock;
 import io.github.errordude42.sillywillycore.block.TriangulumbricksBlock;
+import io.github.errordude42.sillywillycore.block.TriangulumGeoStoneBlock;
 import io.github.errordude42.sillywillycore.block.StructureTriangulumbricksBlock;
 import io.github.errordude42.sillywillycore.block.SiltBlock;
 import io.github.errordude42.sillywillycore.block.MeltedEntangulumFluidBlock;
@@ -62,6 +63,7 @@ public class SillyWillyCoreModBlocks {
 	public static final RegistryObject<Block> WONDER_OAK_SAPLING = REGISTRY.register("wonder_oak_sapling", () -> new WonderOakSaplingBlock());
 	public static final RegistryObject<Block> SILT = REGISTRY.register("silt", () -> new SiltBlock());
 	public static final RegistryObject<Block> TWISTED_GRASS = REGISTRY.register("twisted_grass", () -> new TwistedGrassBlock());
+	public static final RegistryObject<Block> TRIANGULUM_GEO_STONE = REGISTRY.register("triangulum_geo_stone", () -> new TriangulumGeoStoneBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

@@ -22,7 +22,7 @@ public class MeltedEntangulumFluidFluidType extends FluidType {
 	@Override
 	public void initializeClient(Consumer<IClientFluidTypeExtensions> consumer) {
 		consumer.accept(new IClientFluidTypeExtensions() {
-			private static final ResourceLocation STILL_TEXTURE = new ResourceLocation("silly_willy_core:block/liquid_entangulum_still"), FLOWING_TEXTURE = new ResourceLocation("silly_willy_core:block/liquid_entangulum_flowing");
+			private static final ResourceLocation STILL_TEXTURE = new ResourceLocation("silly_willy_core:block/liquid_entangulum"), FLOWING_TEXTURE = new ResourceLocation("silly_willy_core:block/liquid_entangulum_flowing");
 
 			@Override
 			public ResourceLocation getStillTexture() {

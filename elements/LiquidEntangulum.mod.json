@@ -2,7 +2,7 @@
   "_fv": 69,
   "_type": "particle",
   "definition": {
-    "texture": "liquid_entangulum_still",
+    "texture": "entangulum_still",
     "animate": true,
     "frameDuration": 1,
     "width": 0.2,
