@@ -52,7 +52,7 @@
       "value": ""
     },
     "dropAmount": 1,
-    "useLootTableForDrops": false,
+    "useLootTableForDrops": true,
     "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
@@ -125,10 +125,7 @@
     "generateFeature": true,
     "restrictionBiomes": [
       {
-        "value": "CUSTOM:Geotestinggrounds"
-      },
-      {
-        "value": "CUSTOM:WonderForest"
+        "value": "#silly_willy_core:is_geo_dim"
       }
     ],
     "blocksToReplace": [
@@ -137,8 +134,8 @@
       }
     ],
     "generationShape": "TRIANGLE",
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
+    "frequencyPerChunks": 5,
+    "frequencyOnChunk": 10,
     "minGenerateHeight": -50,
     "maxGenerateHeight": 20
   }

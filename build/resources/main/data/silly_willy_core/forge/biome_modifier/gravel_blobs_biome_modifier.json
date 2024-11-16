@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#silly_willy_core:is_geo_dim",
+  "features": "silly_willy_core:gravel_blobs",
+  "step": "surface_structures"
+}
