@@ -1706,7 +1706,7 @@
       "name": "WonderOakTree",
       "type": "feature",
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "wonder_oak_tree",
       "metadata": {
         "files": [
