@@ -1,23 +1,27 @@
 
 package io.github.errordude42.sillywillycore.block;
 
+import net.minecraftforge.common.PlantType;
+import net.minecraftforge.common.ForgeHooks;
+
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.SugarCaneBlock;
 import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.FlowerBlock;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.effect.MobEffects;
+import net.minecraft.util.RandomSource;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import io.github.errordude42.sillywillycore.init.SillyWillyCoreModBlocks;
 
-public class TwistedGrassBlock extends FlowerBlock {
+public class TwistedGrassBlock extends SugarCaneBlock {
 	public TwistedGrassBlock() {
-		super(() -> MobEffects.MOVEMENT_SPEED, 0, BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().noCollission().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).randomTicks().sound(SoundType.GRASS).instabreak().noCollission().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
 	}
 
 	@Override
@@ -31,14 +35,33 @@ public class TwistedGrassBlock extends FlowerBlock {
 	}
 
 	@Override
-	public boolean mayPlaceOn(BlockState groundState, BlockGetter worldIn, BlockPos pos) {
-		return groundState.is(SillyWillyCoreModBlocks.SILT.get());
-	}
-
-	@Override
 	public boolean canSurvive(BlockState blockstate, LevelReader worldIn, BlockPos pos) {
 		BlockPos blockpos = pos.below();
 		BlockState groundState = worldIn.getBlockState(blockpos);
-		return this.mayPlaceOn(groundState, worldIn, blockpos);
+		return groundState.is(this) || groundState.is(SillyWillyCoreModBlocks.SILT.get());
+	}
+
+	@Override
+	public PlantType getPlantType(BlockGetter world, BlockPos pos) {
+		return PlantType.PLAINS;
+	}
+
+	@Override
+	public void randomTick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
+		if (world.isEmptyBlock(pos.above())) {
+			int i = 1;
+			for (; world.getBlockState(pos.below(i)).is(this); ++i);
+			if (i < 1) {
+				int j = blockstate.getValue(AGE);
+				if (ForgeHooks.onCropsGrowPre(world, pos, blockstate, true)) {
+					if (j == 15) {
+						world.setBlockAndUpdate(pos.above(), defaultBlockState());
+						world.setBlock(pos, blockstate.setValue(AGE, 0), 4);
+					} else {
+						world.setBlock(pos, blockstate.setValue(AGE, j + 1), 4);
+					}
+				}
+			}
+		}
 	}
 }

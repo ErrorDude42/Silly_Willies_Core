@@ -1835,6 +1835,38 @@
         ]
       },
       "path": "~/Geo_Dimension/World gen/Small additions"
+    },
+    {
+      "name": "Dieagain",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dieagain",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/loot_tables/blocks/triangulum_geo_stone.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Loot Tables/Blocks"
+    },
+    {
+      "name": "TriangulumGeoStone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triangulum_geo_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/forge/biome_modifier/triangulum_geo_stone_biome_modifier.json",
+          "src/main/java/io/github/errordude42/sillywillycore/block/TriangulumGeoStoneBlock.java",
+          "src/main/resources/assets/silly_willy_core/blockstates/triangulum_geo_stone.json",
+          "src/main/resources/data/silly_willy_core/worldgen/placed_feature/triangulum_geo_stone.json",
+          "src/main/resources/data/silly_willy_core/worldgen/configured_feature/triangulum_geo_stone.json",
+          "src/main/resources/assets/silly_willy_core/models/block/triangulum_geo_stone.json",
+          "src/main/resources/assets/silly_willy_core/models/item/triangulum_geo_stone.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Blocks/Triangulum"
     }
   ],
   "variable_elements": [],
@@ -1905,7 +1937,10 @@
     "ITEMS:minecraft:pickaxes": [
       "~CUSTOM:TriangulumPickaxe"
     ],
-    "BLOCKS:minecraft:overworld_carver_replaceables": [],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:Silt",
+      "~CUSTOM:Geostone"
+    ],
     "ITEMS:silly_willy_core:geometrius_interchange": [
       "CUSTOM:Geometriusdown",
       "CUSTOM:Geometriusup"
@@ -1983,7 +2018,8 @@
       "Wonder_oakButton",
       "WonderOakSapling",
       "Silt",
-      "TwistedGrass"
+      "TwistedGrass",
+      "TriangulumGeoStone"
     ]
   },
   "language_map": {
@@ -1992,8 +2028,8 @@
       "item_group.silly_willy_core.geometery_dimension_beta": "Geometery Dimension Beta",
       "block.silly_willy_core.wonder_oak_stairs": "Wonder Oak Stairs",
       "biome.silly_willy_core.geotestinggrounds": "Testing Grounds",
-      "block.silly_willy_core.twisted_grass": "Twisted Grass",
       "item.silly_willy_core.triangulum_shovel": "Triangulum Shovel",
+      "block.silly_willy_core.twisted_grass": "Twisted Grass",
       "block.silly_willy_core.blockofrawentangulum": "Block of Raw Entangulum",
       "item.silly_willy_core.triangulum_hoe": "Triangulum Hoe",
       "item.silly_willy_core.raw_entangulum": "Raw Entangulum",
@@ -2003,6 +2039,7 @@
       "block.silly_willy_core.geostone": "Geostone",
       "item_group.silly_willy_core.structureblocks": "Structure Blocks",
       "item.silly_willy_core.dirty_entangulum_dust": "Dirty Entangulum Dust",
+      "block.silly_willy_core.triangulum_geo_stone": "Triangulum Geo Stone",
       "item.silly_willy_core.entangulum_dust": "Entangulum Dust",
       "item.silly_willy_core.raw_triangulum": "Raw Triangulum",
       "item.silly_willy_core.triangulum_brick": "Triangulum Brick",
@@ -2055,8 +2092,8 @@
       "item_group.silly_willy_core.geometery_dimension_beta": "Geometery Dimension Beta",
       "block.silly_willy_core.wonder_oak_stairs": "Wonder Oak Stairs",
       "biome.silly_willy_core.geotestinggrounds": "Testing Grounds",
-      "block.silly_willy_core.twisted_grass": "Twisted Grass",
       "item.silly_willy_core.triangulum_shovel": "Triangulum Shovel",
+      "block.silly_willy_core.twisted_grass": "Twisted Grass",
       "block.silly_willy_core.blockofrawentangulum": "Block of Raw Entangulum",
       "item.silly_willy_core.triangulum_hoe": "Triangulum Hoe",
       "item.silly_willy_core.raw_entangulum": "Raw Entangulum",
@@ -2066,6 +2103,7 @@
       "block.silly_willy_core.geostone": "Geostone",
       "item_group.silly_willy_core.structureblocks": "Structure Blocks",
       "item.silly_willy_core.dirty_entangulum_dust": "Dirty Entangulum Dust",
+      "block.silly_willy_core.triangulum_geo_stone": "Triangulum Geo Stone",
       "item.silly_willy_core.entangulum_dust": "Entangulum Dust",
       "item.silly_willy_core.raw_triangulum": "Raw Triangulum",
       "item.silly_willy_core.triangulum_brick": "Triangulum Brick",

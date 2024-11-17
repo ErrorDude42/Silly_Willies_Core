@@ -1493,8 +1493,7 @@
           "src/main/java/io/github/errordude42/sillywillycore/block/TwistedGrassBlock.java",
           "src/main/resources/assets/silly_willy_core/models/block/twisted_grass.json",
           "src/main/resources/data/silly_willy_core/worldgen/placed_feature/twisted_grass.json",
-          "src/main/resources/data/silly_willy_core/worldgen/configured_feature/twisted_grass.json",
-          "src/main/resources/data/silly_willy_core/loot_tables/blocks/twisted_grass.json"
+          "src/main/resources/data/silly_willy_core/worldgen/configured_feature/twisted_grass.json"
         ]
       },
       "path": "~/Geo_Dimension/Blocks/Foliage"
@@ -1835,6 +1834,65 @@
         ]
       },
       "path": "~/Geo_Dimension/World gen/Small additions"
+    },
+    {
+      "name": "Dieagain",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dieagain",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/loot_tables/blocks/triangulum_geo_stone.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Loot Tables/Blocks"
+    },
+    {
+      "name": "TriangulumGeoStone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triangulum_geo_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/forge/biome_modifier/triangulum_geo_stone_biome_modifier.json",
+          "src/main/java/io/github/errordude42/sillywillycore/block/TriangulumGeoStoneBlock.java",
+          "src/main/resources/assets/silly_willy_core/blockstates/triangulum_geo_stone.json",
+          "src/main/resources/data/silly_willy_core/worldgen/placed_feature/triangulum_geo_stone.json",
+          "src/main/resources/data/silly_willy_core/worldgen/configured_feature/triangulum_geo_stone.json",
+          "src/main/resources/assets/silly_willy_core/models/block/triangulum_geo_stone.json",
+          "src/main/resources/assets/silly_willy_core/models/item/triangulum_geo_stone.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Blocks/Triangulum"
+    },
+    {
+      "name": "IncompleteRefinedTriangulum",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "incomplete_refined_triangulum",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/errordude42/sillywillycore/item/IncompleteRefinedTriangulumItem.java",
+          "src/main/resources/assets/silly_willy_core/models/item/incomplete_refined_triangulum.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Recipes/Processing/Create/Triangulum"
+    },
+    {
+      "name": "TwistedGrassdrop",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_grassdrop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/loot_tables/blocks/twisted_grass.json"
+        ]
+      },
+      "path": "~/Geo_Dimension/Blocks/Foliage"
     }
   ],
   "variable_elements": [],
@@ -1986,7 +2044,8 @@
       "Wonder_oakButton",
       "WonderOakSapling",
       "Silt",
-      "TwistedGrass"
+      "TwistedGrass",
+      "TriangulumGeoStone"
     ]
   },
   "language_map": {
@@ -1995,8 +2054,8 @@
       "item_group.silly_willy_core.geometery_dimension_beta": "Geometery Dimension Beta",
       "block.silly_willy_core.wonder_oak_stairs": "Wonder Oak Stairs",
       "biome.silly_willy_core.geotestinggrounds": "Testing Grounds",
-      "item.silly_willy_core.triangulum_shovel": "Triangulum Shovel",
       "block.silly_willy_core.twisted_grass": "Twisted Grass",
+      "item.silly_willy_core.triangulum_shovel": "Triangulum Shovel",
       "block.silly_willy_core.blockofrawentangulum": "Block of Raw Entangulum",
       "item.silly_willy_core.triangulum_hoe": "Triangulum Hoe",
       "item.silly_willy_core.raw_entangulum": "Raw Entangulum",
@@ -2006,6 +2065,7 @@
       "block.silly_willy_core.geostone": "Geostone",
       "item_group.silly_willy_core.structureblocks": "Structure Blocks",
       "item.silly_willy_core.dirty_entangulum_dust": "Dirty Entangulum Dust",
+      "block.silly_willy_core.triangulum_geo_stone": "Triangulum Geo Stone",
       "item.silly_willy_core.entangulum_dust": "Entangulum Dust",
       "item.silly_willy_core.raw_triangulum": "Raw Triangulum",
       "item.silly_willy_core.triangulum_brick": "Triangulum Brick",
@@ -2013,6 +2073,7 @@
       "block.silly_willy_core.wonder_oak_log": "Wonder Oak Log",
       "block.silly_willy_core.wonder_oak_sapling": "Wonder Oak Sapling",
       "item.silly_willy_core.plate_mold": "Plate Mold",
+      "item.silly_willy_core.incomplete_refined_triangulum": "Incomplete Refined Triangulum",
       "block.silly_willy_core.triangulumore": "Triangulum Ore",
       "item.silly_willy_core.melted_entangulum_fluid_bucket": "Bucket of Melted Entangulum",
       "item.silly_willy_core.entangulum_string": "Entangulum String",
@@ -2058,8 +2119,8 @@
       "item_group.silly_willy_core.geometery_dimension_beta": "Geometery Dimension Beta",
       "block.silly_willy_core.wonder_oak_stairs": "Wonder Oak Stairs",
       "biome.silly_willy_core.geotestinggrounds": "Testing Grounds",
-      "item.silly_willy_core.triangulum_shovel": "Triangulum Shovel",
       "block.silly_willy_core.twisted_grass": "Twisted Grass",
+      "item.silly_willy_core.triangulum_shovel": "Triangulum Shovel",
       "block.silly_willy_core.blockofrawentangulum": "Block of Raw Entangulum",
       "item.silly_willy_core.triangulum_hoe": "Triangulum Hoe",
       "item.silly_willy_core.raw_entangulum": "Raw Entangulum",
@@ -2069,6 +2130,7 @@
       "block.silly_willy_core.geostone": "Geostone",
       "item_group.silly_willy_core.structureblocks": "Structure Blocks",
       "item.silly_willy_core.dirty_entangulum_dust": "Dirty Entangulum Dust",
+      "block.silly_willy_core.triangulum_geo_stone": "Triangulum Geo Stone",
       "item.silly_willy_core.entangulum_dust": "Entangulum Dust",
       "item.silly_willy_core.raw_triangulum": "Raw Triangulum",
       "item.silly_willy_core.triangulum_brick": "Triangulum Brick",
@@ -2076,6 +2138,7 @@
       "block.silly_willy_core.wonder_oak_log": "Wonder Oak Log",
       "block.silly_willy_core.wonder_oak_sapling": "Wonder Oak Sapling",
       "item.silly_willy_core.plate_mold": "Plate Mold",
+      "item.silly_willy_core.incomplete_refined_triangulum": "Incomplete Refined Triangulum",
       "block.silly_willy_core.triangulumore": "Triangulum Ore",
       "item.silly_willy_core.melted_entangulum_fluid_bucket": "Bucket of Melted Entangulum",
       "item.silly_willy_core.entangulum_string": "Entangulum String",

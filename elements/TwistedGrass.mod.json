@@ -10,11 +10,11 @@
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "plantType": "normal",
+    "plantType": "growapable",
     "suspiciousStewEffect": "SPEED",
     "suspiciousStewDuration": 0,
     "growapableSpawnType": "Plains",
-    "growapableMaxHeight": 3,
+    "growapableMaxHeight": 1,
     "customBoundingBox": false,
     "disableOffset": false,
     "boundingBoxes": [
@@ -61,7 +61,7 @@
     "fallSound": {
       "value": ""
     },
-    "useLootTableForDrops": false,
+    "useLootTableForDrops": true,
     "customDrop": {
       "value": ""
     },
