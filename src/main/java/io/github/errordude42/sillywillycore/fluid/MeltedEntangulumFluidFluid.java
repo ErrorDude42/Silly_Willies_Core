@@ -11,15 +11,13 @@ import net.minecraft.core.particles.SimpleParticleType;
 import net.minecraft.core.particles.ParticleOptions;
 
 import io.github.errordude42.sillywillycore.init.SillyWillyCoreModParticleTypes;
-import io.github.errordude42.sillywillycore.init.SillyWillyCoreModItems;
 import io.github.errordude42.sillywillycore.init.SillyWillyCoreModFluids;
 import io.github.errordude42.sillywillycore.init.SillyWillyCoreModFluidTypes;
 import io.github.errordude42.sillywillycore.init.SillyWillyCoreModBlocks;
 
 public abstract class MeltedEntangulumFluidFluid extends ForgeFlowingFluid {
 	public static final ForgeFlowingFluid.Properties PROPERTIES = new ForgeFlowingFluid.Properties(() -> SillyWillyCoreModFluidTypes.MELTED_ENTANGULUM_FLUID_TYPE.get(), () -> SillyWillyCoreModFluids.MELTED_ENTANGULUM_FLUID.get(),
-			() -> SillyWillyCoreModFluids.FLOWING_MELTED_ENTANGULUM_FLUID.get()).explosionResistance(100f).tickRate(15).slopeFindDistance(3).bucket(() -> SillyWillyCoreModItems.MELTED_ENTANGULUM_FLUID_BUCKET.get())
-			.block(() -> (LiquidBlock) SillyWillyCoreModBlocks.MELTED_ENTANGULUM_FLUID.get());
+			() -> SillyWillyCoreModFluids.FLOWING_MELTED_ENTANGULUM_FLUID.get()).explosionResistance(100f).tickRate(15).slopeFindDistance(3).block(() -> (LiquidBlock) SillyWillyCoreModBlocks.MELTED_ENTANGULUM_FLUID.get());
 
 	private MeltedEntangulumFluidFluid() {
 		super(PROPERTIES);

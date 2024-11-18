@@ -23,7 +23,7 @@
     "ignore_vines": true,
     "foliage_placer": {
       "type": "minecraft:cherry_foliage_placer",
-      "height": 5,
+      "height": 7,
       "offset": 0,
       "radius": 4,
       "corner_hole_chance": 0.25,
@@ -39,15 +39,15 @@
       "branch_count": {
         "type": "uniform",
         "value": {
-          "min_inclusive": 1,
+          "min_inclusive": 2,
           "max_inclusive": 3
         }
       },
       "branch_horizontal_length": {
         "type": "uniform",
         "value": {
-          "min_inclusive": 2,
-          "max_inclusive": 4
+          "min_inclusive": 4,
+          "max_inclusive": 5
         }
       },
       "branch_end_offset_from_top": {

@@ -14,7 +14,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "silly_willy_core:refined_triangulum"
+          "item": "silly_willy_core:incomplete_refined_triangulum"
         },
         [
           {
@@ -24,7 +24,7 @@
       ],
       "results": [
         {
-          "item": "silly_willy_core:refined_triangulum"
+          "item": "silly_willy_core:incomplete_refined_triangulum"
         }
       ]
     },
@@ -32,13 +32,13 @@
 	  "type": "create:cutting",
 	  "ingredients": [
 	    {
-  	    "item": "silly_willy_core:refined_triangulum"
+  	    "item": "silly_willy_core:incomplete_refined_triangulum"
   	  }
 	  ],
 	  "processingTime": 500,
  	 "results": [
    	 {
-   	   "item": "silly_willy_core:refined_triangulum"
+   	   "item": "silly_willy_core:incomplete_refined_triangulum"
   	  }
  	 ]
 	},
@@ -46,17 +46,17 @@
       "type": "create:pressing",
       "ingredients": [
         {
-          "item": "silly_willy_core:refined_triangulum"
+          "item": "silly_willy_core:incomplete_refined_triangulum"
         }
       ],
       "results": [
         {
-          "item": "silly_willy_core:refined_triangulum"
+          "item": "silly_willy_core:incomplete_refined_triangulum"
         }
       ]
     }
   ],
   "transitionalItem": {
-    "item": "silly_willy_core:refined_triangulum"
+    "item": "silly_willy_core:incomplete_refined_triangulum"
   }
 }

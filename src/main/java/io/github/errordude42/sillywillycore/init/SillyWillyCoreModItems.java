@@ -25,7 +25,6 @@ import io.github.errordude42.sillywillycore.item.RefinedTriangulumItem;
 import io.github.errordude42.sillywillycore.item.RawTriangulumItem;
 import io.github.errordude42.sillywillycore.item.RawEntangulumItem;
 import io.github.errordude42.sillywillycore.item.PlateMoldItem;
-import io.github.errordude42.sillywillycore.item.MeltedEntangulumFluidItem;
 import io.github.errordude42.sillywillycore.item.IncompleteRefinedTriangulumItem;
 import io.github.errordude42.sillywillycore.item.IncompleteEntangulumPlateItem;
 import io.github.errordude42.sillywillycore.item.EntangulumspoolItem;
@@ -56,7 +55,6 @@ public class SillyWillyCoreModItems {
 	public static final RegistryObject<Item> ENTANGULUM_PLATE = REGISTRY.register("entangulum_plate", () -> new EntangulumplateItem());
 	public static final RegistryObject<Item> ENTANGULUM_SPOOL = REGISTRY.register("entangulum_spool", () -> new EntangulumspoolItem());
 	public static final RegistryObject<Item> RAW_ENTANGULUM = REGISTRY.register("raw_entangulum", () -> new RawEntangulumItem());
-	public static final RegistryObject<Item> MELTED_ENTANGULUM_FLUID_BUCKET = REGISTRY.register("melted_entangulum_fluid_bucket", () -> new MeltedEntangulumFluidItem());
 	public static final RegistryObject<Item> STRUCTURE_TRIANGULUMBRICKS = block(SillyWillyCoreModBlocks.STRUCTURE_TRIANGULUMBRICKS);
 	public static final RegistryObject<Item> GEOMETRIUSDOWN = block(SillyWillyCoreModBlocks.GEOMETRIUSDOWN);
 	public static final RegistryObject<Item> GEOMETRIUSUP = block(SillyWillyCoreModBlocks.GEOMETRIUSUP);
