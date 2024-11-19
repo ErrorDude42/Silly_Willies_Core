@@ -65,6 +65,7 @@ public class SillyWillyCoreModTabs {
 				tabData.accept(SillyWillyCoreModBlocks.WONDER_OAK_FENCE_GATE.get().asItem());
 				tabData.accept(SillyWillyCoreModBlocks.WONDER_OAK_PRESSURE_PLATE.get().asItem());
 				tabData.accept(SillyWillyCoreModBlocks.WONDER_OAK_BUTTON.get().asItem());
+				tabData.accept(SillyWillyCoreModItems.GEO_DIMENSION.get());
 			})
 
 					.build());

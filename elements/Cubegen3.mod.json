@@ -18,8 +18,8 @@
         "value": "Blocks.CAVE_AIR"
       }
     ],
-    "spacing": 14,
-    "separation": 9,
+    "spacing": 26,
+    "separation": 19,
     "restrictionBiomes": [
       {
         "value": "CUSTOM:Geotestinggrounds"

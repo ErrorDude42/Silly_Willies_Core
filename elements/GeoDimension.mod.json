@@ -29,7 +29,7 @@
     "hasSkyLight": false,
     "imitateOverworldBehaviour": false,
     "portalFrame": {
-      "value": "CUSTOM:Wonder_oakWood"
+      "value": "CUSTOM:GeoPortalFrame"
     },
     "portalParticles": {
       "value": "PORTAL"
@@ -38,7 +38,7 @@
     "portalSound": {
       "value": "block.portal.ambient"
     },
-    "enableIgniter": false,
+    "enableIgniter": true,
     "igniterName": "Geo Dimension Portal Igniter",
     "igniterRarity": "COMMON",
     "specialInformation": {
@@ -46,11 +46,11 @@
     },
     "creativeTabs": [
       {
-        "value": "TOOLS"
+        "value": "CUSTOM:GeometeryDimensionBeta"
       }
     ],
-    "texture": "",
-    "portalTexture": "block_of_raw_entangulum",
-    "enablePortal": false
+    "texture": "minecraft:blaze_rod",
+    "portalTexture": "geo_portal",
+    "enablePortal": true
   }
 }

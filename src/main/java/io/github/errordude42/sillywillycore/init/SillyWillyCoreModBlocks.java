@@ -32,6 +32,8 @@ import io.github.errordude42.sillywillycore.block.MeltedEntangulumFluidBlock;
 import io.github.errordude42.sillywillycore.block.GeostoneBlock;
 import io.github.errordude42.sillywillycore.block.GeometriusupBlock;
 import io.github.errordude42.sillywillycore.block.GeometriusdownBlock;
+import io.github.errordude42.sillywillycore.block.GeoPortalFrameBlock;
+import io.github.errordude42.sillywillycore.block.GeoDimensionPortalBlock;
 import io.github.errordude42.sillywillycore.block.EntangulumoreBlock;
 import io.github.errordude42.sillywillycore.block.BlockrawtriangulumBlock;
 import io.github.errordude42.sillywillycore.block.BlockofrawentangulumBlock;
@@ -48,6 +50,7 @@ public class SillyWillyCoreModBlocks {
 	public static final RegistryObject<Block> ENTANGULUMORE = REGISTRY.register("entangulumore", () -> new EntangulumoreBlock());
 	public static final RegistryObject<Block> MELTED_ENTANGULUM_FLUID = REGISTRY.register("melted_entangulum_fluid", () -> new MeltedEntangulumFluidBlock());
 	public static final RegistryObject<Block> STRUCTURE_TRIANGULUMBRICKS = REGISTRY.register("structure_triangulumbricks", () -> new StructureTriangulumbricksBlock());
+	public static final RegistryObject<Block> GEO_DIMENSION_PORTAL = REGISTRY.register("geo_dimension_portal", () -> new GeoDimensionPortalBlock());
 	public static final RegistryObject<Block> GEOMETRIUSDOWN = REGISTRY.register("geometriusdown", () -> new GeometriusdownBlock());
 	public static final RegistryObject<Block> GEOMETRIUSUP = REGISTRY.register("geometriusup", () -> new GeometriusupBlock());
 	public static final RegistryObject<Block> WONDER_OAK_WOOD = REGISTRY.register("wonder_oak_wood", () -> new Wonder_oakWoodBlock());
@@ -64,6 +67,7 @@ public class SillyWillyCoreModBlocks {
 	public static final RegistryObject<Block> SILT = REGISTRY.register("silt", () -> new SiltBlock());
 	public static final RegistryObject<Block> TWISTED_GRASS = REGISTRY.register("twisted_grass", () -> new TwistedGrassBlock());
 	public static final RegistryObject<Block> TRIANGULUM_GEO_STONE = REGISTRY.register("triangulum_geo_stone", () -> new TriangulumGeoStoneBlock());
+	public static final RegistryObject<Block> GEO_PORTAL_FRAME = REGISTRY.register("geo_portal_frame", () -> new GeoPortalFrameBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }
